@@ -13,7 +13,9 @@ export default function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <footer className="site-footer">
-        Custode · Texto de jmedev · Projeto de{" "}
+        Custode · Texto de{" "}
+        <a href="https://x.com/__medv">@__medv</a>
+         · Projeto de{" "}
         <a href="https://x.com/itsxulia">@itsxulia</a>
       </footer>
     </BrowserRouter>
