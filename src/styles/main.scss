@@ -2,6 +2,7 @@
   color-scheme: light;
   --color-background: #f9f6ef;
   --color-surface: #fffdf8;
+  --color-reader-background: var(--color-surface);
   --color-text: #292a27;
   --color-reader-text: #242622;
   --color-muted: #666b63;
@@ -26,6 +27,7 @@
   color-scheme: dark;
   --color-background: #151c18;
   --color-surface: #253029;
+  --color-reader-background: #1e2822;
   --color-text: #e6e9e3;
   --color-reader-text: #e6e9e3;
   --color-muted: #afb8ae;
@@ -33,7 +35,7 @@
   --color-accent-soft: #aec6a7;
   --color-link: #aec6a7;
   --color-border: #455448;
-  --color-input-border: #71856f;
+  --color-input-border: #856f6f;
   --color-note-background: #253029;
   --color-intro-background: #253029;
   --color-primary-text: #151c18;
@@ -338,12 +340,26 @@ select {
 }
 .chapter-content {
   padding: 22px 32px 10px;
-  background: var(--color-surface);
+  background: var(--color-reader-background);
   color: var(--color-reader-text);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(17px, 2.7vw, 19px);
   line-height: 1.78;
   overflow-wrap: anywhere;
+}
+.author-notes + .chapter-content {
+  --notes-gap: clamp(40px, 5vw, 56px);
+  position: relative;
+  margin-top: var(--notes-gap);
+}
+.author-notes + .chapter-content::before {
+  content: '';
+  position: absolute;
+  top: calc(var(--notes-gap) / -2);
+  left: 0;
+  right: 0;
+  border-top: 1px solid var(--color-border);
+  pointer-events: none;
 }
 .chapter-content p {
   margin: 0 0 1.28em;
