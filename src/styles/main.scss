@@ -1,18 +1,45 @@
-$cream: #f9f6ef;
-$paper: #fffdf8;
-$green: #74866e;
-$green-dark: #425a44;
-$brand-green: #62855b;
-$ink: #292a27;
-$muted: #666b63;
-$line: #dcded5;
-
 :root {
+  color-scheme: light;
+  --color-background: #f9f6ef;
+  --color-surface: #fffdf8;
+  --color-text: #292a27;
+  --color-reader-text: #242622;
+  --color-muted: #666b63;
+  --color-accent: #62855b;
+  --color-accent-soft: #74866e;
+  --color-link: #425a44;
+  --color-border: #dcded5;
+  --color-input-border: #c5cec2;
+  --color-note-background: #f2f1e9;
+  --color-intro-background: #f0f3eb;
+  --color-primary-text: #fff;
+  --color-primary-hover: #304634;
+  --color-primary-active: #263b2a;
+  --logo-filter: none;
   font-family: Arial, Helvetica, sans-serif;
-  color: $ink;
-  background: $cream;
+  color: var(--color-text);
+  background: var(--color-background);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-background: #151c18;
+  --color-surface: #253029;
+  --color-text: #e6e9e3;
+  --color-reader-text: #e6e9e3;
+  --color-muted: #afb8ae;
+  --color-accent: #aec6a7;
+  --color-accent-soft: #aec6a7;
+  --color-link: #aec6a7;
+  --color-border: #455448;
+  --color-input-border: #71856f;
+  --color-note-background: #253029;
+  --color-intro-background: #253029;
+  --color-primary-text: #151c18;
+  --color-primary-hover: #bfd4b8;
+  --color-primary-active: #cce0c5;
+  --logo-filter: brightness(1.65) saturate(0.65);
 }
 * {
   box-sizing: border-box;
@@ -25,7 +52,7 @@ body {
   min-width: 280px;
 }
 a {
-  color: $green-dark;
+  color: var(--color-link);
   text-underline-offset: 3px;
 }
 button,
@@ -33,13 +60,13 @@ select {
   font: inherit;
 }
 :focus-visible {
-  outline: 3px solid $green;
+  outline: 3px solid var(--color-accent-soft);
   outline-offset: 4px;
 }
 
 .site-header {
-  border-bottom: 1px solid $line;
-  background: $paper;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface);
 }
 .site-header__inner {
   width: min(100% - 40px, 1010px);
@@ -63,10 +90,39 @@ select {
   width: 36px;
   height: auto;
   object-fit: contain;
+  filter: var(--logo-filter);
+}
+.site-header__actions {
+  display: flex;
+  align-items: center;
+  gap: clamp(8px, 2vw, 16px);
 }
 .site-header__link {
   font-size: 13px;
   white-space: nowrap;
+}
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--color-link);
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+.theme-toggle:hover {
+  border-color: var(--color-border);
+  background: var(--color-note-background);
+}
+.theme-toggle:active {
+  border-color: var(--color-accent);
+  background: var(--color-intro-background);
 }
 
 .home {
@@ -83,9 +139,10 @@ select {
   height: auto;
   object-fit: contain;
   margin: 0 auto 18px;
+  filter: var(--logo-filter);
 }
 .reader__eyebrow {
-  color: $green-dark;
+  color: var(--color-link);
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.19em;
@@ -93,14 +150,14 @@ select {
 }
 .home__hero h1 {
   margin: 0 0 10px;
-  color: $brand-green;
+  color: var(--color-accent);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(42px, 8vw, 64px);
   letter-spacing: 0.09em;
   font-weight: 400;
 }
 .home__byline {
-  color: $muted;
+  color: var(--color-muted);
   margin: 0;
 }
 .home__intro {
@@ -124,22 +181,25 @@ select {
   align-items: center;
   justify-content: space-between;
   border-radius: 4px;
-  background: $green-dark;
-  color: white;
+  background: var(--color-link);
+  color: var(--color-primary-text);
   padding: 15px 22px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
 }
 .primary-link:hover {
-  background: #304634;
+  background: var(--color-primary-hover);
+}
+.primary-link:active {
+  background: var(--color-primary-active);
 }
 .index {
   margin-bottom: 90px;
 }
 .index__heading {
   padding: 20px 0;
-  border-bottom: 1px solid $line;
+  border-bottom: 1px solid var(--color-border);
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -152,7 +212,7 @@ select {
   margin: 0;
 }
 .index__heading span {
-  color: $muted;
+  color: var(--color-muted);
   font-size: 13px;
   white-space: nowrap;
 }
@@ -167,10 +227,10 @@ select {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  border: 1px solid $line;
+  border: 1px solid var(--color-border);
   border-radius: 5px;
-  color: $ink;
-  background: $paper;
+  color: var(--color-text);
+  background: var(--color-surface);
   padding: 18px;
   text-decoration: none;
   transition:
@@ -178,11 +238,15 @@ select {
     transform 0.15s ease;
 }
 .index__chapter:hover {
-  border-color: $green;
+  border-color: var(--color-accent-soft);
   transform: translateY(-2px);
 }
 .index__chapter span:last-child {
-  color: $green;
+  color: var(--color-accent-soft);
+}
+.index__chapter:active {
+  border-color: var(--color-accent);
+  transform: none;
 }
 
 .reader {
@@ -207,7 +271,7 @@ select {
 }
 .reader__author {
   margin: 0;
-  color: $muted;
+  color: var(--color-muted);
   font-size: 13px;
 }
 .chapter-nav {
@@ -217,8 +281,8 @@ select {
   flex-wrap: wrap;
   gap: 20px;
   padding: 22px 0;
-  border-top: 1px solid $line;
-  border-bottom: 1px solid $line;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
 }
 .chapter-nav--bottom {
   margin-top: 48px;
@@ -232,16 +296,20 @@ select {
   align-items: center;
   min-height: 42px;
   padding: 10px 14px;
-  border: 1px solid $line;
+  border: 1px solid var(--color-border);
   border-radius: 4px;
-  color: $green-dark;
+  color: var(--color-link);
   text-decoration: none;
   white-space: nowrap;
   font-size: 13px;
-  background: $paper;
+  background: var(--color-surface);
 }
 .nav-button:hover:not(.nav-button--disabled) {
-  border-color: $green;
+  border-color: var(--color-accent-soft);
+}
+.nav-button:active:not(.nav-button--disabled) {
+  border-color: var(--color-accent);
+  background: var(--color-note-background);
 }
 .nav-button--disabled {
   opacity: 0.45;
@@ -250,21 +318,28 @@ select {
   display: grid;
   gap: 6px;
   font-size: 12px;
-  color: $muted;
+  color: var(--color-muted);
 }
 .chapter-nav select {
-  border: 1px solid #c5cec2;
-  background: $paper;
-  color: $ink;
+  border: 1px solid var(--color-input-border);
+  background: var(--color-surface);
+  color: var(--color-text);
   border-radius: 4px;
   padding: 10px 28px 10px 12px;
   min-height: 42px;
   min-width: 195px;
 }
+.chapter-nav select:hover {
+  border-color: var(--color-accent-soft);
+}
+.chapter-nav option {
+  background: var(--color-surface);
+  color: var(--color-text);
+}
 .chapter-content {
   padding: 22px 32px 10px;
-  background: $paper;
-  color: #242622;
+  background: var(--color-surface);
+  color: var(--color-reader-text);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(17px, 2.7vw, 19px);
   line-height: 1.78;
@@ -283,7 +358,7 @@ select {
 }
 .chapter-content__separator {
   text-align: center;
-  color: $green;
+  color: var(--color-accent-soft);
   font-size: 17px;
   padding: 18px 0 40px;
 }
@@ -298,8 +373,8 @@ select {
 }
 .site-footer {
   padding: 28px 16px 40px;
-  border-top: 1px solid $line;
-  color: $muted;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-muted);
   text-align: center;
   font-size: 12px;
 
@@ -361,14 +436,15 @@ select {
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .index__chapter {
+  .index__chapter,
+  .theme-toggle {
     transition: none;
   }
 }
 
 /* Avisos e notas do PDF original do AO3. */
 .home__notice {
-  color: $muted;
+  color: var(--color-muted);
   font-size: 12px;
   line-height: 1.6;
   max-width: 570px;
@@ -377,9 +453,9 @@ select {
 .author-notes {
   padding: 20px 28px;
   margin: 24px 0 0;
-  background: #f2f1e9;
-  border-left: 3px solid $green;
-  color: $ink;
+  background: var(--color-note-background);
+  border-left: 3px solid var(--color-accent-soft);
+  color: var(--color-text);
   border-radius: 3px;
   font-size: 14px;
   line-height: 1.7;
@@ -387,7 +463,7 @@ select {
 }
 .author-notes h2 {
   margin: 0 0 12px;
-  color: $green-dark;
+  color: var(--color-link);
   font:
     600 13px/1.3 Arial,
     Helvetica,
@@ -406,9 +482,9 @@ select {
 .author-notes--intro {
   padding: clamp(22px, 4vw, 36px);
   margin-bottom: 28px;
-  background: #f0f3eb;
-  border: 1px solid $line;
-  border-left: 3px solid $brand-green;
+  background: var(--color-intro-background);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-accent);
   border-radius: 6px;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(16px, 2.4vw, 17px);

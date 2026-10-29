@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { ThemeToggle } from './ThemeToggle';
 
 export function SiteHeader() {
   return (
@@ -7,7 +8,10 @@ export function SiteHeader() {
         <Link to="/" className="site-header__brand" aria-label="Custode — início">
           <img src="/custode-trevo.svg" width="400" height="510" alt="Trevo verde de quatro folhas da Custode" />
         </Link>
-        <Link className="site-header__link" to="/">Índice de capítulos</Link>
+        <div className="site-header__actions">
+          <Link className="site-header__link" to="/">Índice de capítulos</Link>
+          <ThemeToggle />
+        </div>
       </div>
     </header>
   );

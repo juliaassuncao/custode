@@ -5,6 +5,23 @@
     <link rel="icon" type="image/svg+xml" href="/custode-trevo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#f9f6ef" />
+    <script>
+      (() => {
+        let savedTheme = null;
+        try {
+          savedTheme = localStorage.getItem('custode-theme');
+        } catch {
+          // A preferência do sistema continua disponível sem armazenamento local.
+        }
+        const theme = savedTheme === 'light' || savedTheme === 'dark'
+          ? savedTheme
+          : window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]').setAttribute(
+          'content', theme === 'dark' ? '#151c18' : '#f9f6ef',
+        );
+      })();
+    </script>
     <meta name="description" content="Custode — leia a história de Lorena Ferette e Eduarda Fragoso, capítulo por capítulo." />
     <title>Custode · Leitura</title>
   </head>
