@@ -1,0 +1,748 @@
+{
+  "number": 15,
+  "title": "Capítulo 15",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "html": "<em>O dia vinte e seis de fevereiro de dois mil e vinte entraria para os livros da história da</em> <em>medicina como a data em que foi confirmado o primeiro caso de covid-19 no Brasil. Para</em> <em>Eduarda, ficaria marcado como o dia em que começou a realmente entender o peso da sua</em> <em>profissão.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>As notícias nos corredores dos hospitais começaram a se espalhar aos poucos, ainda no fim</em> <em>do ano anterior, quando os primeiros casos foram confirmados no mundo. Estudos científicos</em> <em>começaram a ser publicados, análises sobre a possibilidade de uma pandemia global,</em> <em>discussões sobre a irresponsabilidade da realização do carnaval popular, que recebia</em> <em>milhares de turistas estrangeiros todos os anos. No começo, para muitos, parecia um medo</em> <em>exacerbado, infundado, de um evento de emergência mundial que só acontecia uma vez a</em> <em>cada século ou outro.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Para Eduarda, era mais do que a ironia de estar viva em um momento histórico indesejado e</em> <em>poder presenciá-lo. Era a ironia de estar no início da sua segunda residência em um hospital</em> <em>público de uma das maiores cidades do mundo quando a pandemia estourou em todos os</em> <em>cantos do planeta. A roleta de chances da sua vida era mesmo imprevisível.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Para a sua sorte, ela não estava sozinha. Quando diziam nos corredores da USP que</em> <em>Eduarda Kamiński Fragoso e Paulo Viana Reitz eram inseparáveis, não era uma piada ou</em> <em>exagero. Para além de amigos, irmãos, Paulinho e Eduarda tinham construído uma carreira</em> <em>com currículos praticamente idênticos, com exceção da divergência na escolha de suas</em> <em>especialidades.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Fizeram o memo cursinho, pelos mesmos três anos, antes de conseguir a sonhada vaga no</em> <em>vestibular de medicina. Estudaram na mesma faculdade, fizeram parte dos mesmos</em> <em>programas de extensão e de iniciação científica. Se formaram na mesma colação de grau no</em> <em>começo de dois mil e dezessete, com a presença das pessoas que tinham se tornado sua</em> <em>família de sangue e estendida. Os pais de Paulo, o pai de Eduarda, Zenilda e Santiago,</em> <em>Lorena, Maggye e Leonardo. Escolheram o mesmo hospital público para cursar os dois anos</em> <em>de residência de clínica médica obrigatória, antes de se separarem por mais três entre a</em> <em>oncologia e a neurologia.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eles sabiam que a saúde pública seria um desafio e uma fonte de experiência profissional</em> <em>inigualável quando comparada com os melhores hospitais privados de São Paulo. Além</em> <em>disso, acreditavam firmemente que trabalhar em um hospital público era uma forma de</em> <em>retribuir os anos gratuitos de formação que tinham desfrutado em uma universidade</em> <em>estadual.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Mas toda a experiência profissional que desejavam um dia buscar não passava perto do que</em> <em>viveram durante os meses mais críticos da covid-19.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Nos períodos de maior sobrecarga, pela falta de mãos, recursos e estrutura para lidar com</em> <em>uma devastação dessa dimensão, alguns residentes foram realocados das suas funções</em> <em>tradicionais para a linha de frente. De junho a dezembro e dois mil e vinte e entre fevereiro e</em> <em>abril de dois mil e vinte e um, Paulo e Eduarda estavam entre os médicos que seriam</em> <em>eternamente marcados por um trauma coletivo que atingira a todos, ainda que de formas</em> <em>diferentes.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Foi em um dia particularmente difícil que a vida de Eduarda e Lorena começou a mudar. Era</em> <em>uma segunda-feira de agosto e Eduarda estava há mais de dois meses fora dos plantões de</em> <em>oncologia, jogada aos leões das enfermarias de internação de covid.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Desde o fim de março, quando os números de casos e mortes começaram a crescer</em> <em>exponencialmente e os hospitais começaram a saturar, ela não sabia mais contar quantos</em> <em>plantões e quantas horas empilhava por semana. A residência, que já era famosa por ser um</em> <em>período enlouquecedor com uma média de sessenta horas semanais, se tornara algo ainda</em> <em>pior.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela dormia mal, estava sempre com o corpo dolorido, com as marcas das máscaras de</em> <em>proteção avermelhadas no rosto, emagrecendo sem parar e completamente solitária.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Assim que foram informados que seriam realocados para as frentes de emergência, Paulinho</em> <em>e Eduarda alugaram um apartamento de dois quartos na Zona Leste, que cabia no</em> <em>orçamento da bolsa residência de três salários mínimos que recebiam como pagamento. Era</em> <em>perto o suficiente do hospital onde trabalhavam para tornar os deslocamentos mais rápidos</em> <em>e isolado o suficiente para que não precisassem se preocupar com a saúde dos seus pais, com</em> <em>quem ainda moravam.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Para Paulo, era uma questão de garantir que não contaminaria ninguém. Para Eduarda, era</em> <em>uma necessidade desesperada, porque Henrique se enquadrava nos casos de risco pela idade</em> <em>e pela asma que tratava desde a infância. Ela não tinha a presença de Mariana há décadas</em> <em>e, de alguma forma, tinha se acostumado com isso, mas não sabia se sobreviveria ao trauma</em> <em>de perder a única fonte de paternidade e maternidade que tinha lhe restado.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Além disso, tinha Lorena. Paulo era solteiro e não sentia tanto as dores do isolamento.</em> <em>Eduarda e Lorena, nessa época, namoravam há mais de nove anos e não sabiam o que era</em> <em>uma vida sem a presença física da outra. Por mais que escutassem piadas mal intencionadas</em> <em>e desagradáveis de parentes ou de colegas intrometidos, elas estavam em paz com a vida e</em> <em>com o namoro longo, com planos muito bem traçados e decididos em conjunto para o futuro</em> <em>que desejavam.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena trabalhava em uma marca de moda brasileira que, apesar de não suprir seus desejos</em> <em>profissionais, a satisfazia financeiramente, com a consciência de que jamais ganharia com o</em> <em>seu trabalho uma fração mínima do que seus pais tinham e da vida que conseguiam</em> <em>proporcionar. Eduarda desejava terminar a residência antes de se casar e isso era um acordo</em> <em>claro entre as duas desde o momento em que perceberam que desejariam uma vida juntas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Enquanto isso, Lorena seguia morando na mansão Ferette, sem motivos para abrir mão do</em> <em>conforto dos seus privilégios, e Eduarda morava na Mooca, com Henrique, ainda tentando</em> <em>entender como se separaria do pai e o deixaria sozinho, sem sentir que estava o</em> <em>abandonando.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Apesar da distância de alguns bairros e de um abismo financeiro, elas estavam sempre juntas</em> <em>e raramente passavam noites separadas, revesado entre a casa dos Ferette e o apartamento</em> <em>de Henrique, onde construíam uma rotina como casal e com as suas famílias.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando a pandemia chegou, Eduarda não sentiu só o baque do que via todos os dias, mas o</em> <em>baque de perder Lorena pela primeira vez, porque era inflexível quanto à ideia de encontrá-</em><em>la, com medo de deixá-la doente e até mesmo de contaminar Santiago e Zenilda, que também</em> <em>já não eram mais tão jovens assim. Então, desde março, antes mesmo de ser transferida para</em> <em>as linhas de frente da covid, elas se contentavam com ligações de vídeochamada sempre que</em> <em>podiam, em horários cada vez mais difíceis conforme Eduarda se via presa ao hospital. Em</em> <em>uma semana, Lorena precisou acordar todos os dias de madrugada porque era o único</em> <em>momento em que Eduarda estava em casa, só para que pudessem conversar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Desde junho, quando a sua função no hospital mudou e a sua vida virou de cabeça para</em> <em>baixo, Eduarda chorava em quase todas as ligações. Pelo medo, pelo desespero, pela sua</em> <em>impotência e, principalmente, de cansaço e saudade.  O limite de uma tela dura era doloroso</em> <em>quando ela pensava nos últimos nove anos e na relação de absoluta paz que tinham</em> <em>construído juntas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Elas raramente discutiam, raramente brigavam, e nas poucas vezes em que pensavam em se</em> <em>exaltar, respiravam fundo, tiravam o tempo necessário e resolviam tudo com uma conversa.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Seus gostos tinham se misturado ao ponto de não precisarem mais debater sobre onde comer,</em> <em>o que fazer no fim de semana, qual filme assistir, qual música ouvir. Tudo que Eduarda</em> <em>gostava, Lorena tinha aprendido a gostar, até mesmo o pagode e um pouco de álcool. Tudo</em> <em>que Lorena gostava, Eduarda tinha aprendido a gostar, até mesmo as comidas veganas e a</em> <em>água com gás.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Nenhum assunto entre elas era proibido. Tudo era dialogado e concordado nos mínimos</em> <em>detalhes. O mau humor dos dias difíceis era superado com carinho. O único tema que</em> <em>eventualmente causava divergências era dinheiro. Lorena achava que Eduarda tinha o</em> <em>direito e deveria aproveitar mais da fortuna da família Ferette. Eduarda se recusava a</em> <em>aceitar qualquer coisa que não pudesse pagar por conta própria, o que fazia com que ficasse</em> <em>excluída de jantares em restaurantes exorbitantes e viagens internacionais que custavam</em> <em>algumas dezenas de milhares de reais. Era o tipo de relação que Lorena e Eduarda</em> <em>acreditavam que existia apenas em filmes, até descobrirem que era possível, que era real, e</em> <em>era como desejavam viver para sempre.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Na segunda-feira em que tudo desmoronou, Eduarda estava há exatos setenta e oito dias</em> <em>morando sozinha com Paulo, sem ver Henrique enquanto vivia em um ritmo desumano de</em> <em>trabalho, e há mais de cento e cinquenta sem sentir o calor da presença de Lorena.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Desde o começo da pandemia, pela primeira vez em anos, a relação das duas passava por</em> <em>um momento conturbado, onde discutiam mais do que tinham discutido durante a quase uma</em> <em>década em que estavam juntas. Lorena queria fazer o lockdown com Eduarda e Eduarda</em> <em>estava decidida a não permitir para protegê-la de um possível contágio.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Mesmo assim, elas ainda se falavam todos os dias e tinham conversado por ligação enquanto</em> <em>Eduarda dirigia do hospital para casa e aquele foi o primeiro sinal que Lorena precisou para</em> <em>saber que algo estava errado. Normalmente, Eduarda esperava chegar para ligar, a não ser</em> <em>em alguns dias particularmente complicados. O tremor na voz foi o segundo, seguido pelo</em> <em>choro inconsolável que tomou conta da ligação quando Lorena perguntou o que tinha</em> <em>acontecido.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Naquele dia, Eduarda tinha visto quatro pacientes morrendo e ajudado a dar a notícia para</em> <em>suas famílias logo depois de intubar mais três. Era, de longe, a sua pior noite na emergência</em> <em>da covid e, ao tentar explicar aquilo para Lorena, cansada de ser monotemática porque</em> <em>parecia estar se repetindo de novo e de novo todos os dias, sobre as mesmas angústias,</em> <em>precisou parar o carro porque não conseguia mais dirigir. Lorena a ajudou a chegar em casa</em> <em>e tomou uma decisão.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando entrou no apartamento, Eduarda sentiu vontade de chorar de novo ao encarar a sala</em> <em>vazia e bagunçada. Ela costumava ser mais caprichosa e organizada do que isso, mas a casa</em> <em>que dividia com Paulo vivia como uma zona de guerra porque os dois não tinham tempo ou</em> <em>energia para cuidar quando não estavam no hospital. Paulo estava no plantão da</em> <em>madrugada e não era só a desordem que a incomodava. Eduarda não suportaria mais uma</em> <em>noite sozinha.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela deixou os tênis no sapateiro, higienizou as chaves com o álcool que mantinham na</em> <em>entrada, ao lado da porta, e se arrastou até o banheiro para tomar um banho quente, porque</em> <em>a primeira coisa que faziam ao chegar era sempre tentar tirar os resquícios do hospital do</em> <em>corpo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda ficou quase meia hora embaixo do chuveiro, chorando e chegando a sentar no chão</em> <em>por alguns minutos porque suas pernas não suportavam mais ficar se sustentar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela se jogou no sofá, sentindo o corpo amolecer e os olhos pesados, se forçando a ficar</em> <em>acordada porque precisava encontrar forças para pedir um jantar e ligar de novo para</em> <em>Lorena.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Esse foi o seu último pensamento antes de apagar.</em>"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando acordou com a dor de cabeça estonteante, mais duas horas tinham passado no</em> <em>cochilo que parecera um piscar de olhos. Já eram quase onze da noite e Eduarda precisou de</em> <em>alguns segundos para perceber o som que tocava ritmado, o motivo do seu despertar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>A campainha gritava em algum lugar e ela franziu as sobrancelhas, resmungando ao se dar</em> <em>conta de que precisaria se levantar. Eduarda calçou os chinelos e se arrastou de volta para a</em> <em>porta, pegando a máscara que estava sempre pendurava no porta-chaves. Uma para ela e</em> <em>uma para Paulo, para usarem quando precisassem receber encomendas ou ir até a portaria.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda ainda estava um pouco desacordada quando abriu a porta e deu de cara com</em> <em>Lorena.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Em um primeiro momento, ela cogitou estar alucinando, enlouquecendo pela privação de</em> <em>sono e começando a ver coisas. Mas Lorena se moveu, com as chaves do apartamento</em> <em>girando na mão direita. Eduarda tinha enviado o molho para ela assim que se mudou com</em> <em>Paulo, apenas para emergências. Aparentemente, Lorena tinha o usado para passar pela</em> <em>portaria, mas não para abrir a porta. Ela não queria assustar Eduarda e tinha optado por</em> <em>bater antes de entrar. Ou de arrombar o apartamento, porque estava tentando ligar para ela</em> <em>há horas e Eduarda não atendia.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>As duas se mantiveram paralisadas por alguns segundos. Eduarda, tentando processar a</em> <em>visão de Lorena com uma mochila nas costas e três malas de rodinha espalhadas a sua volta</em> <em>no corredor, sem se perguntar como ela tinha feito para carregar aquilo tudo até ali. Lorena,</em> <em>analisando o rosto da namorada devagar e percebendo o quanto ela estava destruída.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda podia ter envelhecido dez anos em alguns meses, mas ainda continuava linda.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Lorena — Eduarda disse devagar, esfregando o rosto, ainda tentando acordar. — O</em> <em>que...que cacete você está fazendo aqui? — não era a sua intenção xingar e Lorena sabia.</em> <em>Eduarda deu um passo para trás na mesma hora, como se a sua presença fosse um risco, o</em> <em>que de fato era.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela olhou para as malas, para a expressão de preocupação e decisão no seu rosto, e</em> <em>entendeu tudo ao mesmo tempo. Seu cérebro despertou, mas antes que pudesse reagir, Lorena</em> <em>disse.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu vim fazer o que já devia ter feito há dois meses. — Ela puxou as malas para deixá-las</em> <em>ainda mais em evidência, querendo ter certeza de que Eduarda tinha entenderia o recado. —</em> <em>Eu não vou ficar mais um dia longe de você, Duda. Chega disso. Eu já te disse milhares de</em> <em>vezes que não faz sentido nós passarmos tanto tempo assim separadas. Se nós precisamos</em> <em>fazer o lockdown, nós vamos fazer juntas e... — Eduarda sacudiu a cabeça, cansada daquela</em> <em>conversa.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— E eu já disse que isso não vai acontecer! Você não vai se meter em um apartamento com</em> <em>dois médicos que estão na linha de frente! Isso está fora de cogitação! O que os seus pais</em> <em>vão pensar de mim?! Da minha irresponsabilidade como namorada e como médica?! De</em> <em>você morando na Zona Leste e... — ela listou os motivos de por que aquilo era uma péssima</em> <em>ideia, mas Lorena ergueu as mãos, com a expressão de impaciência que sempre surgia junto</em> <em>com esse assunto.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu já conversei com os meus pais e eles estão de acordo — Lorena interrompeu, falando a</em> <em>verdade e desarmando Eduarda. Ela contava pelo menos com o bom senso de Zenilda e</em> <em>Santiago para impedir aquilo. — Eles estão preocupados? Sim. Mas eles entendem. Eles te</em> <em>amam, Duda. Eles também estão preocupados com você e sabem que é só um arranjo</em> <em>temporário enquanto isso não acabar. Por favor — ela implorou. — Não me manda de volta</em> <em>para casa assim.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena sabia que estava sendo injusta e teve ainda mais certeza quando viu os olhos de</em> <em>Eduarda se enchendo de lágrimas de novo. Ela estava cansada daquilo. De vê-la assim todos</em> <em>os dias através de uma maldita tela e não poder fazer nada.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Até quando isso vai durar? — ela insistiu quando notou que Eduarda não tinha forças</em> <em>para falar. — No começo eram só quinze dias, mas você sabia que ia ser mais. A gente está</em> <em>há cinco meses sem se ver, Duda. Eu não aguento mais. — Foi a vez da voz de Lorena tremer</em> <em>e Eduarda bambeou por dentro, sem saber se conseguiria ser assim tão forte ao ponto de ter</em> <em>Lorena ali, na sua frente depois de tanto tempo, e abrir mão disso. E não pelo menos abraçá-</em><em>la.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu sei que não foi assim que a gente planejou morar junto. Eu sei que nós temos os nossos</em> <em>planos e eles não precisam mudar, mas eu te amo — Lorena disse as três palavras que</em> <em>repetia todos os dias, inúmeras vezes, há quase dez anos. — Eu preciso de você, Duda. Eu</em> <em>não quero mais ficar longe. Eu posso ajudar você e o Paulo com as coisas de casa, a pagar</em> <em>as contas. Já está mesmo na hora de sair um pouco debaixo das asas e do dinheiro dos meus</em> <em>pais.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda fechou os olhos, sentindo que estava sucumbindo. Seu lado racional estava gritando</em> <em>para proteger Lorena e seu lado emocional estava completamente estraçalhado.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu só quero que você fique bem. — Ela conseguiu forçar as palavras a sair da sua boca.</em> <em>— Eu não quero te colocar em risco, linda. Eu não quero que você fique doente por minha</em> <em>causa. Você deveria me evitar, você deveria sentir medo de ficar perto de mim agora e... —</em> <em>ela tentou continuar, mas não conseguiu. O choro voltou a cair e toda sua certeza</em> <em>desapareceu.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Duda. — Lorena se aproveitou da hesitação para dar um passo à frente e entrar no</em> <em>apartamento, cortando a distância que Eduarda tinha colocado entre as duas. — Eu não</em> <em>tenho medo de ficar perto de você. Me deixa te ajudar, por favor. Me deixa cuidar de você um</em> <em>pouquinho. — Eduarda sentia a preocupação mais genuína na sua voz, mas não foi isso que</em> <em>quebrou o seu ímpeto. Foi o toque de Lorena no seu rosto, limpando as suas lágrimas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Na saúde e na doença. Não é isso que a gente vai se prometer um dia? — ela perguntou</em> <em>em um sussurro e Eduarda fechou os olhos com força, deixando escapar um soluço porque só</em> <em>a sensação das mãos de Lorena era demais depois de todo o tempo que tinham passado</em> <em>separadas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena tirou a máscara, puxando a de Eduarda para fazer o mesmo porque queria olhar no</em> <em>seu rosto. Dessa vez, ela não resistiu e não lutou. Só se deixou levar pelos movimentos da</em> <em>namorada porque estava cansada de precisar pensar o tempo todo, de tomar decisões, de</em> <em>sempre estar fazendo alguma coisa, correndo para algum lugar, chamando colegas, salvando</em> <em>alguém.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando as suas testas se encostaram, livres de barreiras, ela sentiu que estava respirando de</em> <em>verdade pela primeira vez em meses. Lorena estava ali e Eduarda finalmente se sentia em</em> <em>casa.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você é o amor da minha vida, Eduarda Fragoso. Eu te amo. Você é o meu mundo, o meu</em> <em>maior orgulho. — Lorena acariciou o seu rosto, limpando o seu choro, traçando com os</em> <em>polegares, enquanto a segurava com os dedos cravados na nuca, todos os detalhes que</em> <em>tinham mudado.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda estava mais magra, mais tensa, com os olhos mais fundos, vermelhos e pesados ao</em> <em>ponto em que mal conseguiam se manter abertos. Sem resistir, Lorena se inclinou e a beijou</em> <em>devagar. Um beijo em cada bochecha, na têmpora, ao lado de cada olho e, por fim, na boca.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Isso já foi longe demais — ela decretou, limpando as suas lágrimas que ainda caíam. —</em> <em>Eu não vou te deixar passar por isso sozinha. Então, se você quiser que eu vá embora, é bom</em> <em>você arrumar uma desculpa muito convincente para me fazer acreditar que você não me quer</em> <em>aqui.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda sacudiu a cabeça, soltando um riso fraco e desesperado entre o choro, se</em> <em>perguntando como tinha sido tão sortuda de encontrar Lorena em uma curva da vida.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Sem perceber, como se tivesse uma vontade própria baseada nas suas necessidades mais</em> <em>fugazes, seu corpo se inclinou para frente, deixando a testa cair contra o peito de Lorena.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Pronto, esperando há meses, ela a recebeu, envolvendo Eduarda nos seus braços que, apesar</em> <em>dos anos a mais registrados na carteira de identidade, parecia uma criança quando Lorena a</em> <em>segurava assim, com os seus centímetros extras que compensavam a diferença de idade.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você é maluca — Eduarda comentou, sem saber mais discutir. Sem saber mais como</em> <em>encontrar um argumento que conseguisse convencer Lorena a ir embora e sair dali o mais</em> <em>rápido possível.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Sim. Eu sempre fui maluca por você — ela respondeu, arrancando mais uma risada de</em> <em>Eduarda. — E estou pronta para te enlouquecer esquecendo a minha roupa no banheiro,</em> <em>roubando o seu cobertor todas as noites, fazendo uma lista vegana para o supermercado e</em> <em>bagunçando a cozinha na hora de preparar o almoço. Eu estou pronta para cuidar de você.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda se afastou de Lorena só o suficiente para encará-la, porque queria morar ali,</em> <em>recuperar cada segundo que tinham perdido, matar a saudade que esmagava o seu peito</em> <em>tanto quanto os pesadelos que tinha durante a noite com os dias que vivia no hospital.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Lorena Ferette vai mesmo morar comigo? — ela perguntou entre um tom desconfiado e</em> <em>brincalhão. — A princesinha Ferette moradora da Zona Leste?</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Finalmente — Lorena respondeu com mais um beijo. — Achei que você nunca fosse me</em> <em>convidar. — Eduarda riu, revirando os olhos e passando por Lorena para pegar as malas no</em> <em>corredor. Aparentemente, ela tinha um armário para rearrumar e uma vida nova para</em> <em>começar.</em>"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Parte de Eduarda queria dizer que Lorena estava errada sobre a mudança, só para poder</em> <em>mandá-la de volta para a casa de Santiago e Zenilda e protegê-la. Mas era claro para</em> <em>qualquer um que a vida no apartamento no Tatuapé tinha um antes e um depois da sua</em> <em>chegada. Até mesmo Paulinho parecia diferente. Mais leve, mais feliz, o que era inevitável,</em> <em>quando, pela primeira vez, aquele lugar parecia um lar de verdade, não um hotel que</em> <em>usavam para passar as noites entre os turnos de trabalho.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Nem mesmo os detalhes da convivência diária foram suficientes para causar problemas entre</em> <em>as duas, como era comum entre tantos casais que passavam a morar juntos depois de anos</em> <em>de namoro. Na verdade, a crise pela separação durante os primeiros meses da pandemia</em> <em>desapareceu assim que Lorena se mudou e tudo entre elas voltou ao normal, como se não</em> <em>estivessem vivendo vidas separadas desde março.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda conhecia Lorena o suficiente para saber que, apesar de criada com tudo nas mãos,</em> <em>ela não era uma completa inútil na cozinha e nas tarefas domésticas. Ainda assim, se</em> <em>surpreendeu quando, na semana seguinte da sua chegada, o apartamento parecia um novo</em> <em>lugar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Limpo e organizado nos mínimos detalhes pela primeira vez em meses, cheirando a um</em> <em>produto de limpeza com odor cítrico sútil, as camas com lençóis frescos e trocados, os</em> <em>banheiros lavados, a máquina de lavar vazia e as roupas acumuladas penduradas no varal.</em> <em>Aproveitando que estava de home office enquanto Paulinho e Eduarda se matavam e mal</em> <em>tinham tempo para parar em casa, Lorena assumiu os cuidados com o apartamento sem que</em> <em>ninguém pedisse e sem reclamar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela fazia compras a cada quinze dias e abastecia a geladeira que estava praticamente vazia</em> <em>no dia em que chegou, porque Paulo e Duda estavam literalmente vivendo de delivery</em> <em>barato, o que explicava o peso perdido de Eduarda. Pela primeira vez, através das suas</em> <em>mãos, aquela casa via refeições de verdade, balanceadas e nos horários apropriados. Ela</em> <em>saía cedo para comprar pão fresquinho enquanto Eduarda dormia o sono pesado que sempre</em> <em>a levava depois dos plantões mais difíceis. Servia o café da manhã que às vezes era a janta</em> <em>de Paulo e Duda nos muitos dias em que trabalhavam durante a madrugada. E fazia duas</em> <em>versões diferentes, almoço e janta, todos os dias, deixando de lado por alguns meses seus</em> <em>princípios veganos para cozinhar carne para os dois, que sentiam falta de comida caseira.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena não experimentava e comia a sua própria refeição separada. Nos dias em que Paulo</em> <em>não estava, ela e Eduarda dividiam o cardápio vegano. Aos poucos, ela também começou a</em> <em>ficar exausta, mas não abria mão daqueles pequenos cuidados porque sabia que Paulinho e</em> <em>Eduarda estavam muito mais.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Por mais que os dois tentassem ajudar aqui e ali, ela ainda ouvia pelo menos dez pedidos de</em> <em>desculpas diários de cada um, porque sabiam que aquela divisão de trabalho não era justa.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda teve uma crise de choro em uma noite de setembro, um mês depois de Lorena</em> <em>chegar, dizendo que sentia medo e vergonha de que ela pensasse que os dois estavam</em> <em>abusando da sua boa vontade e a usando como empregada. Lorena não respondeu. Apenas</em> <em>riu, tomou um banho quente com a namorada, lavou o seu cabelo e massageou as suas</em> <em>costas enquanto ela desabafava sobre mais três pacientes que tinha intubado durante a tarde</em> <em>e outro que tinha morrido.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Então, a levou para a cama e a encheu de beijos e carinho até que Eduarda adormecesse</em> <em>enrolada nas suas pernas, para só acordar no dia seguinte.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Pela primeira vez desde o começo da pandemia, Eduarda sentia que estava conseguindo</em> <em>respirar, que estava conseguindo voltar a viver, até mesmo a se divertir no tempo que</em> <em>passava em casa.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>As noites em que os três conseguiam estar juntos eram raras, porque dificilmente ela e</em> <em>Paulinho tiravam folga ao mesmo tempo. Mas, uma vez a cada quinze, vinte dias, elas</em> <em>surgiam e Lorena, Eduarda e Paulo sempre aproveitavam para fazer alguma coisa.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Assistiam um filme ou vídeos no Youtube, conversavam sentados no chão da sala até as</em> <em>garrafas de cerveja dos dois e os drinks e os vinhos de Lorena se esgotarem, jogavam cartas</em> <em>e jogos de tabuleiro que compravam pela internet. O apartamento ganhou vida nos pequenos</em> <em>detalhes.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>No cheiro de comida, nas risadas, nas conversas altas nas noites em que podiam se permitir</em> <em>exagerar um pouco nas doses de álcool. Nos detalhes de decoração e nos porta-retratos com</em> <em>fotos das famílias dos três que tinha feito questão de espalhar em todos os cantos. Até mesmo</em> <em>nas luzes amarelas nos quartos e na sala que Lorena instalou no lugar das brancas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>As horas de trabalho continuaram desumanas, Paulinho e Eduarda ainda chegavam</em> <em>esgotados, afetados por tudo que viam e ouviam, os números de casos e mortes continuavam</em> <em>subindo e os hospitais se tornavam cada vez mais caóticos. Mas, ironicamente, em outubro,</em> <em>Eduarda vivia a fase mais leve do seu isolamento social quando veio o contágio. Ela foi a</em> <em>primeira. Os sintomas começaram em um raro domingo de folga, confirmados em um teste</em> <em>feito no postinho de saúde mais próximo de onde moravam. Mais uma vez, a rotina dos três</em> <em>mudou da noite para o dia.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda se isolou no quarto que dividia com Lorena. Paulinho, em uma tentativa de</em> <em>gentileza, passou a dormir no sofá, deixando o seu próprio quarto para Lorena descansar e</em> <em>trabalhar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Afastado do hospital pelo contato direto com uma pessoa infectada, Paulo se dividiu com</em> <em>Lorena nas tarefas domésticas e no pouco cuidado que conseguiam prestar à Eduarda</em> <em>através da porta fechada que ela se recusava a abrir, a não ser para usar o banheiro</em> <em>separado na área de serviço.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eles cozinhavam para ela, deixavam as refeições na porta, lavavam suas roupas sujas e</em> <em>acompanhavam os sintomas conforme Eduarda se automedicava e analisava o seu próprio</em> <em>caso. Primeiro veio a dor de garganta e a tosse que não a deixava dormir. Depois, as</em> <em>primeiras dores no corpo, a pressão na testa por trás dos olhos, seguidas rapidamente pela</em> <em>febre.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Paulo e Lorena se preocupavam juntos, passavam horas conversando sozinhos, dividiam na</em> <em>cozinha e no lado de fora do quarto de Eduarda uma intimidade que jamais achavam que um</em> <em>dia teriam. Os primeiros dias passaram assim, até a madrugada de quarta-feira.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena dormia com a porta aberta e com o modo silencioso do celular desativado, com medo</em> <em>de Eduarda precisar de alguma coisa. O apartamento estava envolto na calma da</em> <em>madrugada e seu sono picotado, como vinha sendo desde o começo da semana, era</em> <em>interrompido pelos seus próprios pensamentos preocupados que faziam com que acordasse</em> <em>de hora em hora para verificar se tudo estava bem. Foi em um desses momentos que ouviu</em> <em>Eduarda tossindo e começou a contar os minutos. A tosse ecoava pelo corredor que separava</em> <em>dos dois quartos há quase cinco quando Lorena jogou o cobertor para o lado e se levantou.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela tateou as paredes, tentando não acordar Paulinho, e parou na porta do quarto que</em> <em>costumava dividir com a namorada, ouvindo e esperando. O som do colchão remexendo</em> <em>denunciou que Eduarda estava acordada, com tanta dificuldade para dormir quanto ela.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando mais uma onda de tosse veio e Lorena ouviu o som do engasgo, ela sacudiu a</em> <em>cabeça, tomando uma decisão. Sua mão estava na maçaneta quando a luz da sala se acendeu</em> <em>e Paulo surgiu na outra ponta do corredor. Ele e Lorena trocaram um olhar preocupado e ele</em> <em>assentiu.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu vou entrar — Lorena sussurrou para não correr o risco de Eduarda escutar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Paulo respirou fundo, sem saber o que dizer. Seu lado racional queria impedir, mas também</em> <em>sabia que existiam grandes chances de Lorena já estar contaminada pelo contato com</em> <em>Eduarda antes do teste. Ao mesmo tempo, era nítido pela febre que não abaixava e pela tosse</em> <em>que piorava a cada noite que Eduarda não estava melhorando. Se ele não estava mais</em> <em>aguentando a ideia de deixá-la a própria sorte, Lorena com certeza estava pior.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu estou aqui se vocês precisarem — ele respondeu, cruzando os braços e fazendo um</em> <em>sinal para Lorena seguir em frente. Ela lançou um último olhar na sua direção e girou a</em> <em>maçaneta.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena entrou devagar, encarando o quarto escuro e o corpo de Eduarda enrolado nos</em> <em>cobertores, com as costas viradas para a porta. Ela ouviu o som dos passos, das dobradiças</em> <em>rangendo um pouco como sempre faziam, e por um segundo se perguntou se estava sonhando</em> <em>porque a febre, a dor nas juntas e a dor de cabeça faziam tudo parecer uma alucinação.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Mas, assim que a porta bateu em um som sutil e a tranca encaixou, ela ouviu os passos e a</em> <em>movimentação. Eduarda se virou com esforço, dando de cara com Lorena ao lado da cama.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Lorena. — Ela tentou protestar, mas sua voz estava fraca com a garganta dolorida. Seus</em> <em>olhos mal conseguiam abrir porque estavam pesados. Eduarda precisou respirar algumas</em> <em>vezes para recuperar o fôlego. — Pelo amor de Deus! Sai daqui! — sua voz deveria soar</em> <em>firme, mas não conseguia. Sua cabeça girou e mais uma onda de tosse a atingiu.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena esperou que Eduarda se recuperasse, assistindo preocupada, antes de discutir.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em> — Eu te dei quatro dias para fazer as coisas do seu jeito e você não está melhorando, Duda</em> <em>— ela respondeu, se agachando e observando a mesa de cabeceira do seu lado da cama. A</em> <em>superfície estava coberta por uma bagunça de caixas de medicação para os sintomas,</em> <em>garrafas de água vazias, um termômetro e o oxímetro eletrônico que tinham comprado na</em> <em>internet.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu vou te levar para o hospital amanhã e... — Lorena não conseguiu terminar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu não sou caso hospitalar. Eles só vão te mandar de volta para casa. — Mas Eduarda</em> <em>sabia que estava a um passo perigoso de se tornar caso hospitalar quando acordou pela</em> <em>manhã e começou a sentir falta de ar. — Sai daqui, Lorena. Eu estou falando sério. Você nem</em> <em>se deu o trabalho de colocar a merda de uma máscara — Eduarda insistiu com o tom que</em> <em>Lorena reconhecia como irritação, mas tossiu de novo e fez uma careta, colocando as mãos</em> <em>nas costas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena ignorou seus pedidos porque sabia que Eduarda não tinha forças para expulsá-la do</em> <em>quarto. Então, se agachou, pegou o termômetro, o oxímetro e deixou seus rostos alinharem.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda tentou se afastar, empurrando Lorena para trás, que a segurou pelos braços,</em> <em>surpresa com a facilidade com que conseguiu mantê-la parada. Existia uma diferença</em> <em>considerável de força entre as duas e a fraqueza de Eduarda não era um bom sinal.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu não vou sair daqui. Você está há quase quatro meses cuidando de todo mundo. Me</em> <em>deixa cuidar de você um pouco. — Eduarda queria protestar com um discurso completo na</em> <em>sua cabeça, mas não teve forças para falar. Quando percebeu, Lorena estava sentada na</em> <em>beira da cama, um termômetro estava encaixado embaixo do seu braço e o oxímetro na</em> <em>ponta do seu indicador.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Cala a boca. Fica quieta — Lorena mandou quando Eduarda soltou um resmungo e</em> <em>segurou a sua mão, esperando o tempo do oxímetro medir a sua saturação e do termômetro</em> <em>medir a sua temperatura. Trinta e oito de febre, noventa e seis por cento. Eduarda ergueu a</em> <em>cabeça para observar o número e voltou a cair contra o travesseiro.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu estou ótima — ela afirmou e Lorena suspirou, deixando dos aparelhos em cima da</em> <em>mesinha. Sem pedir permissão ou licença, empurrou Eduarda para o lado e se deitou na</em> <em>cama.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Lorena, pelo amor de Deus, você vai ficar doente. — Eduarda voltou a reclamar, mas,</em> <em>antes que conseguisse reagir, estava presa nos seus braços. Suas costas encaixadas na</em> <em>barriga dela, suas mãos acariciando o seu corpo no encaixe da conchinha que era a sua</em> <em>posição preferida para dormir. Ela suspirou, consciente de que tinha perdido a discussão.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Provavelmente. Mas isso ia acontecer de um jeito ou de outro. Eu não vou ficar te ouvindo</em> <em>tossir a noite inteira e morrer de preocupação. E amanhã nós vamos para o hospital. Você</em> <em>está com dificuldade para respirar. — Eduarda não discutiu dessa vez.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Seus olhos se fecharam, cansados, exaustos, sucumbindo ao sono na mesma hora, como se a</em> <em>presença de Lorena fosse um sonífero feito sob medida.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Foi naquela noite, com o nariz escorrendo, com o cabelo bagunçado, os olhos lacrimejando</em> <em>pela coriza, sem conseguir dormir, sem conseguir respirar, com medo de acordar com</em> <em>sintomas mais pesados, na sua pior versão, que também tomou uma decisão. Se Lorena</em> <em>podia decidir morar na sua casa e se contaminar, Eduarda também podia dar alguns passos</em> <em>por conta própria.</em>"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela esperou até dezembro porque queria se planejar com calma. Então, alguns dias antes do</em> <em>natal, tudo estava pronto nos mínimos detalhes.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>A onda de covid do meio do ano tinha recuado, apesar das previsões para novos momentos</em> <em>críticos enquanto a vacinação não chegasse. Com os números abaixando devagar e o sistema</em> <em>de saúde conseguindo dar uma maior vazão aos casos, depois de seis meses, Eduarda e</em> <em>Paulinho foram realocados de volta na oncologia e na neurologia, cumprindo os quinze dias</em> <em>de quarentena obrigatória para trocar de seção hospitalar. Apesar de avisados de que novas</em> <em>transferências poderiam ocorrer em caso de necessidade, eles retomaram seus estudos e a</em> <em>rotina recuperou um mínimo estado de normalidade com as suas sessentas horas semanais</em> <em>de especialização.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda se recuperou da primeira infecção, só para Lorena ficar doente quando os seus</em> <em>sintomas começaram a melhorar. Paulinho caiu logo em seguida, em efeito dominó. Mas,</em> <em>naquele apartamento apertado dividido a três, eles tinham se tornado uma pequena família.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Paulo e Lorena cuidaram de Eduarda. Eduarda e Paulo cuidaram de Lorena. E Eduarda e</em> <em>Lorena cuidaram de Paulinho, entre reclamações sobre como homens se tornavam</em> <em>resmungões insuportáveis quando se sentiam mal. Eduarda se infectaria mais duas vezes.</em> <em>Lorena e Paulo mais uma vez cada. Apesar de tudo, eles passariam por aquilo ilesos e mais</em> <em>unidos do que nunca.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Desde outubro, Paulo sabia sobre os planos de Eduarda e acompanhou passo a passo o seu</em> <em>esforço para que tudo ficasse perfeito. Na data combinada, ele escolheu propositalmente um</em> <em>plantão noturno para liberar o apartamento e escreveu uma lista de compras</em> <em>particularmente longa para Lorena buscar no supermercado para a ceia de natal que fariam</em> <em>em alguns dias, já que passar as festividades de fim de ano com a família ainda estava fora</em> <em>de cogitação.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Apesar de não estarem mais na linha de frente, os hospitais tinham se tornado, mais do que</em> <em>nunca, poços de infecções e pacientes de Paulo e Eduarda eram testados positivo todos os</em> <em>dias, mesmo estando nos andares separados das suas respectivas áreas. Zenilda, Henrique,</em> <em>Santiago, Fernando e Viviane não receberam com felicidade a notícia de que os filhos</em> <em>seguiriam em isolamento durante o natal e o ano novo, mas aceitaram a decisão. E assim,</em> <em>eles se tornavam ainda mais uma unidade familiar. Um pouco desfuncional e definitivamente</em> <em>nada tradicional.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu vou matar o Paulo! É sério! O que ele vai fazer com alcachofra e kiwis amarelos no</em> <em>Natal?! Você tem ideia de quantos mercados eu tive que rodar para encontrar essa</em> <em>porcaria?! Eu tive que ir no mercado municipal e eu tenho certeza de que ele nem come isso!</em> <em>— Lorena entrou no apartamento esbravejando com o carrinho de feira que usavam para as</em> <em>compras, tirando a máscara e a pendurando nos ganchos reservados para elas ao lado da</em> <em>porta.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda desligou as bocas do fogão que trabalharam por boa parte da tarde na cozinha e</em> <em>correu até a entrada da casa, segundando o riso com a criatividade de Paulo para ocupar</em> <em>Lorena. Ela também tinha certeza de que Paulo nem saberia identificar uma alcachofra em</em> <em>um supermercado ou que sabia sobre a existência de kiwis amarelos até pesquisar</em> <em>“ingredientes difíceis de encontrar em São Paulo”. Era um pouco cruel, mas Lorena</em> <em>entenderia mais tarde.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Deixa que eu te ajudo, linda — Eduarda disse com a voz mansa, fingindo que não estava</em> <em>mancomunada com Paulo até o pescoço. Por um momento, ela observou Lorena esbaforida,</em> <em>como se tivesse subindo as escadas correndo, o suor escorrendo na testa pelo calor do verão,</em> <em>os fios soltos do cabelo preso grudados na pele. As compras de Natal tinham custado um</em> <em>preço alto e Eduarda se sentiu um pouco culpada por ter, de certa forma, a colocado naquela</em> <em>situação.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela se aproximou, pegando a alça do carrinho das suas mãos e foi só naquele momento em</em> <em>que Lorena percebeu. O fim da tarde já tinha se transformado em noite. As luzes da sala</em> <em>estavam apagadas, apenas com dois abajures acesos nos cantos. As lâmpadas amarelas que</em> <em>tinha feito questão de comprar logo depois de se mudar, porque Paulo e Eduarda precisavam</em> <em>de um lugar um pouco mais aconchegante em contraste a frieza dura da iluminação de um</em> <em>hospital, lançavam um brilho alaranjado pelo apartamento. A mesa redonda no canto do</em> <em>cômodo estava posta, com uma garrafa de vinho e duas taças. Em frente à televisão, o sofá</em> <em>tinha sido empurrado um pouco para o canto para abrir espaço para uma cama de gato</em> <em>improvisada com um colchonete grosso de casal, coberto com um lençol branco e alguns</em> <em>edredons.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena franziu as sobrancelhas, olhando para Eduarda desconfiada. O cheiro do jantar se</em> <em>espalhava pela sala, uma combinação de temperos que conhecia muito bem. Ela estava</em> <em>linda. O cabelo molhado do banho recém tomado, o perfume se misturando com o odor da</em> <em>comida, uma calça de alfaiataria preta, os pés descalços e uma camiseta branca lisa por</em> <em>dentro do cós.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena adorava o jeito que ela se vestia, apesar de Eduarda brincar que não conseguia</em> <em>acreditar nas palavras de uma estudante de moda. Sem saber que, um dia, o seu básico</em> <em>elegante, como Lorena costumava descrever a sua paleta de roupas, seria a maior inspiração</em> <em>para os produtos de uma das marcas de alta-costura mais bem sucedidas do mundo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu perdi alguma coisa? Alguma data importante? — Lorena perguntou, esfregando o</em> <em>rosto. — Eu tenho certeza de que a gente não tem nenhuma data comemorativa em dezembro.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda soltou uma risada, organizando as bolsas no chão e torcendo para que Paulinho</em> <em>tivesse alguma ideia do que fazer com as alcachofras e com os kiwis amarelos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Não, meu amor. Eu só, sei lá...— ela mentiu, se sentindo nervosa pela primeira vez. —</em> <em>Queria te compensar, sabe? Acho que esse clima de fim de ano me pegou um pouco e eu</em> <em>fiquei pensando em tudo que aconteceu desde janeiro. Esse dois mil e vinte maluco que</em> <em>ninguém esperava viver. — Eduarda se aproximou, enlaçando a cintura de Lorena e a</em> <em>puxando contra o seu corpo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em> — Eu comecei a pensar em tudo que você fez por mim e pelo Paulo. Em como nós estávamos</em> <em>perdidinhos antes de você chegar. E decidi aproveitar que temos a noite sozinhas para fazer</em> <em>um jantar especial de agradecimento. Eu sei que não foi fácil para você também.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena mordeu a boca, tentando conter um sorriso, apesar da irritação. Eduarda acariciou o</em> <em>seu rosto, analisando todas as micro-expressões que conhecia de trás para frente. De fato,</em> <em>não tinha sido fácil. Lorena também estava esgotada e sobrecarregada com os cuidados da</em> <em>casa, que foram melhor divididos assim que Paulo e Eduarda conseguiram voltar a rotina.</em> <em>Mas a carga de trabalho da residência ainda era pesada demais para que cuidassem de tudo</em> <em>sozinhos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Ai, Duda. Não precisava. De verdade. Mas confesso que não vou negar um agrado.</em> <em>Parece que eu corri uma maratona só nessas compras. Os mercados estão lotados. — Ela</em> <em>suspirou, fechando os olhos com o desejo de relaxar ali mesmo, até se dar conta da diferença</em> <em>entre o seu estado e o estado de Eduarda. — Mas eu estou toda suada e você está toda linda</em> <em>desse jeito. Não fica muito perto. — Lorena tentou se afastar e Eduarda a puxou de volta.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Para com isso. Eu não me importo — ela disse, ajeitando o cabelo que caía na sua testa.</em> <em>— Mas vai tomar um banho. Vai te ajudar a tirar esse estresse com o Paulinho do coração.</em> <em>Pode deixar que eu mato ele por você assim que tiver a chance. — Eduarda, na verdade,</em> <em>agradeceria, mas estava disposta a levar aquele fingimento até o fim. Lorena concordou,</em> <em>dando um beijo rápido na sua boca antes de se afastar, tirando a roupa pelo caminho até</em> <em>chegar no banheiro.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda suspirou, recolhendo as peças e ouvindo chuveiro acionar enquanto ela tomava</em> <em>banho com a porta aberta. Deixou as bolsas de compras na cozinha para depois e começou a</em> <em>finalizar os preparos do jantar, servindo cada comida em seu recipiente correto.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu preciso vestir alguma coisa especial?! — Lorena gritou do quarto alguns minutos</em> <em>depois enquanto se secava. Eduarda fazia algumas viagens de ida e volta entre os cômodos,</em> <em>pegando tudo que precisava e deixando a mesa preparada. Por fim, ligou a televisão,</em> <em>conectada ao spotify na playlist que tinha montado, colocando uma música discreta para</em> <em>tocar no fundo do som ambiente, no volume perfeito para que ouvissem, mas ainda</em> <em>conseguissem conversar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— O que você quiser, amor! Se quiser colocar um pijama, não tem problema! Só fica</em> <em>confortável! — Mas era óbvio que Lorena Ferette jamais se contentaria com um pijama.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda estava servindo as taças de vinho branco quando ela entrou, interrompendo os seus</em> <em>pensamentos, os seus movimentos, a sua respiração, a sua vida. Mesmo dez anos depois,</em> <em>Lorena ainda tinha aquele efeito sobre ela. De fazer parecer que o mundo parava de girar</em> <em>para assistir os seus passos quando chegava em um ambiente. Eduarda já tinha visto aquilo</em> <em>acontecer mais de uma vez e se perguntava se Lorena não reparava mesmo em como sempre</em> <em>carregava as atenções por todos os cantos por onde andava. Ela era magnética. Como o</em> <em>efeito da lua sob as marés. Dos opostos que se atraem. Da inevitabilidade das chuvas de</em> <em>verão. Lorena simplesmente acontecia e o mundo à sua volta se adaptada a sua presença e</em> <em>abria portas para que ela passasse.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda piscou, pousando a garrafa sobre a mesa e encarando a namorada parada no vão</em> <em>do corredor. Lorena tinha escolhido uma blusa social listrada azul e branca, aberta até o</em> <em>segundo botão, que deixava uma boa parte do seu decote à mostra, uma calça legging preta</em> <em>e nada mais.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda engoliu em seco, sem conseguir evitar o passeio dos seus olhos pelo corpo de</em> <em>Lorena de cima abaixo. A garota mordeu a boca na sua frente, entendendo o que aquilo</em> <em>significava.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Independentemente de como a noite corresse, ela tinha certeza de que acabariam na cama.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Agora, você pode me explicar com mais detalhes o que está acontecendo aqui? — Lorena</em> <em>perguntou, apontando para a televisão, para o vinho e os pratos. Eduarda assentiu,</em> <em>respirando fundo e dando um passo à frente com a mão esticada. Entendendo o recado,</em> <em>Lorena a tomou em um gesto tão natural quanto respirar, deixando que Eduarda a</em> <em>carregasse até a mesa arrumada.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando ela puxou a cadeira e fez um sinal para que se sentasse, Lorena deixou escapar um</em> <em>riso.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Seus olhos acompanharam o movimento de Eduarda dando a volta para pegar uma cadeira e</em> <em>colocar ao seu lado, porque tinham uma regra básica em restaurantes e refeições. Nunca se</em> <em>sentar frente a frente, porque ficavam longe demais. Preferiam sempre uma do lado da outra.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Então, Lorena olhou para baixo, encarando a comida e soltando um gemido de satisfação.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— O cardápio de hoje — Eduarda comentou com uma voz exageradamente formal. —</em> <em>Ensopado oriental de cogumelos, arroz japonês, sunomomo, gyosas de legumes e o seu purê</em> <em>de cenoura preferido — ela narrou, ciente de que tinha escolhido, de propósito, todas as</em> <em>comidas que Lorena mais gostava que ela preparasse. Lorena deixou a cabeça cair contra a</em> <em>mesa, se perguntando se tinha morrido e descoberto o paraíso. — Harmonizado com um</em> <em>vinho branco que achei no nosso armário de bebidas — Eduarda acrescentou e ela riu,</em> <em>sacudindo a cabeça.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Ai, Duda. Sério. Não precisava mesmo fazer nada disso. — Era sincero, mas, ainda assim,</em> <em>Lorena estava feliz. O sentimento ficava claro no seu sorriso aberto, com as covinhas</em> <em>marcadas, os olhos que refletiam o brilho da iluminação dourada enquanto a música tocava.</em> <em>Era tudo perfeito. Eduarda era perfeita e, de longe, a melhor coisa que tinha acontecido na</em> <em>sua vida.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Vamos comer, vai — Eduarda respondeu de forma simples porque, se pensasse demais,</em> <em>entraria em pânico. — Você deve estar faminta depois da sua guerra no supermercado.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena riu de novo, concordando e dando a primeira garfada. Quando o sabor a atingiu, ela</em> <em>fechou os olhos, agradecendo aos céus por Eduarda ter aprendido a cozinhar comida</em> <em>vegana.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Sério — Lorena comentou enquanto Duda abria uma garrafa de água com gás gelada e</em> <em>servia nos copos vazios ao lado das taças de vinho. — Isso é divino. Quem diria, hein,</em> <em>Eduarda Fragoso? — ela brincou enquanto engolia. — Para quem reclamava das minhas</em> <em>comidas no começo do namoro, você se saiu uma bela cozinheira de pratos veganos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Ei! Eu nunca reclamei! Só achava estranho, mas acho que é completamente normal para</em> <em>uma pessoa que não estava acostumada a comer esse tipo de coisa. — Ela tentou se defender</em> <em>enquanto Lorena dava um gole na água, um gole no vinho e comia um pouco mais.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você se comportou bem nos primeiros meses, quando ainda queria me conquistar. Depois</em> <em>que percebeu que o estrago já estava feito, colocou as asinhas de fora e começou com as</em> <em>reclamações — Lorena completou e Eduarda revirou os olhos, sorrindo e começando</em> <em>também a comer.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você quer entrar nessa discussão e conversar sobre as suas reclamações sobre os meus</em> <em>pagodes no carro e me beijar minha boca com gosto de cerveja? — Eduarda rebateu e</em> <em>Lorena sacudiu a cabeça, preferindo não responder para não se incriminar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela deu mais uma garfada e o começo da noite correu assim. Entre conversas, carinhos e</em> <em>goles de vinho enquanto os pratos esvaziavam devagar. Ao contrário dos últimos meses que</em> <em>tinham dividido naquele apartamento, tudo corria com calma, sem a pressa de horários e</em> <em>compromissos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ali, com Eduarda, Lorena sentia o privilégio de ainda ter tanto tempo pela frente e de ter</em> <em>encontrado o amor tão cedo. Apesar de ainda se considerar nova, parecia que já guardava</em> <em>uma vida inteira com ela e estava pronta para viver quantas mais Eduarda quisesse.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando a comida acabou e Lorena sentia que não aguentava mais respirar, Eduarda a</em> <em>puxou para o centro da sala, a arrastando pela mão enquanto levava a garrafa de vinho na</em> <em>outra.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Elas se sentaram no colchonete improvisado, ouvindo as músicas que tocavam, conversando</em> <em>e rindo com as barrigas cheias depois do mousse de chocolate vegano que Eduarda</em> <em>encomendou do restaurante favorito de Lorena, porque existia um limite de onde suas</em> <em>habilidades culinárias conseguiam alcançar. A garrafa se esvaziou entre goles direto do</em> <em>gargalo. Em um piscar de olhos, Eduarda e Lorena estavam deitadas contra os travesseiros,</em> <em>encarando o teto branco como se ali se escondessem todos os segredos do universo. Em</em> <em>outra vida, há quase dez anos, o universo realmente se estendia no céu diante dos seus olhos</em> <em>na noite de um primeiro beijo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena estava deitada entre o ombro e o peito de Eduarda, sentindo o seu braço, que ficaria</em> <em>dormente a qualquer segundo, pressionado entre as suas costas e o chão. A mão direita fazia</em> <em>um carinho delicado no seu cabelo, que a faria fechar os olhos e dormir ali mesmo se não</em> <em>fosse pela sua vontade maior de mantê-los abertos e poder continuar aproveitando a vista de</em> <em>Eduarda ao seu lado. O corpo relaxado como se permitia poucas vezes desde o começo da</em> <em>pandemia. A expressão distante, um pouco pensativa, como se seus pensamentos viajassem</em> <em>sozinhos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Ei — Lorena chamou em um sussurro, se virando um pouco de lado para poder observá-la</em> <em>melhor. Os olhos de Eduarda giraram, até parar no seu rosto. — No que você tanto pensa</em> <em>assim calada? — ela perguntou e Eduarda deixou escapar um sorriso. Como se o que</em> <em>rondasse a sua mente fosse o suficiente para deixá-la assim, feliz sem motivo nenhum.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Em você. Em nós duas — Eduarda respondeu sem precisar pensar e Lorena também</em> <em>sorriu.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Às vezes, Lorena achava que era coisa da sua cabeça, mas Eduarda parecia ter um olhar</em> <em>reservado especialmente para seus momentos juntas. Seu rosto ficava mais leve, mais sereno.</em> <em>Suas pupilas brilhavam como holofotes capazes de iluminar até a noite de escuridão mais</em> <em>profunda. Seus olhos, normalmente tão sérios e concentrados, se tornavam sonhadores.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— E eu posso saber no que, exatamente? — Lorena insistiu e Eduarda respirou fundo, sem</em> <em>saber como fazer aquilo, porque a vida não vinha com esse tipo manual de instruções.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Acho que em um pouco de tudo. Mas principalmente nesse último ano maluco. Na</em> <em>pandemia. Em como você meio que me salvou e salvou o Paulinho de um flerte pesado com</em> <em>uma depressão. É sério, Lorena. Acho que você não tem ideia do tamanho do buraco onde</em> <em>nós estávamos nos enfiando quando você chegou. — Lorena tinha ideia, mas não disse nada.</em> <em>Ela tinha visto com os próprios olhos. Paulo e Eduarda estavam destruídos no dia em que</em> <em>invadiu aquele apartamento com uma mochila nas costas e algumas malas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu disse que preparei esse jantar para agradecer e é verdade. Eu só não sei muito bem</em> <em>como agradecer, porque você fez muito mais do que deveria. Você ajudou, você cuidou de nós</em> <em>dois quando nós precisamos. Essa casa passou a ter vida, a ter felicidade. De verdade,</em> <em>obrigada por tudo. Eu não sei mesmo como retribuir — Eduarda confessou com sinceridade</em> <em>e Lorena piscou algumas vezes, se surpreendendo com uma pequena vontade de chorar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela faria tudo de novo, quantas vezes fosse necessário, desde que Paulinho e Eduarda</em> <em>tivessem onde se apoiar no momento em que mais precisavam.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Não precisa agradecer, Duda. Mesmo — Lorena disse em um sussurro, aproveitando a</em> <em>posição para apoiar a mão no rosto de Eduarda e começar um carinho discreto entre as suas</em> <em>têmporas, a sua testa e suas sobrancelhas. Seus dedos já conheciam cada angulação, cada</em> <em>contorno.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Elas ficaram assim por alguns segundos. Lorena acariciando o seu rosto e a observando</em> <em>enquanto Eduarda fechava os olhos e respirava devagar. As pernas entrelaçadas em cima</em> <em>dos lençóis, enroladas no corpo da outra entre os cobertores. A música que estava tocando</em> <em>parou e Lorena franziu as sobrancelhas quando ouviu o primeiro verso cantado da próxima.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eduarda Fragoso, você está fazendo isso de propósito? — ela semicerrou os olhos quando</em> <em>se deu conta de que era uma versão diferente de Farol das Estrelas. Não o pagode que tinha</em> <em>tocado na beira da piscina há tantos anos, mas uma versão mais calma, voz e violão.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— O que? — Eduarda rebateu em um tom irônico, fingindo não entender o comentário.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Para de se fazer de sonsa. Eu estou sacando o seu joguinho. — Lorena comentou,</em> <em>assistindo enquanto ela mordia o canto da boca para conter uma risada. — Jantar</em> <em>romântico. Um edredom no chão da sala imitando o nosso primeiro encontro deitadas na</em> <em>grama. A música do nosso pedido de namoro. Você está tentando recriar os nosso momentos</em> <em>mais importantes?</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda sentiu o peito disparar e as mãos tremendo um pouco. Mesmo assim, ela se encheu</em> <em>de coragem e abriu os olhos. Lorena franziu as sobrancelhas quando ela se afastou,</em> <em>quebrando o abraço confortável que dividiam em cima do edredom. Eduarda começou a se</em> <em>levantar devagar e puxou Lorena pelas mãos, fazendo um sinal para que a acompanhasse.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ainda sem entender onde aquilo ia parar, Lorena aceitou. Elas se colocaram de pé e quando</em> <em>Eduarda segurou a sua cintura sem pedir permissão e colou os seus corpos com um braço ao</em> <em>redor da sua cintura, Lorena revirou os olhos com um sorriso, entendendo tudo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Duda, eu não vou dançar Belo com você. Nem começa. — Mas elas já estavam dançado.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena guiada por Eduarda de um lado para o outro, as sombras se movimentando na</em> <em>parede iluminada pela luz amarelada, os pés descalços sincronizados esmagando o</em> <em>colchonete e os lençóis onde estavam deitadas há poucos segundos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda não se deu o trabalho de dizer que Lorena não tinha mais tempo de negar. Ao longo</em> <em>de dez anos, elas dançaram Belo e muitos outros pagodes inúmeras vezes. Eduarda tinha</em> <em>arrastado Lorena para um show do Sorriso Maroto. Lorena tinha a levado em dezenas de</em> <em>shows de bandas alternativas que nem sabia pronunciar o nome, muito menos cantar as</em> <em>músicas. E era sobre isso que pensava agora. Em tudo que tinham construído naquele tempo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Sabe, às vezes eu fico olhando para trás e pensando em como as coisas são mesmo</em> <em>incríveis. Um dia você aceita fazer companhia para o seu amigo em uma festa de faculdade</em> <em>que nem queria ir, bebe demais, vomita no pé de uma garota, ela te ajuda, te persegue nas</em> <em>suas aulas, você decide não chamar a polícia para prender a doida e tenta dar uma chance</em> <em>ao acaso. E de repente, assim, de uma hora para a outra, você encontrou o amor da sua vida</em> <em>— Eduarda disse, praticamente sussurrando no ouvido de Lorena enquanto a música seguia</em> <em>tocando e elas seguiam se movimentando sem pensar, no ritmo lento dos acordes do violão.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena soltou uma risada com a narrativa de Eduarda, deixando que ela continuasse porque</em> <em>sentia que poderia ficar para sempre ali, nos seus braços, a ouvindo falar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Às vezes eu penso em tudo que a gente construiu. Nós éramos duas crianças quando a</em> <em>gente se conheceu e agora estamos aqui. Dez anos depois, dividindo uma vida, uma casa,</em> <em>problemas, momentos bons, momentos ruins. Nós temos tantas memórias que eu poderia</em> <em>tentar recriar nessa sala. Tantos lugares, tantas músicas, tanta história. — Eduarda</em> <em>continuou listando até parar o vai e vem dos seus pés, se afastando um pouco de Lorena para</em> <em>olhar nos seus olhos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Tem gente que às vezes me pergunta se eu não fico frustrada de ter quase trinta anos e</em> <em>ainda namorar. Se eu não me incomodo de ter um relacionamento tão longo. Mas sabe o que</em> <em>eu vi nesses tempo em que nós ficamos juntas? — Eduarda perguntou e Lorena engoliu em</em> <em>seco, começando a questionar se estava entendendo aquilo errado.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Tantos casais indo e vindo, começando e terminando, brigando e discutindo, perdendo o</em> <em>amor que diziam ter. E aí, eu olho para nós duas. Para você e penso na nossa paz, na nossa</em> <em>estabilidade, no nosso amor que só cresce e se fortalece. Em como a gente escolhe fazer as</em> <em>coisas do nosso jeito, no nosso tempo, respeitando os nossos desejos, os nossos limites, as</em> <em>nossas amarras emocionais, e em como sempre deu certo. Eu penso em como eu nunca tive</em> <em>nenhuma dúvida sobre te amar e você nunca teve nenhuma sobre me amar. Você é a minha</em> <em>maior certeza, Lorena Ferette. Porque eu posso perder tudo, dinheiro que ainda não tenho,</em> <em>bens materiais, a minha carreira, o meu futuro, sonhos, planos. Mas eu não suportaria uma</em> <em>vida sem você.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda deu um passo atrás e respirou fundo. Seu corpo estava gelado da cabeça aos pés e o</em> <em>pouco efeito que o vinho tinha causado evaporou. Ao mesmo tempo em que Lorena lutava</em> <em>para controlar a vontade de chorar que não sabia de onde estava vindo, Eduarda também se</em> <em>esforçou para se segurar, ao contrário da namorada, ciente de todos os motivos para a sua</em> <em>emoção.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu não quero mais esperar, linda — Eduarda disse e tomou coragem para se mover,</em> <em>apesar das suas pernas e dos seus braços parecerem gelatina. Sua mão procurou o bolso da</em> <em>calça larga que tinha escolhido de propósito para esconder a caixinha. Quando a puxou e</em> <em>ergueu a tampa, revelando o anel, os olhos de Lorena se arregalaram e sua mão direita</em> <em>disparou até a boca.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda se ajoelhou na sua frente, segurando a sua mão direita, antes de dizer.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Lorena Esteves Ferette, você me daria o prazer, a honra e a felicidade de aceitar se casar</em> <em>comigo? — ela perguntou, confiante porque sabia que Lorena aceitaria, mas quase</em> <em>desmaiando de nervosismo porque era um pré-requisito para momentos assim.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Na mesma hora, Lorena começou a chorar. Não um choro contido, mas um choro visceral,</em> <em>com soluços rasgando a sua garganta enquanto movia a cabeça de cima para baixo em um</em> <em>gesto afirmativo desesperado, como se estivesse com medo de que Eduarda mudasse de</em> <em>ideia.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Sim. Sim. Sim — ela repetia sem parar, sem saber o que dizer. Lorena mentiria se dissesse</em> <em>que não esperava um pedido em algum momento e que já tinha planejado algumas vezes</em> <em>fazer o mesmo. Mas ela queria respeitar o tempo de Eduarda, seu desejo de finalizar a</em> <em>residência primeiro, e se guiava piamente por esse calendário até o dia em que ficariam</em> <em>noivas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda tentou se levantar, mas Lorena negou, limpando o rosto e se esforçando para</em> <em>respirar fundo. Eduarda esperou, notando que também estava chorando até entender o que</em> <em>ela queria.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Porque, ao invés de se levantar, Lorena também se ajoelhou na sua frente, deixando seus</em> <em>rostos alinhados. Se Eduarda se colocaria de joelhos por ela, ela faria o mesmo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Acho que preciso colocar isso em você, né? — Eduarda perguntou nervosa, pegando o</em> <em>anel que tremia como um terremoto entre os seus dedos. Então, segurou a mão de Lorena,</em> <em>que chorava entre sorrisos e risos, deslizando o aro liso prateado com um pequeno diamante</em> <em>no meio.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Era simples para uma Ferette, mas era o que o seu bolso podia pagar. Para Lorena, era</em> <em>perfeito.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Percebendo que tinha uma oportunidade, Lorena hesitou e olhou para o segundo anel,</em> <em>idêntico ao seu. Seus olhos se ergueram e Eduarda entendeu a pergunta, assentindo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Duda...eu...eu não sei o que falar. Eu não me preparei que nem você e isso é injusto,</em> <em>mas...   — Lorena tentou, gaguejando e pegando a mão de Eduarda, percebendo que ela</em> <em>também estava chorando. — Você é o amor da minha vida. Eu nunca tive dúvida disso, eu</em> <em>nunca vou ter. Eu não sei o que o futuro reserva para mim e para você, mas a minha única</em> <em>certeza é que eu sempre vou ser sua. Eu sempre vou te amar. Eu sabia no dia em que te vi</em> <em>pela primeira vez. Eu soube durante os últimos nove anos e vou continuar sabendo até</em> <em>quando nós virarmos duas velhinhas ranzinzas e insuportáveis. — Eduarda soltou uma</em> <em>risada alta e Lorena aproveitou para esticar a mão e limpar as suas lágrimas como o</em> <em>polegar. Então, suspirou antes de continuar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eduarda Kamiński Fragoso, você aceita, finalmente, se casar comigo? Comer comida</em> <em>vegana pelo resto da vida, montar uma hortinha na nossa casa, adotar três gatos e um</em> <em>salsichinha, ter dois filhos e assistir todo o catálogo de filmes franceses da humanidade?</em> <em>Você aceitaria me amar para sempre? — Lorena perguntou e Eduarda riu o riso mais</em> <em>sincero, mais feliz do mundo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Porque sabia ali, naquela sala, em meio ao momento mais caótico da sua vida, enquanto</em> <em>Lorena encaixava o anel no seu dedo e as duas encaravam as mãos entrelaçadas e os</em> <em>diamantes refletindo o brilho alaranjado do apartamento, que nunca tinha sido tão feliz.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando Lorena se inclinou para beijá-la, Eduarda nunca se sentiu tão segura e tão certa de</em> <em>que tinham a eternidade pela frente. E de que nada nunca mais as separaria.</em>"
+    }
+  ],
+  "chapterNotes": [],
+  "chapterSummary": [
+    "Quem me segue no Twitter já sabia que eu estava planejando soltar os capítulos 15 e 16 juntos, por isso demorei um pouco mais. Talvez não seja exatamente os capítulos que vocês esperavam/queriam, mas, para mim, são exatamente os capítulos que a história precisava agora.\n Tenho dois avisos sobre esse:\n - O Capítulo 15 fala um pouco sobre a época da pandemia da covid-19, assunto que sei que pode ser sensível para pessoas que perderam entes queridos para essa doença, então, segue o alerta de gatilho;\n - A versão de Farol das Estrelas que é citada nesse capítulo é o cover do Silva.\n Dito isso, boa leitura e o 16 será postado em menos de cinco minutos."
+  ],
+  "endNotes": []
+}

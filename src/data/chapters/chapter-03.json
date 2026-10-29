@@ -1,0 +1,639 @@
+{
+  "number": 3,
+  "title": "Capítulo 3",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "html": "<strong>Março, 2011</strong>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ainda não eram sete da manhã quando Paulinho se sentou na frente de Eduarda, sorrindo</em> <em>como uma criança em um parque de diversões. Ele estava com aquela expressão abobalhada</em> <em>no rosto desde o começo das aulas e parte dela entendia. Depois de três anos consecutivos</em> <em>com a angústia das incertezas do vestibular, acordar às cinco para chegar na Cidade</em> <em>Universitária ainda parecia um sonho. Mas, naquele dia, o sono de Eduarda estava a</em> <em>impedindo de sonhar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Bom dia, donzela! — seus olhos se fecharam e ela suspirou. Paulinho tinha a mania de</em> <em>chamá-la assim desde a semana em que se conheceram no cursinho. Ele repousou o copo</em> <em>descartável de péssima qualidade na mesa vermelha de uma marca de cerveja famosa e</em> <em>Eduarda franziu as sobrancelhas ao perceber que o plástico estava entortando devagar com</em> <em>o calor do café.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Juro por Deus que toda terça-feira eu questiono um pouco as decisões que me trouxeram</em> <em>até aqui — ela confessou, deixando a cabeça cair sobre o tampo. Eles estavam sentados na</em> <em>área externa do Instituto de Ciências Biológicas, que abrigava parte das aulas do ciclo</em> <em>básico antes que migrassem para o ciclo profissionalizante na FMUSP. Terça era sempre o</em> <em>pior dia, com Fundamentos Morfofuncionais da Medicina às sete e chamada no início da</em> <em>aula.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Nem começa. A gente não passou três anos se matando de estudar para entrar aqui e você</em> <em>vir com esse desânimo no primeiro semestre — Paulo deu um gole na bebida enquanto os</em> <em>alunos, ainda sonolentos, começavam a se aglomerar em uma fila no caixa da lanchonete.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Sabe o que você está precisando? — ele perguntou e Eduarda se forçou a erguer os olhos,</em> <em>encarando, sem entender, os papéis retangulares que surgiram da sua mochila com um</em> <em>design tão questionável quanto a diagramação da sigla estampada no canto da folha.</em> <em>MEDIEC.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Uma calourada. — O anúncio escapou da boca do seu amigo como se aquela fosse a</em> <em>oportunidade de uma vida e ela deixou ecoar uma risada alta demais para o silêncio da</em> <em>manhã.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Sério? Uma calourada? A gente tem vinte anos, a maioria dos calouros tem dezoito. Você</em> <em>não vai me arrastar para uma festa cheia de adolescente — Eduarda protestou, mas ele</em> <em>insistiu.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eduarda, há dois anos você também tinha dezoito. A maioria dos alunos de medicina</em> <em>acaba entrando na faculdade mais tarde, sem contar que os veteranos também vão. Se você</em> <em>quer uma desculpa, arruma outra porque essa não vai rolar. — Ela mordeu o lábio, seguindo</em> <em>os conselhos do seu melhor amigo e se esforçando para pensar em outra justificativa mais</em> <em>sólida.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— O que é MEDIEC? — foi o máximo que conseguiu formular. Seu cérebro ainda não estava</em> <em>funcionando e precisava de um pouco mais de tempo para engatar pensamentos coerentes.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Dizem as más línguas que é uma sigla para medicina, direito e economia. Os três cursos</em> <em>que organizam a festa — Paulinho explicou e, de alguma forma, o convite agora parecia</em> <em>ainda pior.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Se for tão ruim quanto o nome, nós estamos fodidos. Me dá um motivo para gastar a</em> <em>minha sexta-feira com isso — ela comentou e Paulo jogou as mãos para o alto.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— A Larissa vai estar lá — ele respondeu, como se isso significasse alguma coisa.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Se você quer me convencer com mulher, arruma uma mulher que me interessa e não a</em> <em>pessoa mais hétero de São Paulo. Eu não vou em uma festa só para você levar um fora</em> <em>tentando ficar com uma garota que é areia demais para o seu caminhãozinho. Se você parar</em> <em>e pensar, eu estou, na verdade, te fazendo um favor e te poupando da humilhação.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Paulinho franziu as sobrancelhas, analisando Eduarda com uma expressão indignada.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Quantas vezes eu fui em rolê ruim só para você pegar mulher que era três vezes o seu</em> <em>caminhãozinho, Eduarda? — ela preferiu não responder, porque sabia que ele tinha um</em> <em>ponto. — Você me deve pelo menos uns vinte favores desse tipo. Então, sexta nós vamos na</em> <em>MEDIEC.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela resmungou, cruzando os braços e deixando a cabeça cair para trás. Paulinho tinha</em> <em>surgido na sua vida na primeira aula depois da sua formatura no Ensino Médio, quando</em> <em>ainda amargurava a decepção do pré-vestibular e de falhar nas provas que tentara no ano</em> <em>anterior.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>O garoto hétero padrão bonitinho, que arrancava suspiros das garotas com o cabelo liso</em> <em>penteado para trás, caindo por cima das orelhas, parecia ser o último tipo de pessoa que</em> <em>faria amizade com alguém como ela. Mas, desde que tinham conversado pela primeira vez</em> <em>sobre a sua sexualidade, Paulo se tornara o seu maior companheiro para tudo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Para a futura profissão que sonhavam em dividir, para os dias difíceis, para a pouca vida</em> <em>social que mantinham enquanto estudavam. E ela esperava que assim continuasse pelo resto</em> <em>da vida.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Tudo bem. Onde é essa porra? — ela perguntou, revirando o convite em busca de um</em> <em>endereço.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eles só mandam o local no dia. Parece que é na casa de um casal de irmãos riquinhos.</em> <em>Ferrero, Ferette, alguma coisa assim. Todo ano é lá e os ingressos são meio que limitados</em> <em>porque a mansão é grande, mas não cabe a USP inteira. Eu estou te falando. É tipo a festa</em> <em>mais cobiçada de começo de semestre da faculdade. Eu quase tive que matar por esses. —</em> <em>Ele apontou para os ingressos e Eduarda percebeu que seria obrigada a aceitar aquela</em> <em>derrota.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você vai ficar me devendo umas cinco para compensar essa. — Paulo sorriu, bebendo</em> <em>mais um gole do café. — E só para constar, a Larissa é perda de tempo. Não diz que eu não</em> <em>te avisei.</em>"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "Larissa tinha sido de fato uma grande perda de tempo, mas, em pé no meio do corredor do hospital, Eduarda praguejou internamente todas as decisões que tinham a levado até a casa de Lorena Ferette há quinze anos. O calor da mão de Gerluce contra a sua pele tinha se tornado um mero detalhe, apesar da sua certeza de que só estava conseguindo ficar em pé com o seu suporte. Porque, ali, na sua frente, estava a outra metade perdida do seu passado. Maggye Tavares."
+    },
+    {
+      "type": "paragraph",
+      "html": "Maggye encarou Eduarda com um desconforto ainda maior do que quando encontrara Paulo. Desprevenida com como o dia que já tinha começado mal, com a necessidade de acompanhar a sua melhor amiga na primeira sessão de quimioterapia do tratamento, conseguira piorar ainda mais ao perceber que estava encurralada entre tantas quinas diferentes das suas próprias escolhas."
+    },
+    {
+      "type": "paragraph",
+      "html": "Seus olhos giraram, revezando entre os dois, esquecendo o celular na sua mão com os compromissos de Lorena que tentava reorganizar. Ela olhava de Paulo para Eduarda e de Eduarda para Paulo, com a sensação esquisita de que o andar inteiro estava se movendo em câmera lenta."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Não é possível — Eduarda disse com uma risada irônica. — Eu devo ter perdido o e-mail com a porra do convite para a reencontro da faculdade. — O comentário sacramentou o que era mais do que óbvio desde o seu primeiro passo para fora do elevador. Maggye estava em território hostil. Mesmo assim, como se ainda quisesse recuperar parte do tempo perdido, ela tentou."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Duda. — Ao contrário do nome de Paulo, que escorregou da sua boca sem a máscara de um apelido, o de Eduarda escapou como costumava chamá-la na época da USP. Maggye sabia que era ingenuidade achar que Eduarda aceitaria ser chamada desse jeito e se preparou para o pior."
+    },
+    {
+      "type": "paragraph",
+      "html": "A raiva que cruzou os olhos da mulher que costumava ser uma das suas melhores amigas não passou despercebida. Eduarda não fez questão de disfarçar, mas também não fez questão de deixá-la tomar as rédeas. Ela fechou os olhos e suspirou, pressionando a ponte do nariz com a ponta dos dedos, como se estivesse exausta e só quisesse sair dali o mais rápido possível."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Sabe de uma coisa, eu não quero saber — ela decidiu, esfregando o rosto, irritada com aquela situação no meio do seu trabalho, onde tinha levado tanto tempo para construir o seu nome."
+    },
+    {
+      "type": "paragraph",
+      "html": "As partes da sua vida que tinha lutado tanto para esquecer estavam, de repente, escapando pelas frestas. Um vazamento descontrolado que inundava tudo. A sua cabeça, as suas emoções. Tudo que antes estava limpo e organizado, agora estava contaminado por Maggye e Lorena."
+    },
+    {
+      "type": "paragraph",
+      "html": "Em uma decisão repentina, Eduarda fez a única coisa que podia porque não estava pronta para lidar com aquele acúmulo de erros, muito menos com a possibilidade de acabar descobrindo mais do que gostaria sobre Lorena. Então, ela escapou para onde ainda conseguia ter controle."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Paulo, vamos falar com as pais do Felipe. — Maggye assistiu enquanto ela ignorava a sua presença, olhando para o amigo e enterrando as mãos nos bolsos. Felipe era um nome que não significava nada para a mulher recém-chegada, mas o rosto de Paulinho se contorceu em incredulidade ao ouvir que, entre todas as coisas, era <em>isso </em>que Eduarda queria fazer."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Duda, pelo amor de Deus. Você não tem a menor condição de fazer isso agora e... — ele tentou argumentar, mas Eduarda sacudiu a cabeça, interrompendo antes do fim da frase."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu tenho condições. Eu estou em perfeitas condições. Se você não vier comigo, eu vou sozinha. — Maggye não conseguiu deixar de notar o tom trêmulo que a sua voz tentava disfarçar."
+    },
+    {
+      "type": "paragraph",
+      "html": "Mesmo anos depois, ver Eduarda assim fez com que todas as suas decisões voltassem ao mesmo tempo. Ela se odiou por tudo. Pela culpa que a corroía. Por ter permitido que Lorena tomasse as decisões mais estúpidas sem questionar. Mas nunca, nunca por ficar ao lado da melhor amiga."
+    },
+    {
+      "type": "paragraph",
+      "html": "Paulo hesitou, desviando o olhar para a enfermeira que tinha saído do banheiro ao lado de Eduarda, como se estivesse buscando ajuda, algum tipo de bote salva-vidas."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Duda, o Paulo está certo. Deixa para depois. Você precisa... — mas ela interrompeu de novo."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu não preciso de nada! — Eduarda praticamente gritou. — Eu preciso voltar para a minha vida como se isso não estivesse acontecendo! — ela olhou para Maggye e o que ela significava. A presença de Lorena. As piores circunstâncias possíveis para aquele reencontro coletivo."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu não quero saber o que você e a Lorena estão fazendo aqui, como vocês vieram parar no meu caminho, mas se vocês ainda têm alguma consideração por mim, me faz um favor. — Foi a primeira vez que os olhos de Eduarda pararam sobre os seus. — Só desaparece da minha frente."
+    },
+    {
+      "type": "paragraph",
+      "html": "E com isso, ela se virou, deixando seu braço deslizar entre os dedos de Gerluce. Os passos de Paulinho a seguiram enquanto ela se afastava pelo corredor, sem olhar para trás."
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda agradeceu mentalmente pelo quarto onde Felipe estava internado há meses ser no lado oposto da ala de quimioterapia. Conforme caminhava na direção do que antes parecia o seu pior pesadelo daquela noite, seu coração disparava enquanto ela tentava colocar a cabeça no lugar."
+    },
+    {
+      "type": "paragraph",
+      "html": "Os pais do garoto mereciam receber aquela notícia do jeito certo e com <em>isso </em>ela sabia lidar. Por mais difícil que fosse, era algo que já tinha feito inúmeras vezes. Encarar Lorena e Maggye não."
+    },
+    {
+      "type": "paragraph",
+      "html": "Mas, quando Eduarda estava prestes a fazer a curva que os levaria para a enfermaria de Felipe, Paulo a segurou pelo braço com o máximo de cuidado que conseguia, fazendo seu corpo girar."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Duda — ele tentou, fazendo um gesto com a cabeça em um pedido para ela pensar melhor. — Você precisa respirar um pouco. Colocar a cabeça no lugar antes de fazer isso. — Eduarda negou."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu preciso fazer isso agora — ela reforçou e a expressão no seu olhar, com uma súplica escondida enquanto o seu peito acelerava, o fez parar. Por um momento, ele achou que Eduarda fosse ter uma crise, mas, apesar das lágrimas no canto dos seus olhos, ele entendeu."
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda não estava sendo displicente, insensível ou tomando uma decisão tão importante levianamente. Pelo contrário, ela sabia exatamente o que estava fazendo e isso não o surpreendia."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Isso é a única coisa que eu sei fazer e eu preciso de alguma coisa que faça sentido agora."
+    },
+    {
+      "type": "paragraph",
+      "html": "Paulo a analisou, sem se dar o trabalho de dizer que com certeza anunciar a metástase de uma criança de seis anos não estava na lista de coisas que faziam sentido, mas ele sabia o que Eduarda queria dizer. Ela precisava de algo que se encaixasse com a sua rotina, com seus dias normais, por mais que muito do que faziam ali dentro escapasse completamente ao padrão de normalidade."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Tudo bem, mas depois você vai para casa — ele decretou e ela deu um passo para trás."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu não vou para casa. O plantão não está na metade... — Paulo a interrompeu dessa vez."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eduarda, você não tem condição de atender ninguém assim e a Lorena ainda deve ficar por mais algumas horas até a quimioterapia acabar. Você realmente quer lidar com isso? — era uma pergunta retórica porque os dois sabiam a resposta. — A gente resolve a situação do Felipe, eu entendo você querer fazer isso agora. Os pais dele merecem notícias rápidas e nós dois sabemos que eles confiam muito mais em você do que em mim. Mas depois, você vai inventar uma desculpa para o Kasper e pedir para sair mais cedo. Eu e a Gerluce te encontramos depois."
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda abriu a boca, ainda buscando forças para tentar discutir, mas o olhar firme de Paulinho deixava claro que aquilo era um ultimato. Ou ela aceitava, ou eles fariam as coisas do seu jeito."
+    },
+    {
+      "type": "paragraph",
+      "html": "Sem alternativa, ela assentiu, escondendo a frustração pelo desespero que ainda sentia dentro do peito toda vez que a sua mente piscava com as imagens de Lorena, conectada ao tubo por onde escorria a química que atacaria suas células ruins na mesma intensidade que atacaria as saudáveis."
+    },
+    {
+      "type": "paragraph",
+      "html": "Antes que Paulo mudasse de ideia, ela se virou sem dizer nada, respirando fundo e se recompondo centímetro a centímetro, até sentir que estava voltando a se sentir como si mesma."
+    },
+    {
+      "type": "paragraph",
+      "html": "A porta do quarto de Felipe era a última do corredor. Os dois pararam juntos diante dela e Eduarda lançou um último olhar na direção do amigo antes de bater."
+    },
+    {
+      "type": "paragraph",
+      "html": "Giselly e Patrick abriram a porta juntos, os olhares apreensivos ao encontrar os dois médicos. Eduarda espiou por cima do ombro dos dois, deixando um sorriso contido escapar ao perceber que Felipe estava dormindo. Então, fez um sinal para que seus pais a acompanhassem."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Ai, doutora — Giselly disse, colocando a mão contra o peito e respirando com mais dificuldade porque sabia que aquele era um divisor de águas. Ou Felipe se salvaria ou ali começaria o maior pesadelo da sua vida. — Saiu o resultado? Nós estamos preocupados."
+    },
+    {
+      "type": "paragraph",
+      "html": "Paulinho assistiu em silêncio enquanto Eduarda sorria. Depois de anos convivendo e trabalhando com ela, ele sabia reconhecer aquele sorriso específico que só aparecia naqueles momentos. Era um sorriso discreto, contido, respeitoso e compreensivo ao mesmo tempo. O sorriso de quem estava prestes a dar a pior notícia do mundo de um jeito que só ela conseguia fazer."
+    },
+    {
+      "type": "paragraph",
+      "html": "Todos os resquícios de Lorena desapareceram em um piscar de olhos e isso o assustava."
+    },
+    {
+      "type": "paragraph",
+      "html": "Não importava quanto tempo passava, Paulo ainda se preocupava e se admirava com a capacidade da amiga de se anular para exercer a profissão que tinha escolhido. Giselly e Patrick não tinham a menor ideia de que Eduarda queimava por dentro porque ela não deixava transparecer absolutamente nada. Naquele momento, apenas a família do paciente importava."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Nós temos os resultados — ela começou a falar devagar, com o tom delicado e carinhoso que também reservava para esses momentos. Paulo desviou o olhar, se sentindo um covarde por não conseguir sustentar a situação. Eduarda sempre fora melhor nessa parte do que ele."
+    },
+    {
+      "type": "paragraph",
+      "html": "Com cuidado, ela segurou as duas mãos de Giselly como se seu próprio mundo não estivesse desmoronando, a guiando, sem a mulher perceber, até um banco na parede do corredor."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu não sei como te falar isso, Giselly, mas não era o que a gente esperava. — Esse sempre era o momento mais difícil. O ponto em que a esperança se rompia e a realidade caía lentamente, em um ritmo doloroso. Paulo percebeu o exato segundo em que os pais de Felipe entenderam. O mínimo brilho que insistia no olhar dos dois desaparecendo por completo, em um piscar de olhos."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Não — Giselly suplicou e Eduarda se manteve firme. — Não. Não faz isso comigo. Por favor. Me diz que não acabou. Me diz que não acabou, por favor... — o seu choro se perdeu em soluços e Paulo fechou os olhos quando a expressão de Patrick se desfez, se contorcendo em dor."
+    },
+    {
+      "type": "paragraph",
+      "html": "— O câncer se espalhou. Não tem muito o que a gente possa fazer a partir de agora. O Felipe é um guerreiro, é nisso que vocês precisam se agarrar. Ele lutou tudo que conseguiu, mas, nesse ponto, o tratamento não vai mais fazer efeito. A gente precisa pensar no bem estar dele e começar a tomar algumas decisões. Não precisa ser agora, nem hoje. Mas talvez seja o momento de começar a pensar sobre o que podemos fazer para deixar ele mais confortável — Eduarda continuou falando porque aquelas palavras precisavam ser ditas, não porque não se importava com o choro da mulher que se intensificava aos poucos na sua frente."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu sinto muito, Giselly. Eu realmente sinto muito — ela disse, sentindo a frustração amarga que sempre vinham com aquelas palavras. A constatação de que nem todas as tentativas do mundo foram suficientes. O vazio que restava ao saber que nada seria suficiente para consolar."
+    },
+    {
+      "type": "paragraph",
+      "html": "Patrick se ajoelhou, se apoiando nas coxas da esposa. Giselly deixou o tronco cair para frente, completamente amolecido, sem forças para continuar. Na mesma hora, como se estivesse só esperando o momento em que aquilo aconteceria, Eduarda a tomou nos braços, porque esse era o tipo de pessoa que ela era. O tipo de médica em que os pacientes encontravam conforto."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu sinto muito. Nós ainda estamos aqui por vocês. Nós vamos ficar até o fim — Eduarda continuou falando enquanto os dois se agarravam as suas palavras, sem saber que, ali, em algum canto daquele hospital, parte do seu coração também começava a se partir."
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda percebeu que Paulo estava certo quando se trancou na cabine de um banheiro pela segunda vez naquela noite, agora, para vomitar. Seu corpo tremia, inclinado na direção do vaso sem saber se era efeito de mais uma crise causada por Lorena ou pela descarga emocional de precisar segurar uma mulher em prantos ao descobrir que seu filho único estava morrendo."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ela esfregou os olhos que lacrimejavam com o ácido que revirava o seu estômago, tossindo e dando descarga antes de se encaminhar até a pia. O tempo para lavar as mãos foi o tempo necessário para tomar coragem e se olhar no espelho pela primeira vez desde que tudo tinha acontecido. A visão arrancou um suspiro do seu peito."
+    },
+    {
+      "type": "paragraph",
+      "html": "Era como se estivesse encarando outra pessoa, vivendo uma vida que não se encaixava com a sua realidade recente. Era injusto que ela não tivesse um aviso prévio. Eduarda queria ter tido tempo para se preparar. Não acordar em um dia qualquer, pensando que seria apenas mais um plantão de rotina, e ver seu mundo virado de cabeça para baixo de uma hora para outra."
+    },
+    {
+      "type": "paragraph",
+      "html": "Decidindo ceder, ela lavou o rosto, tentando pelo menos se recompor antes de conversar com Kasper. Seus pés a carregaram para fora do banheiro, na direção do elevador onde pressionou o botão do penúltimo andar, se encostando contra as paredes de metal e fechando os olhos enquanto sentia a máquina subir. As portas se abriram e ela seguiu no piloto automático."
+    },
+    {
+      "type": "paragraph",
+      "html": "Olga, a secretária do diretor, a recebeu com o mesmo sorriso caloroso de sempre. Eduarda tentou retribuir para ser educada, mas sentiu seus lábios repuxando pelo movimento forçado. Ela se apoiou contra o balcão que dava boas-vindas à região administrativa do hospital, com a sensação irritante de que não conseguiria se sustentar por muito tempo se não se apoiasse em algum lugar."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Boa noite, Olga. — Ela tentou fingir normalidade. — O Kasper está ocupado? Eu precisava dar uma palavra com ele. — Olga olhou por cima do ombro, espiando na direção da sala do homem que controlava um dos hospitais mais requisitados da cidade."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Não. Pode entrar. Inclusive, acho que ele queria mesmo conversar com você. — Eduarda franziu as sobrancelhas, mas não discutiu, assentindo e enterrando as mãos nos bolsos do jaleco, o gesto inconsciente que denunciava seu modo defensivo que surgia com as suas incertezas."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ela caminhou, fazendo um sinal para Olga quando a secretária tentou se levantar para a acompanhar. Entendendo que não era necessário, a mulher voltou a se sentar."
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda avançou sozinha, ensaiando as palavras certas na sua cabeça. Nenhuma delas parecia chegar perto de parecer apropriadas para começar a explicar alguma coisa."
+    },
+    {
+      "type": "paragraph",
+      "html": "Sabendo que não poderia, sob nenhuma hipótese, falar a verdade, ela escolheu uma mentira simples que, para começo de conversa, nem era tão mentirosa assim. Abraçando essa versão dos fatos para resolver seus problemas por algumas horas, ela bateu, abrindo a porta e esticando a cabeça para espiar dentro da sala. Sua forma sutil de anunciar a sua presença."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eduarda! Pode entrar! Não sabia que a Olga já tinha te chamado!"
+    },
+    {
+      "type": "paragraph",
+      "html": "Kasper era um homem de sessenta anos de idade, marcado pela combinação dos seus cabelos e da sua barba branca, ambos impecavelmente cuidados como se um fosse a continuação fluida e perfeita do outro. Ele não se levantou, mas fez um sinal para ela se aproximar enquanto terminava de assinar alguns papeis. Eduarda caminhou devagar, como uma criança entrando na sala da diretoria da escola, pensando no que Olga tinha falado. O que Kasper queria com ela?"
+    },
+    {
+      "type": "paragraph",
+      "html": "— A Olga disse que você queria falar comigo — ela mentiu, em parte porque queria ganhar mais de tempo, em parte porque não conseguiria ir para casa sem saber o que seu chefe queria."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Sim, só me dá um minuto — Kasper pediu, em um hábito típico de fazer sempre pelo menos três coisas ao mesmo tempo. Ele verificou algo no computador, desenhou mais uma assinatura no papel, e enfim guardou os documentos em uma gaveta antes de tirar os óculos e suspirar."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ele também parecia cansado. Isso não escapou à análise dos seus olhos."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu queria conversar com você sobre uma paciente que recebemos hoje. Um caso complicado, por muitos motivos diferentes. — O estômago de Eduarda despencou e, por um momento, ela achou que vomitaria de novo ali mesmo, no tapete persa que ornamentava parte do escritório. — Lorena Ferette. Você já ouviu falar? — ele perguntou como se estivesse perguntando sobre a previsão do tempo e Eduarda precisou controlar a vontade de soltar mais uma risada de desespero."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ouvir falar definitivamente era o maior eufemismo para descrever a sua relação com Lorena."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Acho que já ouvi alguma coisa. Ela é meio famosa, não é? — as mentiras escaparam da sua boca com naturalidade e Eduarda sabia que estava entrando em um caminho sem volta. Ela podia falar a verdade que estava lutando para digerir há cinco anos ou podia mentir e lidar com as consequências depois, ciente de que não conseguiria esconder a verdade para sempre."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Meio famosa? — ele perguntou em um tom divertido. — Você precisa mesmo sair da caverna da medicina e colocar a cabeça um pouco para fora desse hospital — Kasper comentou e Eduarda engoliu em seco. — Ela entrou em contato depois de um diagnóstico recente de Leucemia Mieloide Aguda. Apesar da residência no exterior, ela escolheu fazer o tratamento no Brasil para ficar perto da família e procurou a Doutora Agatsuma. — Eduarda ouvia a voz de Kasper no fundo da sua cabeça, mas as únicas palavras que reverberavam eram Leucemia Mieloide Aguda."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ela pensou em Zenilda. Em Leonardo. Até mesmo em Maggye, que sempre fora mais parte da família Ferette do que ela jamais conseguira ser. Ela pensou em todas as estatísticas que tinha estudado ao longo dos anos, taxas de sobrevivência a cada tipo de câncer e fechou os olhos. Como aquilo conseguia ficar pior a cada minuto?"
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu conversei com a Cristina e, por mais que ela seja a médica escolhida pela Lorena, o caso dela exige um pouco de sigilo. Discrição midiática foi um dos principais pedidos da equipe dela, apesar de saberem que é praticamente impossível nada vazar. Nós oferecemos uma ala privada do hospital, uma sala separada para as sessões de quimioterapia, mas a Lorena recusou."
+    },
+    {
+      "type": "paragraph",
+      "html": "Claro que tinha recusado, Eduarda pensou, sacudindo a cabeça. Era bem a cara de Lorena. A herdeira que insistia em lutar contra os próprios privilégios. A grande defensora dos fracos e oprimidos, que se recusava a aceitar as vantagens que a vida lhe dava para além do dinheiro."
+    },
+    {
+      "type": "paragraph",
+      "html": "— A Cristina é só uma e não tem como ela estar aqui o tempo inteiro durante o tratamento. Nós vamos organizar uma equipe médica mais restrita para lidar com o caso da Lorena para tentar ter um pouco mais de controle sobre as informações que circulam. Eu estou conversando com você, vou conversar com o Daniel, com a Gerluce, a Xênica e o Vandílson."
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda tinha certeza de que estava perdendo parte dos detalhes entre os devaneios da sua própria mente. Ela piscou, tentando se localizar."
+    },
+    {
+      "type": "paragraph",
+      "html": "Daniel era um jovem médico que tinha acabado de chegar em São Paulo depois de finalizar a residência no Rio de Janeiro. Apesar da pouca idade, estava conquistando a confiança de Kasper aos poucos com um talento que parecia inigualável, traçando o caminho para se tornar um prodígio. Gerluce, Xênica e Vandílson eram da equipe de enfermagem. Eduarda entendia o que o diretor estava tentando fazer. Limitar a quantidade de funcionários que teriam acesso à Lorena."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu vou organizar os plantões para que sempre um de vocês esteja presente. Quando a Cristina estiver, ela se responsabiliza pelo caso. Quando ela não estiver, você e o Daniel tomam a frente. Também vou enviar para vocês dois as informações do prontuário mais recente da Lorena. Posso contar com a sua colaboração? — Kasper perguntou e Eduarda congelou."
+    },
+    {
+      "type": "paragraph",
+      "html": "Era a sua segunda chance de falar a verdade. Mas, antes que conseguisse processar uma decisão coerente, sua cabeça se moveu, concordando enquanto as palavras arranhavam a sua garganta."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Claro. — Foi o único som que ela conseguiu emitir. Kasper sorriu, sem ter ideia da posição em que estava a colocando e voltou a analisar a mesa em busca da sua próxima tarefa."
+    },
+    {
+      "type": "paragraph",
+      "html": "Mas, antes que conseguisse encontrar, seu olhar parou sobre Eduarda, pela primeira vez prestando realmente atenção no seu rosto desde que ela tinha entrando na sala."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você está bem? — ele perguntou, analisando a expressão distante e sua pele pálida."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Na verdade, acho que não estou me sentindo muito bem desde o começo do plantão. — Ela usou a exata desculpa que tinha preparado antes de entrar. — Eu odeio pedir isso, Kasper, você sabe. Mas tem alguém para cobrir o resto do meu horário? Acho que vou precisar ir para casa."
+    },
+    {
+      "type": "paragraph",
+      "html": "Agora, Eduarda concordava ainda mais com Paulo. Ela não tinha condição de atender ninguém."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Duda. — Kasper suspirou, usando o apelido que poucos usavam ali dentro, porque preferiam a outra versão. — Me responde uma coisa. Há quantos anos você trabalha aqui?"
+    },
+    {
+      "type": "paragraph",
+      "html": "Ela franziu as sobrancelhas, sem entender para onde aquela conversa estava indo agora."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Quase quatro anos. — Mesmo assim, a resposta foi automática."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Quantas vezes você me pediu para sair cedo ou faltar? — ela abriu a boca, sem encontrar as palavras."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Nenhuma. — ele rebateu na mesma hora. — Você tem mais de duzentos e vinte plantões extras registrados para cobrir outros médicos. É uma média de quase sessenta por ano. Isso nem é saudável, Eduarda. Já te falei isso milhares de vezes."
+    },
+    {
+      "type": "paragraph",
+      "html": "De fato, Kasper tinha falado. Entre residência e prática, ele acumulava mais de trinta anos de experiência na medicina e levava seu cargo de liderança como mais do que uma posição administrativa. Kasper era um professor, acostumado a instruir. Na sua visão, Eduarda era um dos mais promissores talentos recentes do São Peregrino, mas a custo de muita coisa."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ela não vivia, ele sabia, e já tinha tentado, mais de uma vez, convencê-la de que a vida não precisava se resumir àquele lugar para que a sua carreira caminhasse para frente."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Se você não está se sentindo bem, vai para casa. A última coisa que que eu preciso é uma médica circulando doente e infectando paciente. Se não melhorar até o próximo plantão, vem aqui que um clínico geral te atende para ter certeza de que não é nada contagioso."
+    },
+    {
+      "type": "paragraph",
+      "html": "Antes que Kasper tivesse a chance de dizer mais uma palavra sobre Lorena, Eduarda agarrou a sua chance e concordou, se despedindo e saindo da sala."
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>Residentes 2026 SL</strong>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[20:50, 6/16/2026] Viviane:</strong> Não acredito que estou fazendo isso, mas vou me render à fofoca."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[20:50, 6/16/2026] Joélly:</strong> Minha filha, fale logo."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[20:51, 6/16/2026] Raul:</strong> Atento."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[20:51, 6/16/2026] Lucélia:</strong> Olha só, quem diria. Até que você não é tão sem graça, Vivi."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[20:51, 6/16/2026] Viviane:</strong> Acho que vi a Eduarda e o Paulinho discutindo com uma acompanhante de paciente. Estava passando no corredor e eles estavam parados perto do banheiro conversando com uma mulher identificada com aquelas etiquetas temporárias que entregam na portaria. No banheiro em que a Lucélia disse que viu a Eduarda chorando."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[20:52, 6/16/2026] Joélly:</strong> Discutindo com acompanhante?!"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[20:52, 6/16/2026] Lucélia:</strong> Cacete, por essa nem eu esperava."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[20:54, 6/16/2026] Viviane:</strong> Não consegui entender sobre o que era, mas eles pareciam meio irritados. E a pior parte, depois eu fui na ala da quimio para atender uma paciente e vi a mulher que estava discutindo com o Paulinho e a Duda lá. Adivinha com quem ela estava?"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[20:55, 6/16/2026] Raul:</strong> A gente tem cara de oráculo, Viviane?"
+    },
+    {
+      "type": "paragraph",
+      "html": "Se sentindo culpada pelo que estava fazendo, se apoiando contra o balcão de enfermagem da ala de oncologia, Viviane digitou mesmo assim, sem conseguir acreditar no que tinha presenciado."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[20:54, 6/16/2026] Viviane:</strong> Lorena Ferette."
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda estava sentada diante da mesa da cozinha do seu apartamento pelo que pareciam horas. Ela se sentia exausta, mas nem mesmo o cansaço era suficiente para convencê-la a dormir."
+    },
+    {
+      "type": "paragraph",
+      "html": "Seus dedos tamborilavam contra a madeira, revezando entre o tampo e o copo com uma dose generosa de <em>whisky</em> que tentava usar para amenizar o estrago do dia. Lorena tinha voltado. Não só tinha voltado como estava tratando um câncer agressivo no seu hospital."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ela deu mais um gole, sem saber qual parte daquela história era mais difícil de digerir. A doença ou o retorno sem aviso que tinha a deixado completamente desnorteada. O <em>Macbook</em> fechado na sua frente, ao lado da bebida, a provocava desde que tinha chegado e Eduarda soltou um suspiro, aceitando que não conseguiria vencer a luta contra a sua curiosidade."
+    },
+    {
+      "type": "paragraph",
+      "html": "Devagar, ela ergueu a tampa do computador, repousando os dedos sobre as teclas e pensando por onde queria começar, se é que realmente queria fazer o que mais tentava evitar."
+    },
+    {
+      "type": "paragraph",
+      "html": "Sem querer pensar demais, ela abriu o navegador, digitando as palavras que a atormentavam na barra de pesquisa. <em>Lorena Ferette câncer. </em>E apertou <em>enter</em>."
+    },
+    {
+      "type": "paragraph",
+      "html": "A respiração travou no seu peito quando a página carregou e as notícias surgiram. Ela clicou na primeira da lista, deixando o ar escapar ao ler a manchete em tom neuro. <em>Lorena Ferette,</em> <em>dona e fundadora da Custode, faz doação milionária para ONG de pesquisa no tratamento</em> <em>de câncer.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "Era uma matéria antiga, de mais de um ano atrás. Eduarda suspirou ao perceber que não era aquilo que buscava antes de fechar a página e procurar as próximas."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ela desceu pela lista, encarando os vestígios da passagem do tempo e dos anos que tinha vivido com a ausência de Lorena na sua vida. O anúncio do primeiro desfile da <em>Custode </em>na semana de moda de Milão. A notícia de quando Lorena fora capa da <em>Forbes Under-30 </em>de 2023, aos vinte e nove anos. A primeira arrecadação bilionária da marca. As contribuições de Lorena para os avanços nas pesquisas de materiais veganos para a fabricação de roupas."
+    },
+    {
+      "type": "paragraph",
+      "html": "O cursor do <em>mouse </em>parou sobre uma notícia antiga, a mais antiga da sequência. Eduarda a reconhecia porque lembrava de lê-la quando ainda sentia esperança de sanar o buraco que tinha ficado na sua vida com textos escritos por estranhos, sobre uma pessoa que também tinha se tornado uma estranha. Seus dedos pressionaram o botão, abrindo as palavras que sabia de cabeça."
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>É difícil explicar a ascendência meteórica da Custode, marca de alta costura criada em</em> <em>Milão pela brasileira Lorena Ferette, filha dos empresários Zenilda e Santiago Ferette. Com</em> <em>pouco mais de um ano após a sua fundação, a empresa oficialmente entra na briga com</em> <em>marcas clássicas da primeira prateleira da moda internacional como Hermès, Louis Vuitton</em> <em>e Prada. Maggye Tavares, assessora de Lorena e melhor amiga de infância, tenta explicar o</em> <em>que nem mesmo os maiores especialistas da área conseguem. Por que a Custode se tornou</em> <em>um fenômeno com a sua alfaiataria clássica, modelos básicos e a marca registrada das</em> <em>listras</em>?"
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda fechou a matéria, dando mais um gole no <em>whisky </em>antes de escolher outra e outra e outra. Era uma espiral sem fim que ela sempre tentou evitar, bloqueando o nome de Lorena de todas as suas redes sociais. Seu maior medo, por anos, era justamente se enterrar em notícias sobre ela e agora estava ali, fazendo tudo que tinha prometido para si mesma que não faria."
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ferette é criticada por mais uma recusa à SPFW. Apesar da linha Brasilidades, em</em> <em>homenagem ao seu país, ser uma das mais procuradas da marca, Lorena é alvo de críticas</em> <em>duras de estilistas e críticos brasileiros por nunca ter trazido o desfile da marca para o</em> <em>Brasil. Pelo terceiro ano consecutivo, a Custode, por escolha da sua dona, está fora da</em> <em>semana de moda paulista.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda voltou para a página principal e suspirou. Nenhuma notícia sobre o câncer. Nenhuma notícia sobre Lorena estar no Brasil, se tratando no São Peregrino. Por mais que Kasper estivesse certo sobre a inevitabilidade do vazamento, Maggye parecia estar fazendo um bom trabalho ao blindar Lorena. Por algum motivo, a constatação fez o peito de Eduarda queimar de raiva."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ela odiava tudo que Maggye representava, talvez até mais do que Lorena. Maggye tinha feito uma escolha que dizia muito sobre a sua relação com Paulo e Eduarda. Mais do que isso, ela sabia o quanto o amigo tinha saído magoado de toda quela história."
+    },
+    {
+      "type": "paragraph",
+      "html": "Mas, antes que pudesse se afogar em rancores, a notificação de um e-mail com o nome de Kasper saltou na tela do computador. Eduarda travou, lendo o título: <em>prontuário Lorena</em> <em>Ferette.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "O mesmo ímpeto que a levara a ler notícias antigas durante horas a levou a clicar na aba da notificação antes que ela se fechasse. A mensagem surgiu diante dos seus olhos, em cópia para Daniel e Cristina, assinada com o símbolo do São Peregrino. Sem se dar o trabalho de ler o texto, Eduarda abriu o documento, se perguntando se estava pronta para lidar com aquilo."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ela não estava e, justamente por esse motivo, precisava ler antes de ser racional e desistir."
+    },
+    {
+      "type": "paragraph",
+      "html": "Seus olhos desceram pelas informações básicas de Lorena, sem precisar se atualizar sobre nenhuma delas. Seu nome completo, sua data de nascimento, tipo sanguíneo, idade, nome dos pais, cidade natal. Tudo que sabia de trás para frente, por mais que às vezes preferisse esquecer. Tudo com exceção do estado civil destacado no topo, que preferia não saber. Solteira."
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda suspirou, odiando o alívio que tomou conta do seu peito ao ler essa palavra. Apesar das notícias espalhadas por todos os cantos da internet, Lorena era famosa por manter a sua vida pessoal privada e Eduarda tinha perdido mais noites do que gostaria admitir, se perguntando se um dia acordaria apenas para descobrir que Lorena tinha seguido em frente e casado com alguém."
+    },
+    {
+      "type": "paragraph",
+      "html": "Sacudindo a cabeça, ela tentou continuar, encontrando a parte que realmente importava. As observações médicas descritas em um resumo simples com a assinatura de Cristina."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong><em>Diagnóstico:</em></strong><em> Leucemia</em> <em>Mieloide Aguda.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong><em>Data:</em></strong><em> 10/06/2026 - Casa di Cura La Madonnina, Milão.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong><em>Último Mielograma:</em></strong><em> 01/06/2026.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong><em>Blastos:</em></strong><em> 30%</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong><em>Médica responsável:</em></strong><em> Dra. Cristina Agatsuma.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong><em>Observações e linha de tratamento:</em></strong>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Paciente diagnosticada com Leucemia Mieloide Aguda (LMA) em Milão, Itália. Apesar da</em> <em>recomendação médica de internação imediata para início do tratamento intensivo, optou por</em> <em>adiar a hospitalização em razão de seu retorno definitivo ao Brasil e da necessidade de</em> <em>concluir procedimentos relacionados à mudança internacional.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Foi amplamente orientada quanto aos riscos associados ao adiamento do tratamento,</em> <em>incluindo progressão da doença, infecções graves, sangramentos e outras complicações</em> <em>potencialmente fatais. Após esclarecimento e discussão da conduta proposta, assinou termo</em> <em>de ciência e responsabilidade, registrando sua decisão de postergar a internação, contra</em> <em>orientação médica.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Recebeu orientações para procurar assistência médica imediata em caso de febre,</em> <em>sangramentos, surgimento de equimoses extensas, dispneia, fadiga intensa ou qualquer sinal</em> <em>de agravamento clínico. Como medida temporária de controle da doença, será iniciado</em> <em>tratamento antileucêmico em regime ambulatorial, com sessões semanais programadas até</em> <em>sua admissão hospitalar. Internação prevista para o final de junho para realização de novo</em> <em>estadiamento hematológico e início do protocolo de indução quimioterápica 7+3.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Novo mielograma será realizado no momento da admissão para avaliação da evolução da</em> <em>doença e definição das etapas subsequentes do tratamento.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "Os olhos de Eduarda desciam pela tela, sentindo o estômago despencar a cada linha. As lágrimas engasgadas começaram a escorrer em algum ponto entre a primeira e a última frase."
+    },
+    {
+      "type": "paragraph",
+      "html": "Seus dedos cravaram no vidro do copo, tentando se agarrar a alguma coisa enquanto era atingida pela realidade que estava tentando evitar desde que encontrara Lorena naquela sala."
+    },
+    {
+      "type": "paragraph",
+      "html": "Não era só um reencontro. Não era só a invasão sem aviso à sua vida que tinha construído e prezado por tanto tempo. Não era só lidar com as dores de um passado ainda recente demais no seu peito. Lorena não tinha voltado porque queria se explicar, porque queria pedir desculpas, porque se arrependia ou ainda a amava. Lorena tinha voltado porque sua vida estava na linha."
+    }
+  ],
+  "chapterNotes": [
+    "Olá. Segue mais um.\n Como não tenho um Twitter específico para o fandom de Loquinha, se vocês, meia dúzia de pessoas que chegaram até aqui por acaso, quiserem dar uma panfletada na fanfic, fiquem à vontade."
+  ],
+  "chapterSummary": [],
+  "endNotes": []
+}

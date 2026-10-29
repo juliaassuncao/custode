@@ -1,0 +1,963 @@
+{
+  "number": 7,
+  "title": "Capítulo 7",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "html": "<strong>Residentes 2026 SP</strong>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:06, 6/27/2026] Joélly: </strong>Trago notícias do mundinho Loarda."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:06, 6/27/2026] Lucélia: </strong>Que inferno é Loarda, Joélly?"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:07, 6/27/2026] Joélly: </strong>Lorena + Eduarda. Nossas duas misteriosas."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:07, 6/27/2026] Lucélia: </strong>Ai. Só me faltava essa agora."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:07, 6/27/2026] Lucélia: </strong>Quero a fofoca mesmo assim. Pode ir passando."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:09, 6/27/2026] Viviane: </strong>Atenta."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:09, 6/27/2026] Júnior: </strong>Achei que vocês tinham esquecido desse assunto."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:10, 6/27/2026] Viviane: </strong>Jamais. Só estávamos sem material."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:13, 6/27/2026] Joélly: </strong>Hoje eu estava fazendo as rondas matinais com a Eduarda. E eu estava lá né, toda ansiosa esperando a hora de passar no quarto da Lorena. Eis que a nossa Dama de Gelo decidiu deixar ela por último e, antes de passar no quarto do Felipe, o menininho terminal, disse que não precisava mais que eu acompanhasse porque queria falar com os pais dele em particular e porque o caso da Lorena era restrito."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:15, 6/27/2026] Júnior: </strong>Mas o caso é realmente restrito. A equipe envolvida está super reduzida para proteger a privacidade dela. Sem falar que LMA com 7 + 3 derruba o sistema imunológico do paciente. Quanto menos gente tiver contato, mais seguro é."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:15, 6/27/2026] Viviane: </strong>Eu estava mesmo me perguntando se eles iam permitir residentes no acompanhamento do caso da Lorena, mas acho que isso já responde muita coisa."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:15, 6/27/2026] Joélly: </strong>Por que você é tão estraga prazeres, Júnior?"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:16, 6/27/2026] Raul: </strong>Meu Deus. Quem inventou esse papo de Loarda?"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:16, 6/27/2026] Lucélia: </strong>Sua namorada."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:17, 6/27/2026] Joélly: </strong>Calem a boca que eu ainda não acabei a fofoca."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:17, 6/27/2026] Joélly: </strong>Enfim, fui dispensada e fiquei lá na oncologia esperando a Eduarda voltar para saber se ela tinha mais algum serviço para mim. Cara, ela ficou quase uma hora no quarto da Lorena, isso porque era o último antes do plantão dela acabar. Eu contei no relógio."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:18, 6/27/2026] Viviane: </strong>UMA HORA?!"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:18, 6/27/2026] Lucélia: </strong>Ah gente. Impossível isso ser normal. Eu estou falando que tem coisa."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:19, 6/27/2026] Joélly: </strong>Sim. Uma hora e juro que não estou exagerando."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:19, 6/27/2026] Raul: </strong>Com todo respeito à Eduarda, mas nem se fosse uma incompetente ela conseguiria demorar uma hora para uma visita cotidiana a um paciente. E incompetente a gente sabe que ela não é. A querida pode ser muitas coisas, mas o currículo dela..."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:20, 6/27/2026] Júnior: </strong>Pode ter acontecido alguma coisa. De repente ela estava passando mal."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:20, 6/27/2026] Júnior: </strong>Se bem que..."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:25, 6/27/2026] Viviane: </strong>Se bem que o que, Júnior? Não adianta parar de digitar. A gente viu."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:27, 6/27/2026] Júnior: </strong>Sei lá. Não quero ficar contribuindo para esse rolê, mas eu estava na oncologia no dia em que a Lorena deu entrada no hospital e assim, a mãe da Lorena só faltou beijar os pés da Duda no meio do andar. Abraçou, chamou de Dudinha e tudo. Foi uma parada muito íntima. Acho que elas já se conheciam de algum lugar."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:27, 6/27/2026] Viviane: </strong>E você não contou isso antes por quê????"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:27, 6/27/2026] Júnior: </strong>Porque não sou fofoqueiro."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:27, 6/27/2026] Viviane:</strong> Disse ele fazendo fofoca."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:28, 6/27/2026] Lucélia: </strong>Espera. Então, a satanás conhece a mãe da Lorena?"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:29, 6/27/2026] Raul: </strong>Putz, agora me pegou. Não tem como defender. A mãe da Lorena deve ter quantos anos? A Lorena tem trinta e três, então uns cinquenta e muitos, sessenta? De onde ela conheceria a Eduarda? Quais são as chances ser através da Lorena?"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:30, 6/27/2026] Júnior: </strong>Elas podem se conhecer de outro caso hospitalar. Médico acaba conhecendo muita gente. Vão falar que não conhecem ninguém 50+?"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:30, 6/27/2026] Lucélia: </strong>Quando elas se encontraram, parecia uma relação médico-paciente?"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:30, 6/27/2026] Júnior: </strong>Não vou responder essa pergunta."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:31, 6/27/2026] Lucélia: </strong>Para você querer defender a sua fav, com certeza não."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:32, 6/27/2026] Raul: </strong>Vou ser obrigado a concordar com a Lucélia. Aí tem coisa."
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[9:32, 6/27/2026] Joélly: </strong>Pois tem mesmo."
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "— O Paulinho ficou em casa para assistir o jogo? — Eduarda estava fazendo algo que não fazia há semanas. Sair do apartamento sem ser para um plantão ou para correr no Ibirapuera."
+    },
+    {
+      "type": "paragraph",
+      "html": "Gerluce estava sentada na sua frente, no outro lado da mesinha de madeira típica do restaurante favorito das duas, a poucos metros do parque. Era uma portinha escondida entre duas lojas maiores, especializada em comida chinesa, com um lance de escadas que levava para um sobrado antigo, raro em São Paulo. Uma descoberta que tinham feito juntas em uma noite qualquer, andando e procurando algo diferente para comer. Desde então, tinha se tornado o lugar delas."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Na verdade, ele ficou em casa para te evitar, né. Mas não vamos falar sobre isso. É bom que ele tem mais espaço e privacidade para ficar xingando onze homens correndo atrás de uma bola, como se algum deles fosse escutar através da televisão — Gerluce rebateu em um tom irônico, pegando mais um rolinho primavera da porção que o garçom tinha colocado entre as duas. — De qualquer forma, achei que você estava precisando de uma noite de garotas. Não é como se vocês fossem deixar a imaturidade de lado e agir como dois adultos."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Não é uma questão de imaturidade — Eduarda tentou se defender, brincando com o mesmo rolinho na poça de molho acridoce no potinho na sua frente. Ela estava sem fome e só conseguia pensar em como estava sendo hipócrita com Lorena dizendo que ela precisava comer quando não conseguia fazer o mesmo há dias. Na verdade, ela não conseguia parar de pensar em Lorena."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu só não sei se vai ser bom ter uma conversa com ele agora. Eu não quero brigar mais, Gerluce. Acho melhor esperar até a poeira baixar antes de tentar resolver. — Desse argumento Gerluce não podia discordar, então, não discutiu. Ela morreu a ponta do petisco, respirando fundo e contando os minutos para adivinhar quanto tempo levaria para chegarem no assunto proibido."
+    },
+    {
+      "type": "paragraph",
+      "html": "— E desde quando você sabe as datas de jogo do Corinthians? Virou boleira agora? — o comentário, pelo menos, conseguiu fazer Eduarda rir. Para Gerluce, era suficiente."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Que nojo. Lésbica boleira é mulher da pior espécie. Foi o Felipe que me contou. Passei no quarto dele hoje de manhã antes de terminar o plantão. — Ela desviou olhar para baixo, se concentrando no movimento do rolinho contra o molho como se fosse uma cirurgia de alta precisão. Gerluce observou, se perguntando quanto tempo mais Eduarda aguentaria aquilo."
+    },
+    {
+      "type": "paragraph",
+      "html": "— E como ele está? — ela perguntou porque queria respeitar o tempo da amiga para falar sobre o que obviamente precisava falar."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Ah, um clima bosta né. Os pais não contaram para ele que não tem mais jeito, o que eu acho uma escolha sensata. Imagina explicar para um menino de seis anos que ele está morrendo? O Felipe não tem maturidade para entender isso. Mas é difícil para cacete entrar lá, ver ele conversando sobre pipoca e futebol e ter que fingir que nada está acontecendo. Ele é o único naquele quarto que ainda acha que tem a vida inteira pela frente e age como se isso fosse verdade, enquanto todos nós sabemos que, para ele, a vida vai ser muito mais curta do que deveria. O Paulinho tem razão sobre a oncologia ser uma merda. Ele tem razão sobre muitas coisas."
+    },
+    {
+      "type": "paragraph",
+      "html": "Gerluce parou, engolindo o resto da comida enquanto Eduarda seguia brincando com a sua."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Sobre o que mais o Paulinho tem razão? — ela jogou a isca e Eduarda mordeu."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Sobre eu ser patética. — A resposta veio curta e direta enquanto o rolinho primavera escorregava entre os seus dedos e caía intocado no prato."
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda limpou as mãos, suspirando porque sabia que era por esse motivo que tinha aceitado o convite para começo de conversa. Era sábado à noite. Ela era jovem, solteira e tinha todos os motivos do mundo para estar em algum lugar, vivendo o melhor de uma cidade capaz de oferecer oportunidades."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ainda assim, ela estava ali. Sentindo o peso do mundo nas costas, enxergando tudo sob o véu daquela sensação esmagadora de que a sua vida estava perdendo sentido de novo."
+    },
+    {
+      "type": "paragraph",
+      "html": "— E por que você é patética? — Gerluce insistiu, apesar de saber que a resposta seria <em>Lorena</em>."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Ela estava na minha lista de pacientes hoje porque a Cristina não estava de plantão — Eduarda começou a explicar, roubando um gole do copo de refil de chá gelado para ganhar tempo."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Aí eu fui lá, né. Deixei ela por último porque achei que ia ser mais fácil e pensei, é só fazer o que você faz com todos os pacientes. Entra, faz o seu trabalho e sai. Ela estava dormindo sozinha porque Maggye tinha ido tomar um café. Eu acordei, comecei a tirar os sinais vitais e ela veio de papinho para cima de mim. Nada demais, nada desrespeitoso, só conversa jogada fora mesmo porque também é constrangedor ficar em silêncio. Mas só a ideia de ela pensar que pode dirigir a palavra a mim deveria soar desrespeitosa. E fiz o que? Cortei? Mandei ela ir se foder?"
+    },
+    {
+      "type": "paragraph",
+      "html": "Gerluce abriu a boca, mas parou quando percebeu que Eduarda não tinha terminado."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Claro que não. Fiquei lá, de respondendo o papinho. Respondendo as piadinhas, rindo. Sei lá, Gerluce. Quando eu entrei naquele quarto e vi a Lorena sozinha daquele jeito me deu um negócio, sabe? — Eduarda apontou para o próprio peito. — Aí ela começou a vomitar e eu fui ajudar. Ela ficou agarrando no meu braço e dava para ver que não era de propósito. Era agonia de verdade e eu fiquei um pouquinho desesperada porque queria arrancar aquilo do corpo dela e sei que não posso. Depois, acabei dormindo no sofá do quarto porque não queria deixar ela sozinha. É isso. Todos os motivos pelos quais a sua melhor a amiga é uma patética sem vergonha na cara."
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda voltou a olhar para baixo, retomando a empreitada com o rolinho primavera porque não tinha coragem de olhar para Gerluce, que respirou fundo, tentando penar no que dizer."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Tudo bem... — ela começou devagar, erguendo as mãos para se esticar e tocar o pulso de Eduarda. — Primeiro, você vai comer alguma coisa antes de sair desse restaurante. Daqui a pouco quem vai ficar doente é você, então para de brincar com a comida e engole. — Aquela dança infinita entre Eduarda e a entrada do jantar estava começando a enlouquecê-la."
+    },
+    {
+      "type": "paragraph",
+      "html": "Pelo menos, o discurso deu certo. Eduarda deu a primeira mordida e começou a comer."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Mas Duda. Sério. O que você achou que ia acontecer? — Gerluce retomou o ponto quando percebeu que ela estava investida o suficiente na comida. — Que você ia ver a Lorena desse jeito e não ia sentir nada? Que você ia conseguir ver ela em uma cama de hospital toda fragilizada e ser uma babaca? Tudo bem, ela merece. Mas você ia fazer o que? Deixar ela se vomitar toda? Desde quando você destratou um paciente na vida? Você só estava fazendo o seu trabalho."
+    },
+    {
+      "type": "paragraph",
+      "html": "— O trabalho de ser uma médica patética — Eduarda rebateu e Gerluce lutou para conter o riso que ameaçou a acometer apesar de tudo. — Eu não sei, Gerluce. — Ela jogou as mãos para o alto. — Eu sabia que ia sentir, mas não achei que ia ser uma imbecil que cederia assim tão fácil."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Mas aí você se colocou em uma situação meio impossível, né, minha linda? — ela devolveu na mesma hora. — Porque assim, se você não queria sentir tanto e se você não queria correr o risco de ceder, para que foi aceitar ficar na equipe do tratamento dela? Não era mais fácil realmente se afastar? Longe dos olhos, longe do coração, sabe?"
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda colocou mais um pedaço de rolinho primavera na boca porque era mais fácil mastigar do que tentar se defender."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você precisa começar admitindo para si mesma que <em>quer </em>ficar perto da Lorena agora, seja pelo motivo que for. Se ainda for sentimento, se for um senso de dever distorcido na sua cabeça com a sua profissão, se for medo de não fazer e depois ficar se sentindo culpada caso aconteça alguma coisa. Eu não sei. Mas você escolheu isso por alguma razão e agora não tem mais o que fazer. Ou você sustenta as suas mentiras para o Kasper, ou chega nele e fala que se enganou e que você não consegue tratar a Lorena. Mas você vai ter coragem de fazer isso e sentir que está abandonando ela do mesmo jeito que ela te abandonou? — Eduarda abriu a boca, desnorteada."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Nossa, Gerluce. Vai se foder. Muda para psicologia. — O comentário foi suficiente para arrancar uma risada sincera das duas. Por um momento, Eduarda conseguiu se sentir uma pessoa normal, não alguém se afundando em pilhas de problemas criados pelas suas próprias mãos."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você só precisa tomar cuidado — Gerluce voltou a falar depois de alguns segundos, agora, em um tom sério."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Para não me machucar, eu sei. Eu sei — Eduarda confirmou, com as palavras de Paulinho ainda ecoando na sua cabeça, parando ao perceber que Gerluce estava negando."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Não, Duda. Você vai se machucar. Caso você ainda não tenha percebido, isso vai ser inevitável, independentemente do que você escolha. Desculpa ser sincera assim. — Mas  as desculpas não eram necessárias, então Eduarda sacudiu a cabeça, tentando deixar isso claro."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você precisa ter cuidado com as suas interações com a Lorena. Dormir no quarto dela?! Você ficou louca?! Se alguém reparar e abrir a boca para o Kasper, você está fodida!"
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu sei. Eu sei — ela repetiu, agora entendendo o que Gerluce queria dizer."
+    },
+    {
+      "type": "paragraph",
+      "html": "O silêncio voltou a cair. Eduarda aproveitou o tempo para terminar de comer e beber mais um pouco do chá. Ela brincou com o gelo no copo, tentando não pensar que, a poucos quilômetros, Lorena estava passando o fim de semana sob os efeitos colaterais da quimioterapia que deslizava pelas suas veias. Se xingando por estar pensando nela de novo, Eduarda tomou uma decisão."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Sabe o que eu preciso? De um contatinho para esquecer essa mulher — ela disse, abrindo um aplicativo aleatório de relacionamento entre os instalados no seu telefone. Eduarda os usava de tempos em tempos, quando queria uma companhia ou tentar se iludir com a ideia de encontrar o amor de novo. Além de sexo casual e algumas poucas conversas boas, nunca tinha dado certo."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Não vai fazer outra pobre coitada se apaixonar por você só para dar o pé na bunda depois porque você não superou a sua ex. Olha a responsabilidade afetiva. — Ela ergueu os olhos para Gerluce devagar, se perguntando se a amiga realmente precisava ser <em>tão </em>sincera assim."
+    },
+    {
+      "type": "paragraph",
+      "html": "— E a moça bonita tatuada do <em>Golden retriver </em>do Ibirapuera? Por que você não investe nela? Foi a única pessoa que chamou minimamente a sua atenção de um jeito um pouco mais sério."
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda soltou uma risada ao pensar em Joana, uma moradora dos arredores do parque que sempre corria com Frederico mais ou menos nos mesmos horários que os seus. Apesar de não saber por que alguém escolheria Frederico como nome para um <em>Golden retriver</em>, elas tinham parado para conversar mais de uma vez e aproveitado a companhia da outra para voltar juntas no caminho de casa quando as ruas estavam desertas demais. Joana era bonita, mas não era Lorena."
+    },
+    {
+      "type": "paragraph",
+      "html": "— A Joana é casada, Gerluce! Tem uma aliança gigante no dedo dela! Além disso ela é hétero e vive falando do marido — ela respondeu com uma risada. Falar sobre outras mulheres pelo menos a fazia parecer um pouco menos patética."
+    },
+    {
+      "type": "paragraph",
+      "html": "— E se a gente só ignorar isso? Tem gente que não se importa! Vai que o relacionamento é aberto! Vai que ela é bi e você não sabe! Ou vai que você é a cura hetero dela! Tem gente que se descobre tarde! — Eduarda ainda estava rindo, sem acreditar os rumos inacreditáveis daquela conversa."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você está realmente me aconselhando a ficar com uma casada? Sério que a gente está nesse nível de desespero? Você acha que a solução para os meus problemas é virar amante e arrumar mais problemas? — ela perguntou e Gerluce realmente parou por um segundo para pensar."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Ai, amiga. Qualquer pessoa que não seja uma tal estilista-modelo famosinha, multimilionária, dos olhos verdes e do rosto mais escultural que eu já vi na vida seria um puta avanço. — Gerluce travou de novo e Eduarda ergueu as sobrancelhas."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Tudo bem. A Lorena é mesmo uma régua muito alta. Eu preciso admitir — ela hesitou de novo ao perceber que não estava ajudando e que Paulinho a mataria se soubesse que estava dizendo essas palavras para Eduarda. Aquilo não devia parecer um incentivo, mas algumas batalhas eram mesmo impossíveis de serem vencidas e ela tinha a sensação de que essa era uma delas."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Sabe o que você precisa mesmo? — Gerluce perguntou, voltando a encará-la com seriedade."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Perceber que a Lorena está aqui e isso muda tudo. Ela passou anos trocando de número, te bloqueando de todas as redes socais, impedindo a Zenilda, o Leonardo e o Santiago de ter contato com você. Ela se escondeu em outro continente, Eduarda. Te impediu de falar com ela, de perguntar, de cobrar.  Mas o que você não percebeu ainda é que a Lorena não tem mais para onde fugir. Ela escolheu não fugir mais, porque, se quisesse continuar desaparecida da sua vida, ela entrava no primeiro avião de volta para a Itália ou arrumava outro hospital para se tratar. Sabe o que isso significa? — Eduarda não respondeu porque estava com medo de começar a chorar."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Que talvez esteja na hora de <em>você </em>colocar a Lorena contra a parede e exigir uma explicação, nem que seja para seguir em frente. Entra naquele quarto, tranca a porta, foda-se quem pode ou não pode reparar. Fala para ela que você quer saber a verdade e que não vai sair até ela falar. Para de deixar ela controlar tudo o tempo todo. — Eduarda abriu a boca porque era uma possibilidade tão óbvia que a assustava não ter passado pela sua cabeça ainda. Apesar disso, só a ideia de encurralar Lorena lançava arrepios pelo seu corpo. Arrepios de medo, com sabor de ansiedade."
+    },
+    {
+      "type": "paragraph",
+      "html": "— E se a explicação for que ela acordou um dia e descobriu que não queria mais? E se a verdade for que nunca existiu uma explicação e por isso ela foi embora sem falar nada? — no fim do dia, esse era o seu maior medo. Descobrir que Lorena tinha partido porque não a amava."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Me responde uma coisa — Gerluce pediu. — Você acredita mesmo nisso?"
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda não sabia dizer. Em alguns momentos sim. Em outros não."
+    },
+    {
+      "type": "paragraph",
+      "html": "Mas ela também não sabia dizer se estava pronta para descobrir. Às vezes, a ignorância era mesmo uma bênção e ela convivia com a sua há anos. Tinha se tornado a sua zona de conforto. Buscar a verdade seria pisar fora dela e ela tinha medo do que encontraria no outro lado."
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong><em>Março, 2011</em></strong>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Os relógios marcavam cinco em ponto quando Eduarda saiu da aula de Processo Saúde-</em><em>Doença-Cuidado I, contando os minutos para enfrentar o trânsito e ir para casa. Com a</em> <em>mochila pendurada em um dos ombros e Paulinho caminhando ao seu lado, ela andava</em> <em>distraída pelos corredores do Instituto de Ciências Biomédicas na direção da entrada do</em> <em>prédio.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Paulo estava com uma expressão esquisita desde o começo da aula, um meio sorriso no rosto</em> <em>enquanto fazia algumas anotações, como se estivesse se divertindo sozinho com alguma</em> <em>coisa. Ele espiava Eduarda pelo canto dos olhos, mexia no celular mais vezes do que</em> <em>costumava fazer enquanto o professor falava no tablado, e voltava a escrever.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Sacudindo a cabeça e decidindo deixar isso para lá, Eduarda não perguntou, se</em> <em>questionando se ele tinha enfim conseguido alguma abertura com Larissa depois da festa na</em> <em>casa dos Ferette.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Só quando chegaram do lado de fora, passando pelas mesmas mesas onde se sentavam todos</em> <em>os dias para tomar café da manhã, ela entendeu o que estava acontecendo e o que estava</em> <em>deixando o seu melhor amigo tão bem humorado.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Bem ali, perto da entrada do estacionamento, estava um rosto familiar. Tão deslocado com a</em> <em>mistura de cores nas suas roupas, em um mundo onde todos começavam a usar branco cedo</em> <em>demais para reforçar uma identidade desnecessária.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda parou, encarando a garota que tinha a recebido nas primeiras horas da manhã em</em> <em>uma cama estranha há uma semana. Ela evitava pensar, falar ou lembrar do assunto</em> <em>MEDIEC porque tinha vontade de se matar de vergonha toda vez que Paulo contava o que</em> <em>acontecera durante o seu tempo desacordada. Agora, diante dos seus olhos, estava a</em> <em>personificação de todas as suas memórias apagadas pelo álcool. Lorena Ferette, com a sua</em> <em>jaqueta caramelo preferida na mão.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Seus tênis travaram contra o chão e Paulinho soltou uma risada baixa ao perceber a</em> <em>expressão de pânico da sua amiga. Uma expressão que só surgia quando ela encontrava uma</em> <em>menina bonita demais que conseguia a deixar naquele estado quase catatônico de curto</em> <em>circuito cerebral.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ele estava com medo de ter tomado uma decisão precipitada, de ter invadido o espaço de</em> <em>Eduarda, o que não era um problema tão grande entre os dois, mas que, mesmo assim,</em> <em>tentava respeitar. Meses depois, fazer aquela ponte entre as duas se tornaria uma das suas</em> <em>maiores felicidades. Anos depois, o seu maior arrependimento.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Boa sorte, princesa — Paulinho sussurrou no seu ouvido. — Coloca o seu charme para</em> <em>jogo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>A boca de Eduarda pendeu no ar, sem saber o que responder pela surpresa misturada com o</em> <em>sentimento de ter sido traída pelo seu próprio amigo. Ela não tinha se preparado para</em> <em>encontrar Lorena de novo. Ela nem teve coragem de pensar em uma maneira contatá-la para</em> <em>pedir de volta o casaco que tinha esquecido no banheiro da sua suíte. Porque Lorena tinha a</em> <em>ajudado a tomar banho. Depois de ela de vomitar no seu pé. Sem nem ao menos conhecê-la.</em> <em>E depois elas tinham dormido juntas porque Eduarda se apropriou da sua cama, apesar de</em> <em>não lembrar de nada disso.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Meu Deus, ela queria se matar ali mesmo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Paulinho cumprimentou Lorena com um aceno rápido e a garota sorriu, agradecendo por</em> <em>alguma coisa. Eduarda piscou atordoada, se perguntando como um sorriso podia ser assim</em> <em>tão bonito e combinar tão bem com as covinhas que surgiram tímidas nas suas bochechas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Em uma questão de segundos, Paulo estava correndo para atravessar a rua e se juntar à</em> <em>aglomeração de alunos que esperava para entrar no ônibus que virava a esquina. De</em> <em>repente, Eduarda estava largada à própria sorte.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Oi, Duda. Posso te chamar de Duda, né? — Eduarda tinha uma vaga lembrança de que</em> <em>elas tinham passado por essa mesma conversa em outro momento, mas sorriu mesmo assim,</em> <em>sem entender por que o seu coração estava tão cambaleante dentro do peito.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena era só mais uma garota bonita. Não era tão assustador assim. Ela conversava com</em> <em>garotas bonitas o tempo todo. Falava com garotas bonitas dia sim, dia também. Mas algo na</em> <em>forma com que a sua voz, um pouco rouca, falava aquele apelido fazia com que ele soasse</em> <em>completamente diferente, apesar de quase todo mundo a chamar do mesmo jeito.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Oi, Lorena. Claro que pode. Acho que, enfim... — ela se enrolou com as próprias</em> <em>palavras, ainda sem entender em que momento tinha se tornado uma completa idiota. — A</em> <em>gente meio que passou por uns momentos meio íntimos demais para evitar apelidos. Não que</em> <em>eu me lembre.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena soltou uma risada, cruzando os braços e jogando a cabeça para trás.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Achei que nunca mais ia ver essa daí. — Ela apontou para a jaqueta enrolada nos braços</em> <em>dela que, por um momento, parecia ter esquecido que a carregava. Lorena olhou para baixo,</em> <em>encarando o próprio corpo, se recompondo ao perceber sobre o que Eduarda estava falando.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você achou que eu ia roubar? Eu vim lá da USP-Leste só para te devolver, está doida? —</em> <em>Eduarda abriu a boca, sem saber o que dizer. O campus da USP-Leste era quase em</em> <em>Guarulhos e ela não fazia ideia de por que Lorena tinha feito tanta questão. — Acho que</em> <em>mereço pelo menos um convite para um lanche — ela insistiu. — Em recompensa pelos meus</em> <em>esforços.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda sorriu, ajeitando a mochila nas costas e assentindo. Não era todo dia que era pega</em> <em>desprevenida dessa forma. Supreendentemente, ela estava gostando.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Tudo bem, eu posso te convidar para um lanche, mas — ela deu um passo à frente, se</em> <em>aproximando um pouco de Lorena com a sensação de estar pisando em terreno perigoso.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Se ela e Paulinho sabiam jogar aquele jogo, Eduarda também sabia e só tinha duas opções.</em> <em>Ou daria um tiro no escuro erraria complemente e fecharia o pacote do seu papel de idiota,</em> <em>ou acertaria em cheio. Concluindo que o risco valeria à pena, ela reencontrou a sua melhor</em> <em>versão.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você vai conseguir me convencer de que não sabia que eu estava esquecendo a jaqueta na</em> <em>sua casa e que não me deixou ir embora sem ela só para ter uma desculpa para me ver de</em> <em>novo? — para a sua surpresa, Lorena nem tentou se esquivar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Fingir para que se realmente foi de propósito? — ela rebateu, conseguindo, de novo,</em> <em>deixar Eduarda sem palavras. — Me diz se qualquer uma daquelas meninas que você pegou</em> <em>lá na festa do meu irmão fariam a mesma coisa por você. Te abrigariam, te dariam uma</em> <em>cama para dormir... — ela provocou e o queixo de Eduarda despencou.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Tudo bem, você venceu. Acho que depois dessa, o lanche fica por minha conta.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Menos de cinco minutos depois, elas estavam sentadas nas mesas de plástico na mesma</em> <em>lanchonete em que Eduarda e Paulinho tinham discutido a ida à festa pela primeira vez.</em> <em>Lorena passava os olhos pelo cardápio, que consistia em um quadro branco improvisado na</em> <em>parede dos fundos da loja, com as opções e preços escritos à mão com caneta azul.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— O que foi? — Eduarda perguntou depois de notar que Lorena estava demorando demais.</em> <em>Seus olhos passaram pela lista mais uma vez, até voltar para a garota ruiva na sua frente.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu sou vegana. Não tem muita opção. Mas não tem problema — ela se apressou a</em> <em>acrescentar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Aí você quer me foder, né. Como eu vou arrumar um lugar vegano para você no meio da</em> <em>USP? — mas aproveitou para anotar aquela informação, com a impressão de que seria útil</em> <em>no futuro.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu estou acostumada. Um copão de açaí com granola e eu sou a mulher mais feliz do</em> <em>mundo. Não tem pagamento melhor. — Apesar de não estar satisfeita, Eduarda não tinha</em> <em>escolha.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Tudo bem. Você me espera? — ela perguntou, mesmo sabendo que Lorena não fugiria.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena assentiu e ela se afastou meio correndo e meio olhando para trás, apressada para</em> <em>fazer o pedido no balcão e poder voltar o mais rápido possível. Minutos depois, voltou com</em> <em>dois copos de meio litro de açaí, uma porção de pão de queijo e duas garrafas de água com</em> <em>gás.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Obrigada — Lorena agradeceu, pegando o açaí enquanto Eduarda se sentava, encarando</em> <em>as garrafas. — Água com gás? Achei que você odiava — ela comentou e Eduarda conteve o</em> <em>sorriso tímido com a sua percepção. Era uma das poucas memórias claras que tinha daquele</em> <em>dia.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Acordar na cama de uma estranha, surtar até ver Paulinho no canto do quarto e entender o</em> <em>que estava acontecendo. Quando pediu por água para tentar limpar a garganta que</em> <em>arranhava como lixa, Lorena disse que só tinha água com gás, porque era a única que bebia.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Vou fazer esse sacrifício de te acompanhar para retribuir a minha jaqueta. Não se</em> <em>preocupa, eu vou sobreviver. — Eduarda piscou, Lorena sorriu e o silêncio chegou.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Duda brincou com o doce com a ponta da colher descartável, sem saber o que falar. A luz do</em> <em>dia, a ausência do álcool, da música alta. Tudo tornava a situação dez vezes mais</em> <em>complicada e vulnerável do que suas investidas nas garotas na festa de Leonardo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Então, o que você estava fazendo na USP-Leste? É longe para cacete. — Eduarda fez o</em> <em>primeiro comentário que passou pela sua cabeça, tentando puxar assunto.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Ah, eu estudo lá. Eu faço moda — Lorena explicou, comendo a primeira colherada do</em> <em>açaí. — Entrei nesse período, na verdade. Caloura igual a você e o Paulinho.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela franziu as sobrancelhas ao perceber a intimidade no tom da sua voz ao falar o nome de</em> <em>Paulo. Lembrando do sorriso satisfeito na cara do amigo quando a viu, tudo se encaixou.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Foi esse desgraçado que entregou o endereço e o horário da minha aula para você me</em> <em>perseguir? — Lorena soltou um riso alto, quase se engasgando com o açaí.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Foi. Eu peguei o número dele para saber se você estava bem depois que vocês foram</em> <em>embora da minha casa. Sinceramente, não tive coragem de pedir o seu — ela confessou com</em> <em>um sorriso tímido que não combinava com a garota que tinha tomado toda a iniciativa para</em> <em>estar ali. Por um momento, Eduarda sentiu vontade de se jogar por cima da mesa e apertar</em> <em>as suas bochechas. — Eu perguntei como podia te encontrar de novo e esse era o único</em> <em>horário que batia com as minhas matérias. Mas prometo que não vim te perseguir. Minhas</em> <em>intenções são as melhores.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda sorriu, sentindo as bochechas começando a doer pela sensação esquisita de estar</em> <em>rindo demais. Lorena levou mais uma colher do açaí até a boca e sorriu também, mesmo sem</em> <em>motivo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Anos depois, Eduarda voltaria àquele momento várias vezes.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>O momento que, antes mesmo de saber, seria sempre o dia em que começou a se apaixonar.</em>"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "— Pode mandar a primeira página inteira para a produção teste. Ainda quero dar uma olhada nas outras. Sei lá, acho que não estou satisfeita com alguns detalhes. — Maggye concordou sem se surpreender porque estava acostumada com o jeito obcecado e perfeccionista de Lorena. Ela sabia que, enquanto a amiga não estivesse cem por cento satisfeita com os desenhos no papel, não sossegaria e não faria as costureiras da <em>Custode </em>perderem tempo."
+    },
+    {
+      "type": "paragraph",
+      "html": "Era uma das coisas que Maggye mais admirava na marca. A forma que tudo tinha sido construído do zero. Fundada com estacadas bem cravadas no solo do coração partido de Lorena."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ela tinha transformado a sua dor em uma empresa multimilionária que não abria mão dos seus valores pessoais. Materiais veganos, com um centro de pesquisa para desenvolvimento de fibras e tecidos exclusivos e patenteados na Universidade de Cornell, bancado do seu próprio bolso para incentivar a tradição em ciência têxtil da instituição e da própria <em>Custode.</em> A exploração sustentável de recursos. Direitos trabalhistas alinhados ponto a ponto com as leis de cada país em que operava. Mais de oitenta por cento da produção ainda feita manualmente por costureiras humanas, não máquinas. Segundo Lorena, aumentava o valor das roupas pelo senso de exclusividade e, principalmente, gerava mais empregos."
+    },
+    {
+      "type": "paragraph",
+      "html": "Maggye não sabia dizer como ela tinha conseguido construir aquele império enquanto estava tão devastada por dentro. Ela tinha presenciado tudo. Os meses de mania em que Lorena trabalhava dezoito, vinte horas por dia, virando noites e madrugadas enquanto criava a primeira linha da marca e tentava em vão esquecer. Os mesmos meses em que Lorena tentava esconder que chorava todos os dias quando estava sozinha. Ela só tinha uma regra intransponível em qualquer operação. Uma regra que odiava, mas cumpria com amargor. Nada poderia estar vinculado ao Brasil."
+    },
+    {
+      "type": "paragraph",
+      "html": "Anos depois, Maggye estava no mesmo lugar. Assistindo em silêncio enquanto Lorena trabalhava, anotando tudo passo a passo. Sua fiel escudeira. Uma posição que ocupava sem peso na consciência e com muito orgulho de quem a sua amiga de infância tinha se tornado."
+    },
+    {
+      "type": "paragraph",
+      "html": "Na televisão presa na parede do quarto tão bem equipado que mais parecia um hotel do que um hospital, uma partida do torneio de <em>Wimbledon </em>passava na tela. Depois do seu tempo na Europa, Lorena tinha se apaixonado por tênis e não perdia uma partida. Além disso, ela sempre gostava de trabalhar e estudar com a televisão ligada no mudo. Uma pequena distração para o seu foco."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Está tudo atrasado. Pela primeira vez na vida, estou com medo de não conseguir entregar uma coleção a tempo. — Ela era a única estilista da <em>Custode</em> e não abria mão dessa responsabilidade. Cada peça, cada traço, cada costura, cada decisão. Tudo tinha a sua assinatura."
+    },
+    {
+      "type": "paragraph",
+      "html": "Tudo era criado pelas suas mãos, apesar da sobrecarga de trabalho. Apesar de Maggye ter insistido, mais de uma vez, para que Lorena constratasse uma equipe de <em>designers</em> para ajudá-la."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Lorena, é claro que está tudo atrasado. Você está doente — ela foi direto ao ponto."
+    },
+    {
+      "type": "paragraph",
+      "html": "Lorena não respondeu. Seguiu concentrada na tela do <em>tablet</em>, passando a caneta de um lado para o outro enquanto tentava decidir o que a incomodava tanto nas peças inacabadas."
+    },
+    {
+      "type": "paragraph",
+      "html": "Revezando com Zenilda e Leonardo, eles já estavam ali há cinco dias. Maggye ainda não tinha conseguido se acostumar com aquela nova rotina. Trabalhar com Lorena em um hospital enquanto ela fingia não estar recebendo quimioterapia na veia. Fingia que não tinha passado o dia anterior deitada, com os olhos fechados, apesar de não estar dormindo, porque não conseguia se mover ou encarar a claridade sem sentir uma enxaqueca fulminante e começar a vomitar."
+    },
+    {
+      "type": "paragraph",
+      "html": "Às vezes, Maggye tinha a sensação de que a vida de Lorena tinha se tornado um grande fingimento sem ela notar. Ou pior, que ela estava ciente e seguia em frente porque não via saída."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você pode parar por dois segundos e me ouvir? — Maggye pediu, reconhecendo os sintomas dos momentos em que Lorena se perdia no seu próprio mundo e decidia ignorar a realidade."
+    },
+    {
+      "type": "paragraph",
+      "html": "Aceitando, ela suspirou, soltando a caneta e fechando a tela do aparelho. Seus olhos repousaram sobre a amiga, esperando por qual sermão ouviria dessa vez."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu sei que a gente já teve essa conversa milhares de vezes desde o começo do mês. Eu não me oponho a você continuar trabalhando. Na verdade, acho que é uma boa distração. Mas você não vai conseguir manter o mesmo ritmo. Ou a gente diminui a coleção desse ano, ou você engole um pouquinho o seu ego e contrata uma ou duas estilistas para te ajudar. Não é possível que não tenha ninguém no mercado em que você consiga confiar e que se encaixe no seu estilo."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu já disse que não vou contratar ninguém, Maggye. Ninguém vai tocar na <em>Custode</em>."
+    },
+    {
+      "type": "paragraph",
+      "html": "A marca era, inegavelmente, a menina dos olhos de Lorena. Nutrida, mimada e criada como uma filha. Mas Maggye ainda achava que tinha mais por trás do seu controle obsessivo. A empresa que tinha criado era uma forma de compensar o controle que não tinha mais sobre as próprias escolhas. Principalmente, as escolhas que não conseguia mais controlar sobre Eduarda."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Então, a gente vai adiar o lançamento da linha de perfumaria e de cosméticos. — Ela estava decidida a não ceder um milímetro nessa decisão. Era uma expansão para além da moda que Lorena tinha em mente desde a criação da <em>Custode</em>, mas que só se tornara viável financeiramente e operacionalmente no ano anterior. Era o grande próximo passo para o futuro."
+    },
+    {
+      "type": "paragraph",
+      "html": "— A gente já começou o <em>marketing</em>. Adiar o lançamento vai ser uma dor de cabeça. As lojas físicas e o <em>e-commerce</em> já estão se preparando para receber o novo segmento. Nós vamos ter que justificar para os investidores, pode passar baixa confiabilidade e foder com as nossas finanças."
+    },
+    {
+      "type": "paragraph",
+      "html": "Lorena esfregou a testa com a mão esquerda, se movendo com cuidado por conta do acesso no braço. A direita repousava sobre o acesso central na clavícula, uma mania que tinha desenvolvido nos últimos dias como se a qualquer momento a agulha fosse saltar do seu corpo."
+    },
+    {
+      "type": "paragraph",
+      "html": "Era incômodo o tempo todo. Ela não conseguia dormir direito porque a maioria das posições fazia com que os acessos no braço e no peito repuxassem os curativos ou enrolassem os tubos. Ela não conseguia se mover sem pensar em cada passo porque estava o tempo todo presa a um tripé que precisava carregar para todos os lugares. Seu corpo estava fraco, sua mente exigia dez vezes mais energia para fazer coisas simples. Em alguns dias, ela mal conseguia abrir os olhos sem passar mal. Lorena estava cansada demais para discutir."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Desculpa, mas você tem noção do tamanho do rombo que a gente teria que abrir nas nossas contas para foder com as nossas finanças? Por que você não deixa a parte dos negócios comigo?"
+    },
+    {
+      "type": "paragraph",
+      "html": "A <em>Custode </em>era uma empresa cem por cento capital fechado, outro ponto que Lorena não abria mão. Mesmo assim, nenhuma marca daquele tamanho sobrevivia sem investidores e, ao longo do tempo e da construção de uma relação transparente, ela tinha muitos, inclusive Zenilda."
+    },
+    {
+      "type": "paragraph",
+      "html": "Fora isso, as duas formavam uma sociedade onde setenta e cinco por centro pertencia à Lorena e vinte e cinco à Maggye. Lorena já tinha tentado aumentar a sua parte mais de uma vez, mas ela estava mais do que satisfeita com a sua participação nos lucros e com o seu trabalho."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você sabe que vai precisar abrir o jogo e começar a falar para as pessoas sobre o seu diagnóstico, não sabe? — Maggye perguntou depois de um tempo, entrando no assunto que a amiga tentava evitar há dias. — Não tem como você sumir dos escritórios e achar que ninguém vai reparar, Lorena. Eventualmente isso vai acabar vazando."
+    },
+    {
+      "type": "paragraph",
+      "html": "A ideia de se expor assim a incomodava tanto quanto estar naquele lugar. O mundo da moda era um mundo predatório, com gigantes tentando derrubar e se alimentar de outros gigantes. Vácuos de poder geravam espaço para que outras pessoas e outras marcas ocupassem o seu lugar. Para Lorena, o seu momento de fragilidade podia se tornar um momento de fragilidade para a marca inteira se os concorrentes sentissem a sua ausência como oportunidade."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Nós vamos adiar o lançamento das marcas novas. As reuniões e o planejamento podem continuar para você não sentir que está jogando todo o trabalho fora, mas você precisa diminuir o ritmo um pouco. Se concentra na coleção de Milão e entrega o que for possível. Se for uma coleção menor, paciência. A perfumaria e os cosméticos ficam para dois mil e vinte e oito. Ninguém vai morrer por isso — Maggye decidiu pelas duas e Lorena suspirou."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ela se perguntou se valeria à pena pontuar que nenhuma das duas sabia se ela ainda estaria ali em dois anos. Seus medos da morte, recém descobertos, eram um assunto delicado sobre o qual não conseguia conversar com ninguém. Nem Maggye, nem Zenilda e nem Leonardo pareciam aptos a admitir a possibilidade de Lorena não sobreviver e isso fazia com ela se sentisse terrivelmente sozinha."
+    },
+    {
+      "type": "paragraph",
+      "html": "Seu corpo caiu de volta contra os travesseiros e seus olhos se fecharam. Maggye assistiu enquanto Lorena acariciava o próprio rosto, tentando identificar se ela estava com sono ou passando mal."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você está enjoada de novo? — ela perguntou e Lorena assentiu em silêncio, sem dizer nada."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Então talvez seja um péssimo momento para eu te fazer algumas perguntas que você não vai querer responder? — seus olhos voltaram a se abrir devagar e, por um segundo, Lorena questionou internamente o quanto Maggye era sua melhor amiga ou o seu maior problema."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Pergunta logo. Não é como se eu tivesse perspectiva de ter um momento um pouco melhor pelos próximos dias. — Cristina tinha acabado com as suas esperanças mais cedo de que os efeitos colaterais passariam assim que a infusão contínua de quimioterapia acabasse em dois dias. Na verdade, o seu prognóstico era que provavelmente os sintomas piorariam antes de melhorar."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você pretende desfilar nesse ano? — era uma tradição da <em>Custode </em>que Lorena tinha começado há anos, quando ainda não tinha dinheiro suficiente na empresa para contratar muitos modelos."
+    },
+    {
+      "type": "paragraph",
+      "html": "No início, fazer parte do próprio desfile era uma necessidade. Ela e Maggye ocupavam nas passarelas menores do circuito um espaço que não conseguiam preencher com contratados."
+    },
+    {
+      "type": "paragraph",
+      "html": "Com o tempo, tinha se tornado mais uma assinatura. Nos eventos mais importantes, Lorena sempre fechava o desfile, exibindo as roupas desenhadas pelas suas mãos e pensadas pela sua alma."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Não sei, Maggye. Deus sabe em qual condição vou estar até lá. Não sei se vou poder viajar, se vou conseguir andar. Minha vida virou um grande ponto de interrogação. — Ela ouviu a resposta da amiga com aquela pontada no fundo do peito que sentia pelo menos cinco vezes ao dia desde que Lorena contara sobre a leucemia. A tristeza na sua voz era evidente. Uma tristeza que Lorena estava lutando bravamente para disfarçar por todos. Por ela, por Léo e por Zenilda."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você sabe também que isso aqui, em algum momento, vai deixar de existir, né? — Lorena brincou com os fios do próprio cabelo e Maggye não conseguiu evitar um sorriso triste."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você sabe que, independentemente de qualquer coisa, você vai seguir sendo a modelo com a beleza natural mais absurda daquela passarela, né? — Maggye rebateu, sem precisar mentir porque era uma verdade indiscutível. Lorena era uma das mulheres mais bonitas que conhecia. O fato de conseguir arrancar um pequeno sorriso da amiga bastou."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu concordo que a gente precisa esperar e pensar na sua saúde, mas promete que, se você decidir não ir, vai ser para priorizar o seu tratamento e não para se esconder? — ela pediu e Lorena parou, respirando fundo. Ela sentia que se arrependeria daquela decisão."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Tudo bem — ela concordou, desejando mudar de assunto porque agora odiava pensar no seu próprio futuro, ainda mais do que costumava odiar pensar depois de perder Eduarda. A cada vez que encontrava uma normalidade satisfatória sem ela, algo novo a atingia em um lugar diferente. — Qual era a outra pergunta que você queria fazer? Você disse <em>perguntas</em>, no plural."
+    },
+    {
+      "type": "paragraph",
+      "html": "Maggye hesitou. Entrar naquele assunto podia ser um grande erro, mas seria um erro inevitável."
+    },
+    {
+      "type": "paragraph",
+      "html": "— A gente vai falar em algum momento sobre a Duda dormindo no sofá do seu quarto depois do plantão? — ela soltou de uma vez e Lorena se xingou em silêncio por não ter previsto que seria sobre <em>esse </em>assunto. De repente, ela preferia voltar para a conversa de antes."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Não tem o que falar. Ela veio fazer as minhas verificações e disse que ia esperar até você voltar. Se ela caiu no sono, provavelmente é porque está trabalhando mais do que deve, como sempre. O que você queria que eu fizesse? Expulsasse ela? — Maggye não se deu o trabalho de dizer que Lorena não conseguiria expulsá-la porque também estava dormindo quando chegou com o café. Dormindo um sono pacífico que não conseguia desde que chegara no hospital."
+    },
+    {
+      "type": "paragraph",
+      "html": "— E você vai me dizer que ter ela pertinho de novo, cuidando assim de você, não te deixou mexida? — era só uma provocação porque a resposta era desnecessária."
+    },
+    {
+      "type": "paragraph",
+      "html": "Depois da primeira sessão de quimioterapia em que Eduarda entrou na sala sem aviso, dando de cara com Lorena, Maggye precisou arrastá-la de volta para a casa de Zenilda, onde estavam hospedadas durante a estadia no Brasil, a consolando enquanto Lorena quebrava em uma crise de choro que durou até dormir. Uma crise que quase conseguiu com que ela se sentisse culpada."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você sabe que sim. Se esse for o único jeito, eu ficaria doente mil vezes mais só para ter a Duda segurando o meu rosto e me olhando de novo com carinho enquanto eu vomito. — Lorena não se deu conta do que tinha acabado de dizer até a risada de Maggye ecoar pelo quarto."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Que romântico — ela comentou, apesar da certeza de que Lorena não estava brincando."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Mas às vezes eu fico pensando — Maggye se surpreendeu quando Lorena insistiu no assunto. — Talvez esse seja o meu carma, sabe? Por tudo que eu fiz ela sofrer. — Só depois de alguns segundos sua cabeça processou que ela estava falando sobre o câncer e sobre estar ali."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Para de falar besteira, Lorena. Sério. Não são nem dez da manhã, não me irrita logo cedo — Maggye respondeu, pela primeira vez demonstrando uma impaciência genuína. — Você sabe que a Eduarda jamais desejaria algo assim. Inclusive, dá para ver na cara dela que ela está preocupada."
+    },
+    {
+      "type": "paragraph",
+      "html": "Lorena, que estava brincando com a ponta do cobertor, voltou a olhar na sua direção."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você acha mesmo? Eu pensei que era coisa da minha cabeça. — Maggye revirou os olhos."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Não, amiga. Ela está super tranquila e feliz. Dá para perceber toda vez que ela te olha com aquela cara de cachorrinho de rua perdido que só ela sabe fazer — ela rebateu com ironia."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Ela tem mesmo essa carinha. Confesso que eu estava com saudades. É estranho de repente ter ela por perto de novo. Ainda não consegui me costumar com a ideia de acordar e ela poder entrar por essa porta a qualquer momento. — Lorena encarou a entrada do quarto com uma expressão um pouco sonhadora que fez Maggye prender o riso. Era impressionante como as duas continuavam exatamente iguais. Inconscientes de como o amor que sentiam pela outra transparecia e transbordava em todos os gestos, em todos os sentidos, para quem soubesse ler."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você não vai mesmo conversar com ela? Tipo, nada? — Maggye arriscou uma pergunta um pouco mais séria. A pergunta que estava tomando coragem para fazer há dias."
+    },
+    {
+      "type": "paragraph",
+      "html": "Lorena suspirou. Aquele assunto exauria as suas energias. Triturava cada pedaço do seu coração."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Não tem o que falar, Maggye. Ela só vai me odiar ainda mais se souber a verdade e nunca vai conseguir me perdoar. Eu não quero ficar reabrindo essas feridas agora que parece que elas conseguiram sarar pelo menos um pouco. Eu não quero perder o pouco que ainda tenho dela."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você não tem nada da Eduarda. — Era uma constatação dura, mas necessária. — Desculpa, mas a Duda vir aqui cuidar de você porque isso é o trabalho dela não é nada. E é egoísta e injusto deixar ela assim no escuro nessa situação. A gente sabia que seria um risco ela te procurar quando descobrisse que você estava no Brasil de novo — Maggye também respirou fundo, cansada de repetir as mesmas palavras para Lorena de novo e de novo por tantos anos."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Você também é vítima dessa situação. Pode ser que ela não entenda no começo? Com certeza, inclusive acho provável. Não sei se eu entenderia. Pode ser que ela te odeie um pouco quando tudo começar a doer de novo? Também. Mas ela ainda merece a verdade, Lorena. E se você quer saber, você também merece tirar esse peso do peito. — Maggye não esperava mudar a cabeça de Lorena assim, da noite para o dia. Mas estava tentando plantar aquela sementinha aos poucos."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Sem contar que é arriscado para ela ficar aqui sem saber. Eu estou falando sério. Você sabe disso melhor do que ninguém. Para de tentar proteger a Eduarda de tudo e deixa ela tentar se proteger um pouco por contra própria. — Lorena se manteve calada, mas Maggye tinha certeza de que atingira o alvo em cheio. A segurança de Eduarda era o seu calcanhar de Aquiles há anos."
+    },
+    {
+      "type": "paragraph",
+      "html": "Seus dedos continuaram brincando com a ponta do edredom, até desistir e pegar o <em>tablet </em>de novo."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Vamos voltar ao trabalho — ela decretou. — Eu não quero falar sobre isso."
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "No fim da noite, depois do jantar com Gerluce, Eduarda conseguiu encontrar uma fonte de consolo em uma mulher com quem estava conversando em um aplicativo de relacionamento."
+    },
+    {
+      "type": "paragraph",
+      "html": "Daniela era uma arquiteta da sua idade. Linda, estilosa, tão dedicada ao trabalho quanto Eduarda gostava de se gabar de ser, com um repertório cultural de dar inveja para qualquer um."
+    },
+    {
+      "type": "paragraph",
+      "html": "Mesmo assim, durante o sexo e a madrugada dividida na sua cama, até o momento em que ela se despediu com um beijo de bom dia porque tinha um levantamento marcado no outro lado da cidade, Eduarda só conseguia pesar em Lorena."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ela praguejou quando se levantou quase uma hora depois, com uma mensagem de Daniela pedindo para que conversassem mais tarde e perguntando se podiam se encontrar de novo. Eduarda sabia que não responderia e não tinha o menor interesse de se encontrar de novo com uma candidata perfeita para o seu coração. Ela já estava se sentindo mal o suficiente por tudo."
+    },
+    {
+      "type": "paragraph",
+      "html": "Por estar iludindo mais uma pessoa com a sua indisponibilidade emocional, por si mesma e pela sua falta de capacidade de dar chance para outras mulheres. E o pior, por Lorena, como se devesse algo a ela. O banho não lavava dos traços de Daniela do seu corpo e Eduarda se odiava por senti-los com incômodo. Como se estivesse traindo alguém que a abandonou há muito tempo."
+    },
+    {
+      "type": "paragraph",
+      "html": "Irritada com a situação, ela fez o que fazia para esquecer. Colocou uma roupa, um tênis e correu na direção do Ibirapuera. Suas pernas queimavam conforme corria uma distância maior do que estava acostumada porque não queria voltar para casa. De novo, era o seu dia de folga e a ideia de passá-lo em um apartamento vazio, agora pensando em Lorena e em Daniela, era o seu pior pesadelo. Talvez ligasse para Gerluce só parar arrumar uma distração."
+    },
+    {
+      "type": "paragraph",
+      "html": "Era manhã de domingo e o parque estava lotado. Ao contrário das corridas matinais nos dias de semana em que não estava de plantão, divididas apenas com outros corredores que escolhiam acordar antes do sol nascer, Eduarda passou boa parte do tempo tentando desviar de crianças não supervisionadas, de bicicletas que passavam a poucos centímetros do seu corpo em velocidade alta demais e de turistas que caminhavam com toda a calma, como se o mundo não tivesse pressa."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ela estava quase indo embora. Decidida a convidar Gerluce para um café da manhã em uma padaria superfaturada só para conversar sobre Daniela e Lorena e admitir, mais uma vez, o quanto era patética, quando deu de cara com Joana em uma curva. A sola dos seus tênis derrapou contra o chão e Eduarda parou, tirando os fones de ouvido e tentando respirar normalmente."
+    },
+    {
+      "type": "paragraph",
+      "html": "Frederico correu na sua direção assim que a avistou, uma amizade fundada em pequenos encontros nas pistas de corrida e nos caminhos de casa enquanto acompanhava a sua mãe. O <em>golden retriever</em> se esticou sobre duas patas, jogando as outras duas na direção do seu peito junto com o seu peso. Seu rabo sacudia com a euforia de encontrar uma das suas pessoas favoritas."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Fred! Desce! Deixa a Duda em paz! Você vai sujar ela! — Joana gritou com o cachorro, tentando puxá-lo para trás pela guia e perdendo a batalha. Eduarda riu, acariciando Fred atrás das orelhas e analisando Joana. Ela era mesmo perfeita. O cabelo perto curto, os braços tatuados como se o próprio corpo fosse como uma tela em branco, um sorriso bem esculpido. Uma aliança de três centímetros brilhando no anelar da mão esquerda."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Não tem problema, Jo. Relaxa. Eu gosto mesmo de encontrar esse carinha aqui. Não é, meu amor? Você é lindo! — Eduarda brincou um pouco mais com Fred até que ele se acalmasse e descesse, ainda com o rabo abanando como um espanador de pó."
+    },
+    {
+      "type": "paragraph",
+      "html": "Quando Fred começou a correr em volta das suas pernas, caminhando de um lado para o outro e se distraindo em uma caça a alguns pombos, Eduarda se realinhou, colocando as mãos na cintura e tentando respirar. Talvez a ideia de alguns quilômetros a mais não tivesse sido a melhor."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Correndo mais tarde hoje? — ela perguntou para puxar assunto com Joana, que assentiu."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Ah, domingo né. Sempre aproveito para dormir mais. O Pedro odeia acordar cedo em fim de semana. — Lá estava, a menção diária ao marido. Parte de Eduarda queria revirar os olhos por saber que uma mulher tão bonita conseguia se satisfazer com um homem hétero."
+    },
+    {
+      "type": "paragraph",
+      "html": "— E você? Sem plantão hoje? — Eduarda fez que sim com a cabeça. Pelo menos teria vinte e quatro horas antes de precisar encarar Lorena depois de uma transa com outra pessoa."
+    },
+    {
+      "type": "paragraph",
+      "html": "Uma transa que parecia estampada no seu corpo, no seu rosto, em todos os cantos para ser detectada. Talvez não fosse o fim do mundo se Lorena percebesse. Talvez Eduarda devesse deixar claro que estava com alguém, mesmo sem estar. Talvez fosse suficiente para fazê-la sentir um por centro do coração partido que sentira por sua causa. Mas Eduarda sabia que estava enlouquecendo pensando que ela se importaria. Lorena provavelmente tinha transado com várias modelos italianas nos últimos cinco anos. Daniela não faria a menor diferença na sua vida."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Graças a Deus. A semana foi puxada. — Ela estava tentando ignorar a sensação no fundo do peito de que, dali para frente, tudo só continuaria a piorar. Suas mãos esfregaram o rosto, respirando fundo, com dificuldade por conta do coração acelerado."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Está tudo bem? Você está com uma cara diferente. — Ótimo. Agora até Joana reparava."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Tudo bem talvez seja muito forte. Se você quiser, um dia a gente pode combinar um almoço para eu te contar sobre como a minha ex, que desapareceu e me abandonou para ir morar em Milão, voltou para o Brasil, está com câncer e escolheu justamente o meu hospital para se tratar. — Ela soltou as palavras de uma vez, sem ter planejado compartilhar aquilo. Normalmente, elas não dividiam mais do que conversas rotineiras sobre trabalho e problemas de São Paulo. Mas o acúmulo de Lorena com a noite com Daniela tinha burlado todos os seus filtros."
+    },
+    {
+      "type": "paragraph",
+      "html": "Joana paralisou, aboca entreaberta, lutando para conter uma risada de puro desespero."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Pode rir, vai. Eu deixo. Minha vida é uma piada mesmo. — A mulher soltou uma risada baixa e respeitosa, sacudindo a cabeça. Uma reação natural por ter sido pega desprevenida."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Ai, Duda. Sério. Que merda. Eu não fazia a menor ideia — ela confessou, sacudindo a cabeça."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Relaxa, eu não falo sobre isso com muita gente. Acho que estou entrando em surto. Uma hora ou outra, ia acontecer. — Joana riu de novo e encarou os arredores, tentando decidir o que fazer."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Eu posso te oferecer uma companhia para correr de volta para casa e podemos pensar sobre o almoço. Só tem que ser um lugar <em>pet friendly </em>para o Frederico ir também. — Eduarda fechou os olhos. Seus pensamentos voltaram para Gerluce."
+    },
+    {
+      "type": "paragraph",
+      "html": "Ela não devia mesmo ouvir os seus conselhos. Doze horas depois, ela estava ali, marcando um encontro com uma casada. Um encontro que só seria um encontro na sua cabeça. Depois de transar com Daniela. Enquanto Lorena seguia orbitando a sua mente. Seu eterno satélite que nem mesmo a gravidade do tempo e da distância conseguia levar para outros universos."
+    },
+    {
+      "type": "paragraph",
+      "html": "— A gente pode ver sobre o almoço, mas acho que vou ficar mais um pouco. — Eduarda apontou para o parque. Ela adorava a companhia de Joana, mas, naquela manhã, queria ficar sozinha."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Tudo bem. Se precisar de alguma coisa, estou sempre por aí. — Joana concordou, se despedindo com um aceno e dando meia volta com Fred nos seus calcanhares."
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda assistiu enquanto os dois afastavam, voltando a colocar os fones no ouvido e procurando um lugar para se sentar. Um banco de madeira ao lado de uma carrocinha de bebidas."
+    },
+    {
+      "type": "paragraph",
+      "html": "Seu corpo caiu com força demais contra o assento, jogando a cabeça para frente e a apoiando nas mãos enquanto recuperava o fôlego e pensava sobre como conseguiria voltar para casa. Sua pele estava emplastada de suor e suas pernas tremiam pelo esforço. Um tempo a mais seria de fato necessário e não só uma desculpa para ficar sozinha e longe de Joana."
+    },
+    {
+      "type": "paragraph",
+      "html": "Quando estava começando a cogitar comprar uma garrafinha de água de coco porque a boca seca estava a incomodando, o celular no bolso da calça vibrou com uma notificação."
+    },
+    {
+      "type": "paragraph",
+      "html": "Em um primeiro momento, ela cogitou ignorar. Provavelmente era Daniela perguntando por que não estava respondendo as suas mensagens, mas a ideia de ser Gerluce a convenceu a se mover."
+    },
+    {
+      "type": "paragraph",
+      "html": "Distraída, Eduarda pegou o celular, paralisando quando viu o e-mail na tela de bloqueio."
+    },
+    {
+      "type": "paragraph",
+      "html": "A mensagem de Cristina era o motivo da interrupção do seu domingo. O título em negrito escrito no topo fez o seu coração parar. <em>Resultados Tipagem HLA – Família Esteves.</em> Antígeno Leucocitário Humano. O nome técnico para o exame de compatibilidade de medula."
+    },
+    {
+      "type": "paragraph",
+      "html": "Por um segundo, cogitou que se tratasse de outro caso, mas sabia que o nome de solteira de Zenilda era Esteves e não seria uma surpresa se ela não quisesse mais usar o sobrenome do ex-marido. Os endereços em cópia confirmavam que era sobre Lorena. Eduarda, Daniel e Kasper."
+    },
+    {
+      "type": "paragraph",
+      "html": "— Ai. Puta que pariu — ela sussurrou para si mesma, sem a menor certeza de que realmente queria abrir a mensagem. Mesmo assim, ela sabia que se corroeria em curiosidade se não fizesse."
+    },
+    {
+      "type": "paragraph",
+      "html": "Então, clicou, desbloqueou o celular com o reconhecimento facial e respirou fundo antes de ler."
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Encaminho em anexo os resultados da tipagem HLA de Zenilda Esteves Ferette e Leonardo</em> <em>Esteves Ferette. Vou dar a notícia para a família antes do fim da manhã. Caso algum de</em> <em>vocês queira me acompanhar, me avisem por mensagem que aguardo a chegada no hospital.</em> <em>Vamos marcar uma reunião assim que possível para discutir a continuidade do tratamento da</em> <em>Lorena?</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "Eduarda ignorou a assinatura padrão que todos os funcionários do São Peregrino usavam e fechou os olhos. O tom da mensagem de Cristina não parecia ser o de boas notícias e, na mesma hora, seus olhos ameaçaram marejar. Ela precisava mesmo encontrar com Gerluce."
+    },
+    {
+      "type": "paragraph",
+      "html": "Mesmo assim, ainda com esperança, abriu o anexo, analisando o <em>pdf</em> com um olhar clínico. No fim da página, destacado para além dos números e dos gráficos, estava a verdade."
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Zenilda Ferette: não foi identificada compatibilidade HLA suficiente para transplante</em> <em>alogênico.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Leonardo Ferette: não foi identificada compatibilidade HLA suficiente para transplante</em> <em>alogênico.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "Sua cabeça caiu para trás, encarando o céu. O tratamento de Lorena tinha acabado de se tornar dez vezes mais difícil. Dessa vez, Eduarda não se esforçou para conter o choro que veio devagar."
+    },
+    {
+      "type": "paragraph",
+      "html": "Mas, sem tempo a perder, se levantou e voltou a correr. Ela precisava ir para o hospital."
+    }
+  ],
+  "chapterNotes": [
+    "Aquele em que as melhores amigas entram em ação."
+  ],
+  "chapterSummary": [],
+  "endNotes": []
+}

@@ -1,0 +1,990 @@
+{
+  "number": 16,
+  "title": "Capítulo 16",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "html": "<em>No dia oito de julho de dois mil e vinte e um, Paulinho, Eduarda e Lorena se despediram do</em> <em>apartamento que dividiram por mais de um ano. Com os cômodos vazios livres dos móveis,</em> <em>eles se sentaram no chão da sala, espalhando as garrafas de cerveja pelo piso de taco e</em> <em>dividindo as pizzas que tinham pedido antes de ir embora um a última vez.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Maggye e Leonardo também estavam lá. Com o começo da vacinação, aos poucos, as</em> <em>medidas de isolamento eram flexibilizadas. Paulo e Eduarda foram os primeiros da fila, por</em> <em>atuarem na linha de frente. Seguidos por Henrique, Santiago e Zenilda, pela idade e</em> <em>comorbidades. Enfim, Maggye, Léo e Lorena, que tinham tomado a primeira dose há poucas</em> <em>semanas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>O casamento de Lorena e Eduarda estava marcado para o dia seguinte, uma pequena</em> <em>cerimônia informal no quintal da mansão dos Ferette apenas para os seus pais, Maggye e</em> <em>Paulo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Flexibilizar não significava abusar e Eduarda e Paulinho ainda eram rígidos quanto a esse</em> <em>ponto depois de tudo que tinham visto. Sem uma grande festa. Sem aglomerações. Sem</em> <em>funcionários.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Era o suficiente para as duas, que só precisavam do amor que compartilhavam e dos seus</em> <em>entes mais próximos presentes. Zenilda prepararia um almoço e, depois de comer, eles iriam</em> <em>até o cartório, onde a cerimônia legal e os documentos seriam trocados e assinados.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando o proprietário do apartamento do Tatuapé fez o aviso prévio de que precisaria que</em> <em>desocupassem o imóvel, tudo pareceu se encaixar. Paulinho decidiu que precisava alugar um</em> <em>lugar só seu, apesar da oferta de Lorena e Eduarda para que continuassem morando juntos</em> <em>depois do casamento, porque não achavam justo deixar o amigo à deriva com contas para</em> <em>pagar por conta própria e uma casa para cuidar, em meio a uma pandemia que continuava e</em> <em>uma residência que ainda não tinha acabado. Mesmo assim, ele optou pela privacidade das</em> <em>duas, convencido de que estava mesmo na hora de também começar a ter a sua própria vida.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Então, com as datas marcadas e tudo acordado, o último encontro presenciado pelas paredes</em> <em>que tinham visto tanto, choro, medo, dor, saudades, noites de jogos, conversas, amor e até</em> <em>mesmo um pedido de casamento, era o que estavam chamando de uma despedida de solteiro.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ainda com medidas de restrição, não parecia uma boa ideia ir para uma boate ou um clube</em> <em>de strip, apesar da ideia ter sido discutida algumas vezes. No fim, Lorena e Eduarda</em> <em>optavam pelo que era mais importante. Uma noite de comida compartilhada, conversas</em> <em>trocadas, lembranças, música, risada e as pessoas que mais amavam no mundo, com a</em> <em>certeza de que não existia uma forma melhor de iniciar uma nova etapa do que com</em> <em>Leonardo, Paulo e Maggye.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando Paulinho, Eduarda e Lorena passaram pela porta uma última vez, deixando para</em> <em>trás o lugar que tinha se tornado um lar, eles sabiam que estavam dando passos na direção</em> <em>de coisas maiores. Apesar do coração apertado, eles saíam com a sensação de dever</em> <em>cumprido.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>No carro que Lorena dirigia por ser, na maioria das vezes, a única realmente sóbria do</em> <em>grupo, eles iam para casas diferentes pela primeira vez em mais de um ano, com Maggye e</em> <em>Leonardo acompanhando sem conseguir evitar a sensação de que o laço que se formara</em> <em>entre Lorena, Eduarda e Paulo sempre seria algo especial, apenas deles. Algo que podiam</em> <em>tentar fazer parte e sempre fariam de alguma forma, mas que talvez nunca conseguissem</em> <em>entender de verdade.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Está entregue — Lorena declarou, freando e parando na frente do prédio onde Paulo</em> <em>alugara o seu novo apartamento. Era o destino mais distante, então, o primeiro da lista.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela olhou para Eduarda, sentada ao seu lado no banco do carona, trocando um sorriso que</em> <em>também pertencia somente a elas enquanto Paulo e Leonardo, bêbados, discutiam atrás.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você está ciente de que os nossos três celebrantes e padrinhos vão acordar de ressaca</em> <em>amanhã? — Eduarda perguntou com uma risada, também um pouco bêbada, mas sóbria o</em> <em>suficiente porque sabia que precisaria acordar disposta no dia seguinte.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Desde que eles não falem alguma merda na frente dos nossos pais, acho que a gente</em> <em>sobrevive — Lorena respondeu ao mesmo tempo em que Paulinho, sentado no meio, entre</em> <em>Maggye e Leonardo, se inclinou para frente como uma criança, surgindo no espaço entre as</em> <em>duas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Fiquem tranquilas. Nós estamos preparados. O discurso da cerimônia está perfeito,</em> <em>contando todos os podres sexuais de vocês para a Zenilda, o Santiago e o Henrique. —</em> <em>Lorena trocou um segundo olhar com Eduarda. A voz de Paulo estava tão arrastada que as</em> <em>sílabas mal se diferenciavam conforme tentava formar as palavras na ponta da língua.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu estou tão feliz! — ele exclamou, sem dar tempo para que elas reagissem. — Sério, eu</em> <em>estou tão feliz com esse casamento! Eu amo vocês — ele acrescentou, encarando as duas. —</em> <em>Eu sinto, sei lá, sabe, que a gente virou meio que uma mini família nesse último ano. Acho</em> <em>que a bebida está me deixando meio emotivo, mas só queria mesmo dizer isso antes de ir. —</em> <em>Ele sinalizou com a cabeça para o lado de fora e cambaleou com o movimento que o</em> <em>desequilibrou.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Paulo... — Eduarda tentou intervir enquanto Leonardo e Maggye riam juntos sem motivo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— É sério! — ele rebateu. — Não vou negar que estou um pouco triste por separar o nosso</em> <em>trio. Vou sentir falta de ter vocês em casa. Mas isso aqui. — Ele apontou para Lorena e</em> <em>Eduarda, uma de cada vez. — O que vocês têm aqui é a coisa mais preciosa que eu já vi na</em> <em>vida. Acho que vou acrescentar isso no discurso de amanhã. Minha irmãzinha mais nova. —</em> <em>Ele se aproximou, deixando um beijo na bochecha de Eduarda, que riu sem graça, sem saber</em> <em>se achava fofo ver o amigo daquele jeito ou se deveria se preocupar. — E você Lorena,</em> <em>minha nenenzinha. — E repetiu o gesto, deixando um beijo rápido na bochecha da garota.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Nossa nenenzinha! — Leonardo gritou do banco de trás e Lorena revirou os olhos,</em> <em>cansada de ser eternamente tratada como uma criança pelos quatro, apesar de também</em> <em>amar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— De todos nós! Vai ter que dividir para sempre, Duda! — Maggye também gritou enquanto</em> <em>Paulinho fechava os olhos e começava a chorar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Meu Deus. O Paulo está chorando. Vamos gente! Está mesmo na hora de encerrar a</em> <em>noite! — Eduarda declarou, assistindo enquanto Leonardo saia do carro e abria espaço para</em> <em>Paulo passar. Ele se despediu, tentando caminhar e olhar para trás ao mesmo tempo e</em> <em>Lorena esperou sem acelerar para ter certeza de que o amigo entraria em casa em</em> <em>segurança.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Assim que Paulinho desapareceu pela porta, ela manobrou e começou a dirigir na direção</em> <em>da Mooca. Seria o seu futuro bairro. Seu lar, no apartamento que tinha alugado com</em> <em>Eduarda para que começassem a vida perto de seu pai. Eduarda e Henrique ainda sentiam a</em> <em>separação forçada da pandemia e parecia um pedido justo quando ela perguntou se Lorena</em> <em>se importaria se começassem a vida por lá, para que pudessem amadurecer aquela</em> <em>separação aos poucos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você tem certeza? — Eduarda perguntou depois de um tempo de silêncio, quebrado</em> <em>apenas pela música que tocava no rádio. Leonardo e Maggye tinham dormido depois de</em> <em>alguns minutos de sossego com a ausência de Paulinho. Elas finalmente podiam conversar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Duda, sim. Eu sei que é chato e que nós não estamos mais acostumadas a dormir</em> <em>separadas, mas acho que uma expectativa para o casamento vai ser bom. Vai fazer ser mais</em> <em>especial. Se nós dormirmos juntas e acordarmos juntas não vai ser a mesma coisa. — Lorena</em> <em>era uma defensora ferrenha da ideia que estavam discutindo há semanas. Ela queria que</em> <em>passassem a noite da véspera do casamento em casas diferentes e só se reencontrassem no</em> <em>altar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena dormiria na casa dos pais, Eduarda na casa de Henrique e, no dia seguinte, enfim</em> <em>casadas, iriam juntas para o apartamento que tinham montado por meses, pedaço a pedaço.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu odeio ficar sem você. Eu não sei mais fazer isso, linda. Por que ficar submetendo a</em> <em>gente a esse sofrimento? — Eduarda resmungou e Lorena deixou escapar um sorriso.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela entendia e concordava que era um esforço. Depois de morar juntas por tanto tempo,</em> <em>mais do que nunca, era difícil imaginar sua vida sem Eduarda. Não importava se seria só</em> <em>por uma noite, por menos de vinte e quatro horas. Mas tinha certeza de que, quando se</em> <em>vissem vestidas de noiva pela primeira vez, o impacto seria ainda maior.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— É só uma noite e você também precisa fazer esse rito de passagem com o seu pai —</em> <em>Lorena pontuou, estacionando na frente do prédio onde Henrique morava. O lugar onde</em> <em>também tinha passado tantas tardes, manhãs e noites, dividindo a cama de solteiro apertada</em> <em>no quarto de Eduarda. — É importante, Duda. Eu sei que não é fácil para ele entender que</em> <em>você não vai voltar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Depois de sair de casa para proteger Henrique durante a pandemia, Eduarda não voltou</em> <em>mais. Assim como Lorena e Paulinho, que também não conseguiam mais se imaginar</em> <em>morando com os pais. A mudança para o Tatuapé tinha sido, para os três, uma passagem só</em> <em>de ida. Para Henrique, com a ausência de Mariana, aquilo era ainda mais difícil.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Tudo bem — ela se rendeu, suspirando e percebendo que precisaria se despedir de</em> <em>Lorena. — Você vai se resolver sozinha com esses dois? — Eduarda apontou por cima do</em> <em>ombro na direção de Maggye e Leonardo. Lorena espiou o banco traseiro pelo retrovisor,</em> <em>soltando uma risada baixa e sacudindo a cabeça. Maggye estava apagada com a cabeça</em> <em>apoiada no braço de Leonardo, que dormia como uma criança, encostado na janela.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Relaxa. É meio que a minha especialidade. — Lorena desligou o carro e se permitindo</em> <em>olhar para Eduarda. — Você vai mesmo ficar bem? — ela fez questão de verificar porque</em> <em>também sentia o peito apertado com a perspectiva de se despedir. Parte de Lorena queria</em> <em>que Eduarda a convencesse do contrário, de que aquilo tudo era uma ideia estúpida, mas ela</em> <em>assentiu.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Vou tentar sobreviver pensando que, depois de hoje, nós vamos passar todas as noites,</em> <em>para o resto da vida, uma agarradinha na outra. Eu nunca mais vou te soltar. Nem para ir no</em> <em>banheiro. — Lorena deixou a cabeça tombar para trás, rindo e a sacudindo de um lado para</em> <em>o outro.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>O silêncio voltou quando elas ficaram ali, naquela bolha particular onde não existia nada</em> <em>além das duas e dos olhares que trocavam. Eduarda observou Lorena com um sorriso no</em> <em>rosto, com aquele brilho no olhar. Lorena segurou a sua mão apoiada no banco, ainda</em> <em>tentando entender, tanto tempo depois, como tinham conseguido se encontrar, como tinham</em> <em>chegado ali.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Uma música começou a tocar no fundo no rádio. Me Espera. Eduarda sorriu com a ironia</em> <em>das palavras, agradecendo internamente por não precisar mais esperar. Elas estavam</em> <em>prontas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você tem noção de que a gente vai se casar amanhã? — Eduarda perguntou, encarando as</em> <em>alianças idênticas que repousavam no entrelaçar de dedos que não sabiam mais viver</em> <em>sozinhos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Sim. Acho que a ficha ainda não caiu. Eu estou um pouco nervosa. — Eduarda assentiu</em> <em>porque também estava. Não por ter qualquer dúvida. Mas porque queria, mais do que tudo,</em> <em>assinar os papeis que declarariam o seu desejo de passar o resto da vida ao lado daquela</em> <em>mulher.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu te amo, linda — ela disse segurando o queixo de Lorena, subindo a mão pelo seu rosto</em> <em>e deixando seus dedos passearem pelas suas bochechas, logo abaixo dos seus olhos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu te amo, Duda — Lorena respondeu sem precisar pensar. Sem ter ideia de quantas</em> <em>vezes, mais tarde, Eduarda voltaria naquele momento, naquela lembrança, tentando</em> <em>encontrar sinais. Tentando encontrar algo que explicasse o que aconteceria quando</em> <em>acordassem no dia seguinte.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela se inclinou devagar, beijando Lorena em etapas, como mais gostava de fazer.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Um toque sutil dos lábios uma vez, duas vezes, sentindo seu corpo amolecer aos poucos entre</em> <em>as suas mãos conforme avançava, a bebendo em pequenos goles. Quando seus lábios se</em> <em>abriram de vez, Lorena replicou o movimento, deixando que as bocas encontrassem o</em> <em>encaixe perfeito que conheciam tão bem. Ela respirou fundo, perdendo o ar porque ainda se</em> <em>sentia atordoada quando Eduarda a beijava daquele jeito, carinhoso e faminto ao mesmo</em> <em>tempo. Como se precisasse do gosto da sua língua para sobreviver, como se respirasse</em> <em>Lorena e não oxigênio.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Suas mãos subiram pelo seu pescoço, parando na sua nuca e se segurando nela. Lorena</em> <em>revidou na mesma moeda, avançando sobre Eduarda, sem entender a urgência que sentia. A</em> <em>necessidade de beijá-la como se fosse a primeira vez, sem ter ideia de que seria a última.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Com delicadeza, Eduarda interrompeu o beijo devagar, deixando selinhos cuidadosos nos</em> <em>lábios de Lorena, beijando o seu rosto, o seu pescoço, sentindo o seu cheiro, que ficaria</em> <em>guardado em um cofre no fundo do seu peito pelos próximos anos, porque se tornaria</em> <em>doloroso demais.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Vai — ela disse, apesar de ser a última coisa que desejava falar. — Se não a gente vai</em> <em>ficar aqui até amanhã. Daqui a pouco esses dois acordam e começa a perturbação na nossa</em> <em>cabeça. — Lorena apontou para trás e Eduarda riu porque sabia que era verdade. O</em> <em>passatempo favorito de Leonardo, Maggye e Paulinho era infernizar a vida das duas com</em> <em>piadas sobre o namoro.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu vou sentir a sua falta. Promete que vai me avisar quando chegar em casa? — Eduarda</em> <em>perguntou e Lorena sorriu, sentindo um aperto bobo no peito ao vê-la abrindo a porta.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Pode deixar — Lorena concordou e Eduarda a observou mais um pouco. Então, sorriu.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Até amanhã, futura esposa — ela disse e Lorena respondeu com um sorriso de orelha a</em> <em>orelha.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Até amanhã. Eu te amo. — Eduarda assentiu, sem tirar os olhos dela. Durante muito</em> <em>tempo, essas seriam as últimas palavras que lembraria ter ouvido na voz de Lorena.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Então, se virou, desceu do carro e bateu a porta, olhando por cima do ombro enquanto</em> <em>caminhava na direção do portão. Ela acenou, mandou um beijo para a garota que, só por</em> <em>aquela noite, ainda chamaria de namorada, esperando atrás do volante enquanto Eduarda</em> <em>entrava.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando subiu as escadas e desapareceu, perdendo Lorena de vista, ela não fazia ideia de</em> <em>que seria a última vez e que só voltaria a vê-la cinco anos depois, em um hospital.</em>"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena se jogou sem forças no sofá da sala quando entrou com Leonardo em casa, depois de</em> <em>deixar Maggye em segurança, a poucos quarteirões no condomínio fechado.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela assistiu em silêncio enquanto o irmão se despedia com um resmungo que resumia o seu</em> <em>estado embriagado, subindo as escadas devagar na direção do seu quarto. Então, ficou ali,</em> <em>deitada com as mãos cruzadas por cima da barriga, encarando o teto, as paredes, sem</em> <em>conseguir não se deixar levar por uma onda de nostalgia inevitável.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Era impossível dormir de novo naquela casa e não pensar em tudo. Na criança que fora um</em> <em>dia. Na adolescente meio rebelde, meio perdida. No dia em que tinha conhecido Eduarda ali</em> <em>mesmo, a poucos centímetros de onde estava. No pedido de namoro na piscina. Em todas as</em> <em>tardes preguiçosas de domingo. E em como, no dia seguinte, seria uma mulher casada.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena sorriu um sorriso fácil, o mais sereno do mundo, apesar do nervosismo esperado. O</em> <em>indicador e o polegar brincaram com a aliança na sua mão direita, girando o diamante</em> <em>pequeno de um lado para o outro que combinava tão bem com Eduarda e com o que</em> <em>construíam juntas. Como se ouvisse o seu pensamento, seu celular vibrou e ela encarou a</em> <em>mensagem.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong><em>[00:23, 09/07/2026] Duda:</em></strong><em> Chegou em casa bem? Deixou a Maggye?</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong><em>[00:23, 09/07/2026] Lorena:</em></strong><em> Sim e sim. Acabei de chegar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong><em>[00:23, 09/07/2026] Duda:</em></strong><em> Tudo bem, linda. Estou morrendo de sono. Vou tentar dormir um</em> <em>pouco, mas tenho quase certeza de que não vou conseguir. Jura mesmo que não posso nem te</em> <em>ligar para fazer uma chamada de vídeo? Você quer levar tão a sério essa coisa de não se</em> <em>ver?</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong><em>[00:24, 09/07/2026] Lorena:</em></strong><em> Sim! Nós vamos levar a sério! Amanhã vai valer a pena!</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong><em>[00:25, 09/07/2026] Duda:</em></strong><em> Chata! Boa noite, então? Até amanhã (morrendo)?</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong><em>[00:25, 09/07/2026] Lorena:</em></strong><em> Boa noite, Duda. Até amanhã. Te amo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela soltou um suspiro, se perguntando como Eduarda ainda conseguia deixá-la tão nervosa e</em> <em>fazer tudo parecer novo, como se cada conversa, cada encontro, cada mensagem ainda fosse</em> <em>a primeira. Se sentindo uma adolescente, Lorena sorriu como uma idiota contra o celular.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Mas o sorriso morreu na mesma hora quando o som de uma porta a fez pular em cima do</em> <em>sofá. Lorena se assustou, se sentando e dando de cara com Santiago no outro lado da sala,</em> <em>em frente à entrada do seu escritório. Sem saber dos riscos que existiam dentro daquela</em> <em>casa, ela respirou aliviada, se permitindo relaxar contra o encosto e espiando o telefone para</em> <em>ver se Eduarda tinha falado mais alguma coisa. Quando não encontrou nada, voltou a</em> <em>encarar o pai.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Ainda em pé? — ela perguntou despretensiosa, ciente de que ele e sua mãe tinham um</em> <em>acordo de que um dos dois sempre esperaria acordado quando Lorena ou Leonardo</em> <em>voltassem tarde.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Não importava se já eram adultos, maiores de idade, um acima de trinta e a outra na beira.</em> <em>Era um hábito que não perdiam. Apesar do tempo, e Lorena precisava admitir que achava</em> <em>fofo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você sabe como é a sua mãe. Ela fica preocupada. Foi a minha vez de esperar — Santiago</em> <em>comentou, cruzando os braços e pensando em mil coisas que Lorena jamais conseguiria</em> <em>imaginar. — Mas eu queria mesmo falar com você. Uma conversa de pai e filha antes de</em> <em>amanhã. Eu sei que você deve estar cansada, mas é importante. Você se importa? — ele</em> <em>apontou na direção do escritório e Lorena deu de ombros.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela estava cansada, mas, assim como Eduarda, tinha quase certeza de que não conseguiria</em> <em>dormir. Então, se levantou, seguindo o pai até o cômodo no outro lado da sala.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Seu escritório e o escritório de Zenilda eram lado a lado e guardavam uma boa mística</em> <em>desde a sua infância. Era o espaço individual de cada um. Zenilda não entrava no de</em> <em>Santiago e Santiago não entrava no de Zenilda e Leonardo e Lorena não tinham permissão</em> <em>para entrar em nenhum dos dois, um hábito que ainda guardavam até hoje, apesar do tempo</em> <em>e da idade.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Santiago fez um sinal para que ela entrasse e Lorena seguiu, esperando em pé, um pouco</em> <em>desconfortável no ambiente que não costumava frequentar. A porta se fechou nas suas costas</em> <em>e ela encarou o espaço, sempre estranhando o contraste com o resto da casa quando entrava</em> <em>ali.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Enquanto a mansão de seus pais era moderna, com ambientes minimalistas, tendendo para</em> <em>cores claras, o escritório de Santiago guardava traços antiquados, como se tivesse sido</em> <em>projetado sob a influência de tendências arquitetônicas de outro tempo. O cheiro de madeira</em> <em>e tabaco era sempre excessivo entre os móveis escuros. Reflexo do seu gosto pessoal para</em> <em>decoração.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Senta — ele pediu, apontando para a cadeira de couro na frente da mesa que tomou como</em> <em>sua, ocupando o lugar vazio no outro lado. Lorena franziu as sobrancelhas, encarando o</em> <em>copo cheio de whisky sem estranhar, porque Santiago costumava beber, e às vezes fumar,</em> <em>quando ficava sozinho fora dos horários de trabalho. Ainda assim, ela não entendia o que</em> <em>ele queria.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Sua mãe e eu estávamos conversando mais cedo e é um assunto que em algum momento</em> <em>precisaríamos chegar com você e com o Leonardo. Confesso que achei que com ele seria</em> <em>antes, mas, bem, estamos aqui e eu preciso te dar uma coisa. — Santiago começou a falar, se</em> <em>ajeitando na cadeira no lado oposto de Lorena. Ele abriu uma gaveta, tirando um pedaço de</em> <em>papel dobrado e esticando o braço na sua direção. Lorena hesitou, mas se inclinou para</em> <em>pegar a folha.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Santiago fez um movimento com as mãos para que ela seguisse adiante e Lorena desdobrou o</em> <em>papel, encarando um extrato do mesmo banco em que seus pais eram clientes há anos. Seus</em> <em>olhos passaram pelo seu nome no topo da página e pelo número de nove dígitos somado no</em> <em>final.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— O que é...isso? — ela gaguejou, apesar de ser óbvio. Lorena e Leonardo sabiam que eram</em> <em>ricos, muito mais do que ricos. Ela tinha crescido ouvindo boatos sobre quanto a sua família</em> <em>valia, sobre quanto Santiago e Zenilda tinham acumulado ao longo da vida, mas as quantias</em> <em>nunca tinham sido postas assim, tão explícitas. E ela sabia que era apenas uma parte de</em> <em>tudo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Um fundo de investimentos que eu e a sua mãe abrimos no seu nome quando você nasceu.</em> <em>O Leonardo também tem um. Nós combinamos que só contaríamos para vocês quando</em> <em>chegasse o momento de passar esse dinheiro a frente, um dia, quando vocês decidissem sair</em> <em>de casa ou se casar. Não tinha como esconder a nossa realidade financeira de vocês. Mas eu</em> <em>e a sua mãe sempre concordamos que dar acesso livre a esse dinheiro era um privilégio que</em> <em>viria com o tempo, se vocês demonstrassem merecer. Ter isso cedo demais estraga as</em> <em>pessoas. Tira a motivação para crescer, para estudar. Você corre atrás do que, se já tem tudo</em> <em>de mão beijada? E esse papel, eu preciso confessar, você e o seu irmão desempenharam</em> <em>relativamente bem. — Ele deu um gole no whisky, observando Lorena por cima do copo. Ela</em> <em>não deixou escapar o uso da palavra relativamente, porque sabia que Santiago não aprovava</em> <em>a sua escolha de profissão.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Pai tem...muito mais dinheiro do que eu preciso aqui. Tipo, para a vida inteira. — Lorena</em> <em>sabia que um dia aquela fortuna chegaria nela e em Leonardo, mesmo que não pesasse em</em> <em>herança como uma meta de vida. Ela sabia que era exatamente esse tipo de dinheiro que</em> <em>seus pais tinham. O que duraria por gerações e mais gerações. Ainda assim, era diferente</em> <em>ver os cem milhões no seu nome. Sabendo que, de onde aquilo tinha vindo, existia muito</em> <em>mais.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu sei. Mas é seu, por direito. Eu e a sua mãe pensamos em te dar quando você foi morar</em> <em>com a Eduarda, mas vocês pareciam estar se virando bem. Então, achamos que poderia ser</em> <em>saudável deixar as coisas assim por um tempo. Mas agora não faz sentido continuar</em> <em>guardando isso. Por mais que eu não concorde com muita coisa, era o acordo que eu tinha</em> <em>com a sua mãe. — Lorena congelou, erguendo os olhos devagar e encarando o pai, sem</em> <em>entender a sua última frase.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Por mais que você não concorde com muita coisa? — ela perguntou devagar enquanto</em> <em>deixava o papel em cima da mesa, ainda sem conseguir processar a quantia. Era suficiente</em> <em>para que ela e Eduarda comprassem o apartamento dos sonhos. Mil apartamentos. Para que</em> <em>vivessem de renda pelo resto da vida. Para viajar o mundo. Apesar de ter certeza de que</em> <em>Duda não aceitaria assim tão fácil. Ela queria uma vida própria, uma carreira própria, e</em> <em>Lorena também.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu tenho um presente de casamento para te dar — Santiago disse sem realmente</em> <em>responder a sua pergunta, voltando a abrir aquela mesma gaveta e tirando um envelope.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Assim como tinha fez com o documento do banco, ele o entregou para Lorena, que pegou</em> <em>com a guarda baixa por não esperar nada ruim. Na verdade, ela imaginava mais dinheiro</em> <em>porque, para Santiago, tudo girava em volta da sua maldita fortuna.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Seus olhos pararam no ticket impresso e ela paralisou ainda mais do que quando se deparou</em> <em>com o número exorbitante. Suas sobrancelhas franziram, lendo as palavras uma, duas, três</em> <em>vezes, sem conseguir fazer sentido da passagem de avião no seu nome.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela revirou o envelope em busca de uma segunda passagem com o nome de Eduarda, se</em> <em>perguntando se seus pais tinham decidido bancar uma lua-de-mel surpresa para as duas.</em> <em>Elas ainda estavam tentando decidir para onde ir e como pagar enquanto Eduarda</em> <em>negociava alguns dias de folga na residência. Sua nova conta resolvia o problema do</em> <em>pagamento. Mas Loren entendia devagar que aquilo não era uma lua-de-mel.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu não estou entendendo por que você está me dando uma passagem só de ida para</em> <em>Milão. Que porra é essa? — ela disse com a voz tensa pela primeira vez. Ela encarou a data</em> <em>do dia seguinte, às onze da manhã. Seu casamento estava marcado para uma da tarde.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Cuidado com o palavreado. Eu ainda sou o seu pai — Santiago rebateu em um tom</em> <em>ríspido que usava poucas vezes e Lorena entendeu que estava em território hostil ali dentro.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Isso é uma escolha, Lorena. Você quer ser adulta e se casar? A vida adulta é feita de</em> <em>escolhas e eu estou te dando uma. — Ele apontou para a passagem ainda presa entre as suas</em> <em>mãos trêmulas. — Esquece esse casamento. Vai viver a sua vida lá fora. Você ainda é jovem,</em> <em>ainda tem tanto para fazer. Pega esse dinheiro e vai para Milão. Não é a capital da moda?</em> <em>Você não quer seguir carreira? Fazer o seu nome nisso? É o melhor lugar para você</em> <em>começar. Não aqui, presa a um relacionamento fadado ao fracasso, brincando de dona de</em> <em>casa na Zona Leste.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>O queixo de Lorena despencou e ela precisou de um segundo para reagir.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Sem pensar, se levantou, jogou a passagem em cima da mesa e olhou para Santiago, sem</em> <em>reconhecer o homem que chamava de pai todos os dias há quase trinta anos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você enlouqueceu — ela respondeu de igual para igual, soltando uma risada irônica com</em> <em>um toque da mesma loucura que via nos seus olhos. Sem abaixar a cabeça, Lorena o</em> <em>encarou, porque sabia que o maior pesadelo de Santiago Ferette era ser desafiado. — É esse</em> <em>o seu problema agora? Dinheiro? Onde eu morei ou deixei de morar? O meu casamento com</em> <em>a Eduarda não está fadado ao fracasso, pai. Eu amo a Eduarda e você pode me oferecer cem</em> <em>milhões, quinhentos, a sua fortuna inteira. Você não vai comprar o meu amor por ela.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena empurrou o extrato bancário para longe, em um movimento de recusa. Santiago</em> <em>encarou os papeis, dando mais um gole no whisky com calma e estalando os lábios.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você sempre foi assim, teimosa. Sempre se achou mesmo diferente, especial,</em> <em>revolucionária — ele disse em um tom debochado, mas controlado, como se estivesse</em> <em>comentando sobre a previsão do clima. — Eu estou te dando uma chance de fazer isso de</em> <em>forma amigável, Lorena. Você deveria aceitar. Se você parar e pensar, eu estou, na verdade,</em> <em>te fazendo um favor.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Um favor?! — dessa vez, ela gritou, sem se importar se estava acordando metade da casa</em> <em>ou não. Talvez fosse melhor que Zenilda e Leonardo acordassem, porque ela precisava de</em> <em>ajuda para entender se um deles sabia quem era aquele homem na sua frente.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Sim! Um favor! — Santiago respondeu em um tom mais ríspido, batendo com o copo com</em> <em>força na mesa. Sem perceber, Lorena de um passo para trás, começando a sentir medo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Essa garota, ela não é certa para você. Eu já fui obrigado a engolir esse papo</em> <em>progressista da sua mãe, dizendo que eu precisava aceitar esse relacionamento aqui em casa</em> <em>e tudo bem. Eu admito. Talvez eu preferisse que você encontrasse um homem, me desse um</em> <em>genro, mas a Eduarda sempre foi educada, responsável. Ela tem um futuro promissor, eu não</em> <em>posso negar. Medicina é uma área boa. Mas ela ainda é muito diferente da nossa família. Ela</em> <em>não faz parte do nosso mundo. Isso nunca vai dar certo. Eu estou te poupando — ele</em> <em>acrescentou com tanta convicção na própria voz que Lorena coçou os olhos, porque só podia</em> <em>estar sonhando.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Uma dor de cabeça começou a se instalar no fundo da sua testa e ela suspirou, sentindo a</em> <em>sala girar enquanto lutava para segurar o choro, porque se recusava a demonstrar essa</em> <em>fraqueza.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Gente assim, não interessa o quanto trabalhe, o quanto suba na vida, eles ainda vão</em> <em>querer o nosso dinheiro, Lorena. A Eduarda está com você por dinheiro. Você acha que ela te</em> <em>ama? O que você tem a oferecer? A garota vai ser médica e você vai ser o que? Vai ficar</em> <em>para sempre trabalhando nessas marcas de roupa meia boca, obedecendo a um chefe</em> <em>qualquer? Você acha que em algum momento ela se apaixonou por você? Eu conheço gente</em> <em>desse tipo. Ela está com você por interesse. — Santiago esperou, contando na sua cabeça</em> <em>enquanto os olhos de Lorena mudavam devagar. Da garota meiga e doce que tinha criado,</em> <em>para a mulher explosiva, pronta para atacar e se defender que tinha se tornado.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Por dinheiro?! Você enlouqueceu?! A Eduarda está fazendo de tudo há dez anos para</em> <em>provar para você e para a mãe que não tem interesse no nosso dinheiro! Ela não aceita</em> <em>nada! Nem um jantar! Nem uma viagem! Nem a porra de um fogão na nossa cozinha e você</em> <em>acha que ela está fingindo?! — Lorena não teve coragem de falar sobre o resto. Sobre o</em> <em>discurso que a humilhava e que deixava claro o que Santiago sempre tinha pesando. Que ela</em> <em>não seria nada.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Aquilo mexia com as suas inseguranças de uma forma que não suportaria encarar agora.</em> <em>Não com seu pai atacando o seu relacionamento na véspera do seu casamento.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Quer saber, eu não sei nem porque estou ouvindo essa merda — ela declarou, empurrando</em> <em>a cadeira para sair da sala. — E caso não tenha ficado claro, você está desconvidado! Eu</em> <em>não quero você aqui amanhã! Se vira! Arruma um lugar para ir! E arruma uma boa</em> <em>desculpa para a mãe e para o Léo para se explicar! Seja criativo, porque eu não vou me</em> <em>estressar com essa sua atitude mesquinha! Você não vai estragar o meu casamento e o meu</em> <em>relacionamento!</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena se virou, se odiando quando sentiu as primeiras lágrimas escorrerem.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela queria sair dali, ligar para Eduarda, esquecer todos os combinados e regras que ela</em> <em>mesmo tinha criado para que o dia seguinte fosse mais especial. Eduarda ficaria</em> <em>preocupada, Lorena sabia. Ela não queria estressá-la desse jeito, não queria correr o risco</em> <em>de estragar o dia dela quando acordassem, assim como o seu já estava arruinado. Era nisso</em> <em>que pensava enquanto caminhava na direção da porta, afogada demais em pensamentos, até</em> <em>ouvir o clique.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela parou, por um momento, achando que estava imaginando coisas. Mesmo assim, sentiu as</em> <em>mãos se erguendo em um movimento automático e se virou devagar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Santiago estava em pé, parado no mesmo lugar de antes. Mas, ao lado da passagem de avião</em> <em>e do extrato bancário, estava o brilho inconfundível de uma pistola.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena nunca tinha visto uma arma de perto a não ser no coldre de policiais e dos</em> <em>seguranças particulares que faziam parte da rotina da sua família. Ela olhou para o cano</em> <em>virado na sua direção, percebendo que aquilo era uma ameaça silenciosa. Sem entender</em> <em>quem era aquele homem, do que ele era capaz e sem saber dizer desde quando Santiago</em> <em>Ferette andava armado.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu acho que você não entendeu — ele declarou em um tom duro e decidido, sem precisar</em> <em>se dar o trabalho de pegar a pistola em cima da mesa. Só a sua presença era suficiente para</em> <em>passar o recado. — Esse casamento não vai acontecer, Lorena. Porque eu juro por Deus, por</em> <em>tudo que me é mais sagrado, se você subir naquele altar, eu vou fazer a Eduarda pagar com</em> <em>a vida.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena abriu a boca, assistindo paralisada, sem perceber que seu corpo inteiro estava</em> <em>tremendo, da cabeça aos pés. A descarga de adrenalina no seu sangue que tentava fazer com</em> <em>que fugisse era forte demais. Em toda a sua vida, ela nunca tinha sentido um medo como</em> <em>aquele. Avassalador, paralisante, que corroía as suas entranhas e desconectava seu corpo da</em> <em>realidade.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Ou você entra nesse avião amanhã e desiste dessa história, ou eu juro que vocês não vão</em> <em>ter tempo de comemorar o primeiro mês desse casamento. Você quer que eu seja criativo? Eu</em> <em>sou um homem cheio de criatividade — ele cuspiu as palavras e se aproximou devagar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu posso forjar um assalto. Ela reagiu, levou um tiro na cabeça. Mais uma vítima da</em> <em>violência paulista. Eu posso causar um acidente. O trânsito nas capitais hoje em dia anda</em> <em>mesmo complicado. Ela pode cometer um erro médico grave, ir para a prisão e morrer lá</em> <em>dentro. Ou eu posso fazer pior — Santiago descrevia com uma voz tão cruel que as cenas</em> <em>giravam na cabeça de Lorena com um realismo assustador.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>  — Eu conheço gente que faria ela sofrer. Não ia sobrar corpo para você e o Henrique</em> <em>enterrarem. Vocês iam se despedir de um caixão vazio, porque eu faço ela desaparecer.</em> <em>Mando esquartejar e enterrar um pedaço em cada canto. Você quer que eu continue ou já</em> <em>entendeu?</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena sentiu vontade de vomitar. Se antes estava tentando segurar o choro, não conseguia</em> <em>mais.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela chorava por tudo. Pelo medo, pelo terror, por perceber que estava sendo enganada a</em> <em>vida inteira por um homem que fingia ser bom. Pelos planos escorrendo entre os seus dedos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Me testa — Santiago provocou, pegando a passagem largada em cima da mesa. Ele a</em> <em>empurrou contra o peito de Lorena, a forçando a dar um passo para trás.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Entra nesse avião amanhã e esquece a Eduarda — ele sussurrou com o rosto a</em> <em>centímetros do seu. — Se você me denunciar, se você contar para a sua mãe ou para o</em> <em>Leonardo, se você pensar em pisar no Brasil de novo, eu vou partir do pressuposto que você</em> <em>voltou para procurar essa garota e tudo que eu acabei de falar volta a valer. Se você falar a</em> <em>verdade para ela, se eu souber que ela está com você na Itália, eu mando matar ela lá fora.</em> <em>Seria uma tragédia. Turista brasileira morre em acidente de carro, de barco, de avião. Você</em> <em>pode escolher — ele narrou como se estivesse lendo uma manchete de jornal. — Não importa</em> <em>quanto tempo passe. Um ano, dois, dez. Se você voltar, ela morre. Se você abrir a boca, ela</em> <em>morre. Se você der a oportunidade de ela ir atrás de você, ela morre. Só desaparece, Lorena.</em> <em>E faça um bom trabalho.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Santiago soltou a passagem e Lorena a segurou sem perceber, sem conseguir mais enxergar</em> <em>entre as lágrimas que inundavam o seu rosto.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você está me exilando?! — ela perguntou, ainda sem acreditar. — Por que?! Por que</em> <em>esperar dez anos para fazer isso?! Por que esperar até a véspera do casamento?! Você — ela</em> <em>gaguejou. — Você é um monstro.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Santiago sorriu como se, pela primeira vez, concordasse com as suas palavras.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Não interessa os meus motivos. Eu só quero essa garota fora da nossa vida — ele</em> <em>respondeu, se virando e sentando na cadeira com o copo de whisky na mão, como se nada</em> <em>tivesse acontecido. — Pensa bem, o momento é perfeito. Você abandonar ela assim, logo</em> <em>quando vocês iam se casar. Ela nunca vai te perdoar. Eu só estou facilitando a sua missão em</em> <em>tirar ela do caminho.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena não conseguiu responder porque Santiago tinha razão. Eduarda nunca a perdoaria.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— O que você acha que eu vou falar para a mãe?! Para o Léo?! Como você acha que eu vou</em> <em>conseguir sair dessa casa sem eles repararem?! Como eu vou conseguir fazer alguém</em> <em>acreditar nessa história?! — Lorena não queria se exaltar, mas sentiu a histeria tomar conta</em> <em>da própria voz, sem saber mais o que fazer. Aquilo era um pesadelo. Precisava ser. A</em> <em>qualquer momento Eduarda a acordaria, sacudindo seu corpo na cama que dividiam no</em> <em>Tatuapé.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Mas, quando Santiago falou e ninguém apareceu para salvá-la, ela viu que era real.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>—  Isso não é problema meu — ele disse, girando o copo e o líquido marrom. — Se vira!</em> <em>Arruma uma boa desculpa! Seja criativa! — Santiago repetiu as suas exatas palavras e</em> <em>Lorena encarou os destroços do seu mundo desmoronado.</em>"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela passou a noite em claro, sem se dar o trabalho de tentar dormir ou de deitar na cama.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando encontrou coragem para sair do escritório de Santiago e subir para o próprio</em> <em>quarto, Lorena se sentou no chão, com as costas contra a parede, consciente de que estava</em> <em>presa entre um estado de choque e uma crise de pânico. Era tudo demais. A arma apontada</em> <em>na sua direção. As ameaças gráficas e tão bem descritas à Eduarda que conseguia desenhar</em> <em>em detalhes na sua mente. Descobrir que o homem que dividia a vida com a sua mãe, seu</em> <em>progenitor, que tinha a criado, se escondia por trás de uma máscara de educação e era, na</em> <em>verdade, um psicopata.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena não se importava se aquela classificação técnica estava certa ou não. Na sua cabeça,</em> <em>nenhuma pessoa descreveria as atrocidades que tinha escutado sem piscar, sem titubear, a</em> <em>não ser que tivesse um nível de frieza digna de um. As imagens a rodaram de novo enquanto</em> <em>encarava as paredes. As lágrimas escorriam em cascata. O peito estremecia com os soluços</em> <em>enquanto imaginava, mesmo sem desejar, todos os cenários que Santiago tinha pintado.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Um assalto, um acidente de carro, um erro médico grave forjado e qualificado como</em> <em>homicídio culposo. A promessa de que faria ela sofrer, de que não sobraria corpo enterrar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena correu para o banheiro, vomitando tudo que tinha comido e bebido mais cedo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela queria voltar no tempo e fazer tudo diferente. Não ter ido para casa antes de se casar.</em> <em>Ter ficado com Eduarda no apartamento de Henrique. Não ter inventado aquela ideia idiota</em> <em>de não dormirem juntas. Mas agora, ela sabia. Santiago era um monstro e monstros sempre</em> <em>encontravam portas abertas. Ele teria encontrado outras formas de destilar as suas ameaças.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Lorena tentou pensar em soluções, mas todas tinham sido blindadas por Ferette.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Fazer uma denúncia. Contar para Zenilda. Pedir ajuda. Ligar para Eduarda e falar a</em> <em>verdade. Fugir. Fugir com Eduarda. Viver se escondendo para sempre. Mas a certeza de que</em> <em>ele tinha conexões suficientes para encontrá-la em qualquer lugar a impedia. Era assim que</em> <em>pessoas ricas funcionavam. Sozinhas, podiam não ser perigosas. Mas sempre existia um</em> <em>contato, que conhecia outro, outro e outro, forjando uma linha capaz de chegar nos lugares</em> <em>mais obscuros.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Podia levar um ano, dois, três, dez. Seu pai ainda tinha uma vida longa pela frente e Lorena</em> <em>não conseguiria simplesmente desaparecer. Em todos os cenários que tentava criar, Eduarda</em> <em>sempre terminava morta de vinte maneiras cruéis e inescrupulosas na sua cabeça.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Em algum ponto da madrugada, ela começou a se mover. Entrou no closet, pegou suas</em> <em>maiores malas, sua mochila de viagem, só para se dar conta de que quase todas as suas</em> <em>coisas estavam na Mooca, no apartamento em que deveriam morar e começar uma vida</em> <em>juntas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>O pensamento fez Lorena desabar de novo. Ela podia escolher seguir em frente e casar com</em> <em>Eduarda, mas casaria com medo, em pânico, aterrorizada. Ela não conseguiria sorrir, não</em> <em>conseguiria se sentir feliz. Não conseguiria assinar os papeis, ir para casa com Duda.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Não conseguiria dormir, viver com a consciência de que, a cada passo que ela desse sozinha,</em> <em>a cada dia em que fosse trabalhar, a cada fim de semana de lazer, tudo poderia acabar em</em> <em>um piscar de olhos e Lorena ficaria para trás para lidar com as consequências.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Se Eduarda morresse, ela morreria junto. Mas foi pensando em Henrique, no homem</em> <em>amoroso que a tratava como uma filha, assim como Zenida tratava Eduarda, que ela tomou</em> <em>uma decisão.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Aquela família não podia perder mais do que já tinha perdido. Eduarda a odiaria e talvez</em> <em>fosse mesmo melhor assim. Pelo menos, desse jeito, ela ficaria segura.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Porque, a certeza que tinha de que seu pai cumpriria a palavra de matá-la, era a mesma de</em> <em>que ele a deixaria em paz se conseguisse o que queria.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando o sol nasceu, Lorena ainda estava acordada, sentada e paralisada no mesmo lugar.</em> <em>Em algum ponto da noite, suas lágrimas esgotaram e ela conseguiu pelo menos parar de</em> <em>chorar. Seu corpo estava dolorido por ter ficado na mesma posição por horas, sem conseguir</em> <em>se mover.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Os primeiros sons na casa começaram cedo, às seis da manhã. Ela ouviu por um tempo,</em> <em>contando as horas até o voo. Ainda faltavam cinco, mas era feriado em São Paulo e não</em> <em>poderia ficar ali para sempre, tentando fingir que a noite anterior não tinha acontecido.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Sem saber o que fazer, ela foi até o banheiro, lavou o rosto, escovou os dentes e desceu as</em> <em>escadas devagar. O medo de dar de cara com Santiago tinha colocado cada célula do seu</em> <em>corpo em estado de alerta. Com medo do terror que habitava a sua própria casa há tantos</em> <em>anos sem saber.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Mas, quando chegou na sala, Zenilda e Leonardo estavam sentados juntos, tomando café da</em> <em>manhã. Uma cena tão cotidiana que fez Lorena questionar se o mundo tinha voltado ao</em> <em>normal.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela os observou sem dizer nada, aproveitando que estava passando despercebida.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Sua mãe, achando que vivia uma vida perfeita. Leonardo, relaxado como sempre. Os dois</em> <em>sem saber que moravam em um lugar assombrado por demônios que tinham nome e</em> <em>sobrenome.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Léo parecia que tinha sido atropelado por um caminhão. Seus olhos descasavam escondidos</em> <em>por trás de um par de óculos escuros enquanto dava goles vagarosos em uma caneca de café.</em> <em>Ele não reagiu e nem a cumprimentou quando a viu, levado pela ressaca que, em alguns</em> <em>anos, também faria com que se sentisse culpado. A bebida o impedira de perceber algo</em> <em>errado na chegada da noite anterior, muito menos tinha notado a presença de Santiago no</em> <em>escritório.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando descobrisse a verdade, Leonardo sempre se perguntaria se poderia ter protegido</em> <em>Lorena.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Meu amor! — Zenilda exclamou assim notou a sua presença em frente ao último degrau.</em> <em>Sem pensar, ela se levantou, limpando a boca com um guardanapo e caminhando na sua</em> <em>direção. — Você já está de pé? Ainda está cedo! — Zenilda apontou para a hora no celular.</em> <em>— Dorme mais um pouco. O dia vai ser longo. Você vai precisar de energia. — Ela</em> <em>continuou falando e só parou quando Lorena tentou sorrir, mas o sorriso não se formou.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Zenilda deu um passo para trás, segurando o rosto da filha e a analisando porque a conhecia</em> <em>melhor do que ninguém. Alguma coisa estava errada. Ela sabia e também se sentiria culpada</em> <em>no futuro por não insistir. Por ter deixado tanto escapar bem embaixo dos seus olhos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Está tudo bem? — ela perguntou, acariciando as bochechas de Lorena.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Está...eu... — Lorena gaguejou, com medo de falar e começar a chorar de novo. As</em> <em>lágrimas ameaçaram voltar, mas ela se forçou a se controlar. — Sei lá, acho que só estou</em> <em>meio emotiva. Dormir aqui depois de tanto tempo. Acordar pensando que vou me casar. Eu</em> <em>estou um pouco nervosa. — Tudo isso seria verdade se a noite anterior não tivesse</em> <em>acontecido. Pelo menos era uma ótima desculpa caso não conseguisse segurar o choro.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu sei — Zenilda disse com um sorriso, a puxando para um abraço. — Eu também estou.</em> <em>Emotiva. Nervosa. Eu nem acredito que a minha nenenzinha vai se casar. E logo com a</em> <em>Duda. Sério, que menina perfeita, Lorena. Eu fico tão feliz de você ter escolhido bem.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ouvir aquilo foi demais. Lorena fechou os olhos nos braços de Zenilda e sentiu tudo voltar. A</em> <em>dor, o medo, a raiva. A sensação de que tudo estava sendo arrancado das suas mãos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Em outra situação, ela estaria reclamando pela mãe ainda chamá-la de nenezinha, o que</em> <em>tinha gerado aquela eterna brincadeira entre Maggye, Paulinho, Leonardo e Eduarda de</em> <em>replicar o apelido. Mas ali, ela só conseguia pensar no que estava perdendo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Se entrasse naquele avião, Lorena não perderia só Eduarda. Ela perderia a sua família, seus</em> <em>amigos, ainda que pudessem visitar. Ela nunca poderia voltar enquanto seu pai estivesse</em> <em>vivo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Mas, se ficasse, perderia tudo de uma forma muito pior.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Vamos parar com isso. Vamos parar de chorar porque ainda está muito cedo. — Zenilda</em> <em>brincou, se afastando e limpando as lágrimas de Lorena, sem saber que ela chorava por</em> <em>outro motivo. Lorena forçou um sorriso, tentando pensar em como sairia dali. Em como</em> <em>responderia as mensagens de Eduarda no seu celular porque ela também tinha acordado</em> <em>mais cedo do que deveria, sem conseguir dormir. Fingir aquela normalidade estava a</em> <em>matando devagar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Escuta, eu e o Leonardo vamos sair para buscar o bolo e o terno dele. Adivinha? Ele</em> <em>deixou tudo para última hora — Zenilda comentou, pegando a chave do carro em cima da</em> <em>mesa. — Pode deixar que eu recolho tudo quando voltar. A gente deve demorar um pouco</em> <em>por causa do trânsito. Enquanto isso, descansa um pouco e vai começando a se arrumar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Sua mãe tinha feito questão de dispensar todos os funcionários da casa, pagando seus</em> <em>salários integrais durante a pandemia, então, grande parte das tarefas domésticas estavam</em> <em>nas suas costas. Ela começou a arrumar a mesa enquanto Leonardo comia a passos lentos.</em> <em>Lorena se sentou no sofá, fingindo que estava com sono demais para conversar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando o relógio bateu sete da manhã, os dois se levantaram.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Zenilda se despediu com um até logo e um beijo na sua testa, sem saber que não encontraria</em> <em>a filha quando voltasse. Leonardo nem se deu o trabalho de olhar para Lorena.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eles saíram juntos, em uma missão inútil porque, naquela altura, Lorena tinha certeza de</em> <em>que aquele casamento não aconteceria. Assim que a porta se fechou, ela se levantou,</em> <em>sentindo seu corpo inteiro ameaçar um colapso quando o choro veio todo de uma vez. Mas</em> <em>sabia que não tinha tempo para sentir pena de si mesma, para se entregar àquela tortura</em> <em>interna.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela tinha quatro horas para estar naquele avião e ainda precisaria passar na Mooca para</em> <em>pegar as suas coisas. O tempo estava apertado e seu pai não aceitaria as suas desculpas.</em> <em>Aquela era a sua única chance e, independentemente de estar decidida ou não, ela precisava</em> <em>tomá-la porque, se Zenilda e Leonardo voltassem, ela não conseguiria mais sair.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Engolindo o choro, Lorena subiu até o quarto, pegou as malas que tinha separado, chamou</em> <em>um carro de aplicativo porque não teria onde deixar o seu se fosse para o aeroporto e saiu</em> <em>de casa o mais rápido possível, sem querer correr o risco de ficar sozinha com Santiago.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Foi assim que seu coração se partiu solitário, sem ninguém para segurá-lo. Para todos a sua</em> <em>volta, foi assim que Lorena partiu e abandonou tudo sem pensar duas vezes. Sem olhar para</em> <em>trás.</em>"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda estava tão nervosa que chegou mais cedo do que deveria. Ela tinha combinado com</em> <em>Lorena que chegaria às nove, mas às oito e meia, seu pai estacionou o carro na porta da</em> <em>mansão dos Ferette, evidenciando ainda mais o abismo econômico que existia entre as suas</em> <em>famílias.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Henrique era funcionário público há décadas, tinha um bom salário, uma vida confortável.</em> <em>Ainda assim, seu carro novo, recém-comprado, porque esse era um dos poucos luxos que</em> <em>fazia questão de ter em seus prazeres pessoais, parecia um brinquedo ao lado dos veículos</em> <em>importados pomposos e exagerados de Santiago, Leonardo e Lorena. O de Zenilda não</em> <em>estava na garagem.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela tentou não pensar nisso enquanto descia, pegando a mochila com os itens que tinha</em> <em>trazido para se arrumar. Paulo saiu do banco de trás, carregando os dois cabides cobertos</em> <em>pelo plástico preto. Seu terno e o vestido de Eduarda, que tinha imposto uma condição</em> <em>quando ela e Lorena decidiram não cancelar o casamento depois de mais uma onda</em> <em>avassaladora de covid entre março e abril, que a jogara de volta nas salas de emergência ao</em> <em>lado de Paulinho.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Apesar de estar vacinada, ela sabia que essa não era a realidade de muitas pessoas e,</em> <em>naquele ponto, tinha assistido a mortes demais para ser leviana. Ela se casaria com Lorena</em> <em>em meio a uma crise mundial, desde que a cerimônia não envolvesse empregados ou</em> <em>prestadores de serviço.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Por isso, elas tinham combinado que se arrumariam sozinhas, o que tornava tudo um pouco</em> <em>mais especial. Lorena faria o próprio cabelo e a própria maquiagem. Eduarda também. Aos</em> <em>poucos, ela tinha se acostumado com a ideia e gostava de saber que, no futuro, elas olhariam</em> <em>para as fotos e saberiam que tudo nelas tinha sido feito pelas suas próprias mãos e pelos</em> <em>esforços de Zenilda, que prometera ajudar como podia. Desde o almoço, as bebidas, a</em> <em>arrumação de um pequeno altar e de decorações, até auxiliar Eduarda e Lorena no que</em> <em>precisassem.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda sorriu quando cruzou a entrada por onde já tinha passado tantas vezes. Dali, ela</em> <em>via a piscina e as cadeiras posicionadas em círculo em volta de um pequeno altar, deixando</em> <em>uma passagem livre para que ela e Lorena caminhassem. Era simples, elegante, assim como</em> <em>tudo que Zenilda se propunha a fazer. Ela sabia que não se arrependeria se casar assim, com</em> <em>tão pouco e poucas pessoas. Era íntimo, no mesmo local onde tinha pedido Lorena em</em> <em>namoro. Era perfeito.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda suspirou e tocou a campainha, já que entre ela, Paulo e Henrique, era a que mais</em> <em>tinha intimidade com os Ferette. Em poucos segundos, a porta se abriu, revelando Santiago.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ele sorriu como sempre sorria quando a via. No começo, Eduarda achava a sua educação e</em> <em>simpatia plastificadas, como se Ferette tivesse as comprado em uma loja por indicação</em> <em>médica e tentasse usá-las de uma forma natural, mas não servissem tão bem assim no seu</em> <em>corpo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Com o tempo, ela se acostumou com o jeito do pai de Lorena, apesar de ainda achar tudo</em> <em>nele um pouco artificial. Seu sorriso branco demais, a voz sempre mansa, seus esforços</em> <em>filantropos sempre pensando no bem do mundo, sem nunca esperar nada em troca.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Duda! — ele exclamou assim que a viu, abrindo os braços. Eduarda sorriu de volta,</em> <em>aceitando o abraço do sogro enquanto ele abria caminho para que entrasse na casa. —</em> <em>Henrique, é sempre bom te ver. Paulo, como vai? Vamos entrar — ele falava enquanto</em> <em>apertava as mãos dos dois.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Paulo estava costumado com tudo na casa dos Ferette, mas Henrique ainda se sentia um</em> <em>pouco desconfortável com todo aquele dinheiro e com a sua filha no meio daquele mundo de</em> <em>tubarões. Ele amava Lorena, conhecia Santiago e Zenilda há anos, apesar de não conviver</em> <em>tanto com o casal, mas jamais conseguiria confiar em pessoas tão ricas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Henrique e Paulo entraram e Santiago fechou a porta, sorrindo de novo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Bem, normalmente a Zenilda é muito melhor nesse papel de anfitriã. Mas ela e o</em> <em>Leonardo saíram para resolver algumas coisas de última hora. Buscar o bolo e o terno dele</em> <em>— ele explicou, olhando para Eduarda, que assentiu, pouco surpresa por Léo ter deixado</em> <em>tudo para o último dia.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— A Lorena está se arrumando. Vocês precisam de alguma coisa? Uma bebida para acalmar</em> <em>os nervos? Estão com fome? — ele perguntou, calculando suas mentiras em cada detalhe.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Santiago tinha ficado na cama até mais tarde de propósito para poder usar o argumento de</em> <em>que Lorena estava trancada no quarto desde que desceu para tomar café. Ele não tinha</em> <em>conseguido conter a curiosidade e abriu a porta mais cedo quando percebeu que Zenilda e</em> <em>Leonardo não estavam em casa. A visão do seu closet revirado e a ausências das malas o</em> <em>preencheu com a satisfação de saber que seus planos tinham funcionado. Lorena não era</em> <em>burra e podia não conhecer todas as suas facetas, mas sabia que ela não arriscaria perder</em> <em>Eduarda.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Não. Nós estamos bem. Na verdade, eu queria começar logo a me arrumar. Você se</em> <em>importa? — Eduarda perguntou, apontando na direção das escadas. Santiago paralisou</em> <em>como se estivesse pensando no seu pedido e soltou uma risada.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Claro que não Duda, fica à vontade. Pode subir. — Eduarda concordou, puxando Paulo</em> <em>enquanto ouvia uma conversa rápida entre o seu pai e o pai de Lorena.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu só queria mesmo agradecer a você e a Zenilda por tudo. Por oferecer a casa para esse</em> <em>casamento, pelo esforço para fazer tudo dar certo, por cuidar tão bem da minha menina —</em> <em>Henrique listava e Santiago sorriu com dois tapinhas no ombro do homem, como se não</em> <em>tivesse ameaçado destruir de forma atroz o único amor que lhe restava.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Henrique, nós somos família agora. Não precisa agradecer. Por favor, sinta-se em casa.</em> <em>Quando a Zenilda chegar, nós podemos tirar um momento só nosso. Um brinde dos pais das</em> <em>noivas antes do casamento. O que você acha? — Henrique concordou, agradecendo mais</em> <em>uma vez antes de se despedir e seguir Eduarda e Paulinho escada acima.</em>"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Como tinha tempo, Eduarda decidiu fazer tudo com calma.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Tomou mais um banho em um dos quartos de hóspedes da casa, desacostumada a não</em> <em>ocupar o quarto de Lorena. Henrique e Paulo esperavam no quarto ao lado enquanto ela se</em> <em>higienizava, hidratava a pele da cabeça aos pés com os cremes que trouxera e finalizava</em> <em>todos os procedimentos estéticos que exigiriam um pouco mais de privacidade.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eles assistiram em silêncio enquanto Eduarda brigava com dois tutoriais que tinha</em> <em>encontrado na internet para fazer o penteado que queria e a maquiagem do jeito que</em> <em>gostava, se olhando no espelho e sentindo falta da mãe como não sentia em muito tempo.</em> <em>Seus pensamentos vagavam mais por Mariana desde que pedira Lorena em casamento.</em> <em>Aquela ausência materna sempre a atingia nos momentos mais importantes e esse era apenas</em> <em>mais um.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda ouviu quando o carro de Zenilda chegou por volta das dez da manhã e o som dos</em> <em>seus passos subindo as escadas. Ela sabia que, em algum momento, a sogra iria no seu</em> <em>quarto verificar como os preparativos estavam se encaminhando, mas não se surpreendia</em> <em>que Lorena fosse a sua prioridade naquele dia. Mesmo assim, fez questão de deixar alguma</em> <em>coisa para Zenilda ajudá-la, guardando separadas a pulseira fina de prata, os brincos que</em> <em>tinha escolhido e o véu que prenderia no cabelo, só para que pudesse sentir um pouco do seu</em> <em>carinho materno e dos seus cuidados antes de subir no altar do jardim para se casar com a</em> <em>sua filha.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Exatamente às onze, Eduarda estava pronta com duas horas de antecedência. O vestido</em> <em>branco clássico porque fazia questão de casar com Lorena com todas as formalidades e</em> <em>clichês, de véu e grinalda, a cerimônia completa. Branco, longo, rendado com um florido</em> <em>discreto e uma boa parte das costas nuas. O decote em forma de V na parte da frente a</em> <em>deixava confiante. A maquiagem estava leve, mas presente. O cabelo impecável, sem um fio</em> <em>fora do lugar. As unhas pintadas em um bege claro para combinar com o dia. Ela borrifou</em> <em>um pouco do perfume favorito de Lorena no pescoço e na roupa, ajeitou a aliança que</em> <em>trocaria por uma nova e se virou.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Paulinho e Henrique estavam sentados na cama, observando o seu ritual. Assim que viram</em> <em>Eduarda de frente, pronta, com exceção do sapato alto que colocaria depois, eles</em> <em>emudeceram.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda esperou uma reação, começando a ficar nervosa quando não recebeu nada além</em> <em>dos olhares vazios do pai e do melhor amigo. Os dois homens da sua vida.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Então? — ela perguntou, se sentindo um pouco insegura. — Vocês não vão falar nada? —</em> <em>O queixo de Paulinho despencou alguns centímetros e seu pai levou as mãos até a boca em</em> <em>um gesto discreto. Eduarda não sabia, mas eles estavam mudos porque não conseguiam</em> <em>falar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Minha filha, você está... — Henrique gaguejou, deixando as primeiras lágrimas</em> <em>escorrerem enquanto fechava os olhos e sacudia a cabeça. — Você está linda. Estonteante.</em> <em>Eu estou tão feliz por te ver assim. Realizada, casando com a pessoa que você ama. Eu não</em> <em>sei o que dizer.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela virou para Paulo, porque estava ficando sem graça, mas ele também estava chorando.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Ai, você também não, né?! Por que você está tão choroso desde ontem?! — mas Paulo</em> <em>não respondeu, sacudindo as mãos e agradecendo por não ter colocado o terno ainda.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda revirou os olhos quando percebeu que não conseguiria uma reação mais detalhada,</em> <em>espiando a própria imagem no espelho, respirando fundo e pensando em Lorena. Em como</em> <em>ela estava se sentindo, se ela estava também estava nervosa assim.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela também choraria quando a visse. Era a sua maior certeza. Então, talvez pudesse</em> <em>entender um pouco a reação de seu pai e de Paulinho. Mesmo assim, Eduarda precisava que</em> <em>eles falassem.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— O cabelo está bom? A maquiagem? — os dois se entreolharam e, mesmo de longe, ela</em> <em>sentiu o pânico compartilhado quando perceberam que não faziam ideia do que responder.</em> <em>Um bufo irritado escapou da sua boca enquanto jogava as mãos para o alto, sem conseguir</em> <em>evitar um sorriso. — Nossa, por que homem é assim tão inútil? Ainda bem que vou casar</em> <em>com uma mulher.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Henrique e Paulo riram, orgulhosos, de formas diferentes, no amor que compartilhavam por</em> <em>ela.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você está linda, Duda. Perfeita. — Paulo enfim conseguiu fazer a sua voz voltar a</em> <em>funcionar. — A Lorena é a mulher mais sortuda do mundo. Você sabe que ela te ama e</em> <em>também vai te achar perfeita. — Mesmo assim, a sua barriga revirou com nervosismo e a</em> <em>perspectiva de ver Lorena.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Mas, antes que pudesse começar a pensar, Henrique se levantou.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Paulo, você se importa de me dar um momento com a Eduarda? Uma conversa de pai e</em> <em>filha? — Paulinho reagiu no mesmo segundo, se levantando da cama e negando com a</em> <em>cabeça.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Para a surpresa de Eduarda, ates de sair, ele se aproximou, a puxando devagar para um</em> <em>abraço carinhoso. Eles ficaram ali, presos nos braços do outro, pensando em tudo que</em> <em>tinham vivido naqueles anos desde que se conheceram, todos os momentos que tinham os</em> <em>carregado até ali.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Então, Paulo segurou o seu rosto com carinho e deixou um beijo cuidadoso na sua testa.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu te amo, sua idiota. Está na hora de se casar — ele disse e Eduarda sorriu.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu também te amo. Apesar de você ser insuportável. — Paulo riu com a resposta e lançou</em> <em>um último olhar na sua direção. Eduarda assistiu enquanto o melhor amigo escapava pela</em> <em>porta, se sentindo tão emotiva quando ele ao perceber que também estava a um passo de</em> <em>chorar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando seu pai se levantou, ela sabia que aquela guerra seria perdida.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Henrique caminhou até onde ela estava, parou na sua frente e segurou os seus ombros. Seus</em> <em>olhos desceram pelo corpo da filha que tinha criado sozinho, muitas vezes, sem saber o que</em> <em>estava fazendo. Torcendo para que pelo menos estivesse cumprindo o seu papel de forma</em> <em>satisfatória e proporcionando tudo que podia para Eduarda quando Mariana faltava.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Assim como a Eduarda, ele também pensava que ali, ausência da esposa era maior do que</em> <em>nunca. Mais do que no dia da sua formatura, nos dias em que ficava doente, quando era</em> <em>criança e tinha pesadelos, quando se apaixonou pela primeira vez, quando se tornou uma</em> <em>mulher.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Sua mãe ia estar tão orgulhosa — ele sussurrou e Eduarda assentiu, sem conseguir falar.</em> <em>Seu queixo estremeceu porque também estava pensando nela. Henrique e Eduarda raramente</em> <em>falavam sobre Mariana. Mas, naquele dia, parecia inevitável.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você está tão parecida com ela, minha filha. Você não tem ideia. — Eduarda, de fato, não</em> <em>tinha ideia porque nunca a vira para além das fotos. Mas sabia que dividiam traços em</em> <em>comum. Os mesmos olhos castanhos, os mesmos cabelos ruivos, a mesma paixão pela vida e</em> <em>pela ciência.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela concordou de novo, se rendendo a realidade de que precisaria refazer a maquiagem. As</em> <em>lágrimas escorreram devagar e seu pai as limpou como tinha feito durante toda a sua vida.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu queria te dar uma coisa. — Ele enterrou a mão no bolso da camisa social e Eduarda</em> <em>reparou como Henrique tremia, sem saber se era a emoção ou o nervosismo pelo que estava</em> <em>prestes a fazer. Então, suspirou e ergueu os olhos, segurando o arranjo na palma da mão.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— A sua mãe usou quando a gente se casou. Acho que eu estava guardando esse tempo todo</em> <em>para você — ele começou a falar e, na mesma hora, Eduarda sentiu o choro intensificar</em> <em>ainda mais. Ela um arranjo de cabelo simples, um grampo enfeitado com flores brancas de</em> <em>pérolas e pedras que imitavam diamantes. Estava um pouco desbotado e gasto em alguns</em> <em>pontos, mas era dela.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu sei que sou homem e não entendo nada disso. — Ele apontou para Eduarda e para o</em> <em>vestido. — Eu não sei se combina com a sua roupa, se é uma coisa que você gosta, mas,</em> <em>independentemente de você escolher usar ou não, ela precisava estar aqui de alguma forma.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Eduarda assentiu, esticando a mão para segurar a do pai, prendendo o arranjo entre a</em> <em>palma dele e a sua, como se ali, de alguma forma, ambos estivessem abraçando Mariana.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— É lindo, pai. Vai ficar perfeito com o véu. Muito obrigada — ela agradeceu. — Por tudo.</em> <em>Por hoje, por todos os outros dias, pela minha vida inteira. Eu sei que foi difícil. Eu sei que</em> <em>você sempre sofreu por ela esse tempo todo e acho que hoje eu entendo. Eu não sei se teria a</em> <em>sua força se acontecesse alguma coisa com a Lorena. Aprender sobre o amor só me fez te</em> <em>admirar mais.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Henrique sorriu e deixou o choro do luto pela esposa escorrer diante da filha pela primeira</em> <em>vez.</em>"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Paulinho esperava no lado de fora do quarto, andando de um lado para o outro porque</em> <em>estava começando a ficar ansioso, sem ter ideia de que, no andar de baixo, pedaços da</em> <em>família Ferette começavam a desmoronar. A casa estava surpreendentemente silenciosa para</em> <em>o furacão que passava. Os ventos desviavam de Eduarda e Henrique, protegidos pela bolha</em> <em>da ignorância, mas chegaram em Paulo assim que Maggye subiu as escadas, dando de cara</em> <em>com o amigo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ela paralisou no meio do corredor e tentou disfarçar. Mas esse era o problema de amizades</em> <em>que se estendiam por tempo demais. Naquele ponto, Maggye, Leonardo, Lorena, Paulo e</em> <em>Eduarda sabiam se ler em qualquer idioma, a qualquer distância. Quando percebeu a</em> <em>expressão tensa no seu rosto e notou que seu cabelo ainda estava bagunçado, seu rosto limpo</em> <em>de maquiagem e seu corpo protegido por um roupão, ele paralisou, franzindo as</em> <em>sobrancelhas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você ainda não começou a se arrumar? — Paulo perguntou e Maggye fechou os olhos,</em> <em>esfregando o rosto porque o estresse já estava se acumulando há mais de uma hora. Aquilo</em> <em>era apenas a gota d’água que todos eles estavam tentando evitar. E agora, tudo</em> <em>transbordava.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Maggye também começou a caminhar sem rumo, coçando a cabeça, sem se esforçar para</em> <em>fingir que estava tudo bem. Então, parou.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— A gente precisa conversar, Paulinho. — Sem saber mais o que fazer, ela segurou o seu</em> <em>braço e puxou Paulo para o quarto vazio de Leonardo. Os dois ignoraram a bagunça por</em> <em>todos os lados, tão diferente do quarto de Lorena, sempre organizado. Eles tinham</em> <em>preocupações maiores.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Paulo ainda estava atordoado quando se deu conta de que algo estava acontecendo. Seu</em> <em>coração começou a despencar aos poucos, sem entender, mas imaginando os piores cenários.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Ainda assim, nenhuma imagem hipotética criada pela sua cabeça o prepararia para aquilo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— A Lorena sumiu — Maggye disse de uma vez, sem acreditar nas palavras que saíam da</em> <em>sua boca. — Eu cheguei mais cedo para me arrumar com ela e o quarto estava vazio. Eu</em> <em>falei com o Santiago e ele disse que não via a Lorena desde ontem, mas que acordou mais</em> <em>tarde hoje e imaginou, pela porta fechada, que ela já estava se arrumando. A Zenilda e o Léo</em> <em>chegaram logo depois e ninguém sabe dela. Eles falaram com ela antes de sair e agora ela</em> <em>simplesmente não está em lugar nenhum. — Maggye sentiu o corpo começando a tremer,</em> <em>exalando todo o seu nervosismo. Paulo ouviu tudo congelado no mesmo lugar. Seu cérebro se</em> <em>recusava a processar aquela informação, como se Maggye falasse em uma língua</em> <em>desconhecida.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Maggye — ele disse devagar, sentindo as engrenagens da sua cabeça lutando para</em> <em>entender o que estava acontecendo. — Como assim a Lorena sumiu? — Paulo ignorou o fato</em> <em>de que Maggye tinha literalmente acabado de explicar. Ela não tinha mais justificativas além</em> <em>dessas.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu não sei! — ela gritou em um sussurro para que Eduarda não escutasse. — Eu já liguei</em> <em>para ela quinhentas vezes e ela não atende! O carro dela está na garagem e a Zenilda está</em> <em>desesperada, pensando no pior! Nós já ligamos para todos os hospitais públicos, para a</em> <em>polícia para saber se reportaram algum acidente! Não tem nada, a gente não sabe mais o</em> <em>que fazer!</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Paulo passou a mãos pelos cabelos, puxando os fios, sem acreditar no que estava</em> <em>acontecendo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Quando isso aconteceu?! — ele perguntou, começando a entrar em pânico. Ele pensou em</em> <em>Eduarda. Em como ela reagiria se algo tivesse acontecido com Lorena justamente naquele</em> <em>dia.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu cheguei tem uma hora. A gente estava tentando manter a coisa minimamente sobre</em> <em>controle para não deixar a Duda nervosa, mas está ficando tarde. Alguém vai ter que falar</em> <em>alguma coisa para ela. — Paulo soltou uma risada incrédula porque sentiu no olhar de</em> <em>Maggye que ela esperava que essa pessoa fosse ele e ele se recusava a sustentar aquele</em> <em>problema sozinho.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Maggye, faltam duas horas para a porra do casamento! O que você quer que eu fale...?!</em> <em>— mas ele parou assim que Maggye ergueu as mãos, puxando o celular do bolso.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>O som da vibração de uma notificação foi inconfundível no silêncio do quarto. Seus olhos</em> <em>arregalados anunciavam que, seja lá o que tivesse recebido, com certeza era sobre Lorena.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Paulo acompanhou em silêncio suas pupilas girando de um lado para o outro enquanto lia</em> <em>alguma coisa. Então, Maggye paralisou, seu rosto pálido, perdendo a cor tão rápido que, por</em> <em>um segundo, Paulinho se inclinou para frente, com medo de que ela desmaiasse.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— O que foi? — ele perguntou quando ela não falou nada. Mas Maggye sacudiu a cabeça e,</em> <em>em um ato de desespero, ele a segurou pelos ombros para que o encarasse e a sacudiu</em> <em>devagar. — Maggye, porra! Você está me deixando nervoso! O que aconteceu?!</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Maggye não conseguiu responder. Mas, no que sempre pareceria para Paulo como um gesto</em> <em>em câmera lenta quando voltasse naquela memória nos anos seguintes, ela entregou o seu</em> <em>celular, deixando o corpo cair sentado na beira da cama de Leonardo. Seu rosto se escondeu</em> <em>nas mãos enquanto tentava respirar, observando Paulinho por cima dos dedos enquanto</em> <em>encarava a tela.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<strong>[11:02, 09/07/2026] Lore:</strong> <em>Maggye, eu sei que você não vai entender e talvez ninguém</em> <em>entenda, mas eu acabei de embarcar em um voo para a Itália. Está decolando daqui a alguns</em> <em>minutos. Eu não sei o que dizer. Acho que meti os pés pelas mãos com a Eduarda. Eu não me</em> <em>sinto pronta para casar. Nós ainda somos novas demais, ainda temos tanta coisa para viver.</em> <em>Sinceramente, eu não sabia como falar isso para ela. Eu sabia que ela não ia aceitar, que ela</em> <em>ia me odiar e que as coisas acabariam entre nós. Então, preferi recomeçar a minha vida em</em> <em>outro lugar. Longe dela, longe de tudo, fazer o meu próprio nome onde ninguém me conhece,</em> <em>me arriscar. Desculpa por não ter me despedido, mas eu precisava ir antes que alguém me</em> <em>convencesse do contrário. Eu te amo e sinto muito por ir embora assim. Espero que um dia a</em> <em>gente se reencontre.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Paulo leu cada palavra, acreditando cada vez menos no que estava diante dos seus olhos.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Quando chegou no final, precisou reler a mensagem para ter certeza de que não estava</em> <em>sonhando. Ele piscava, mas as palavras continuavam ali. Quando começou a esfregar o</em> <em>rosto com as mãos, sentindo o atrito de pele com pele tão real que era impossível pensar que</em> <em>aquilo era uma ilusão, a sua ficha começou a cair devagar. Ainda assim, era impossível</em> <em>acreditar.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Você está de sacanagem comigo — ele disse em um tom ponderado, com o braço</em> <em>estagnado no ar, segurando o aparelho. — Não, Maggye! Você só pode estar de sacanagem</em> <em>comigo! Isso aqui é uma brincadeira?! É uma piadinha de mau gosto que vocês armaram</em> <em>para mim e para a Eduarda?! — o volume da sua voz subiu aos poucos e, de repente, ele</em> <em>estava gritando.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Mas, quando Maggye começou a chorar, ele sabia que não era uma piada.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu não sei, Paulo! Eu não sei o que aconteceu! Estava tudo bem! — Maggye também se</em> <em>entregou ao desespero que estava tentando segurar desde que tinha chegado. Ela se levantou</em> <em>e voltou a caminhar de um lado para o outro. — A Lorena estava feliz! Eu... — ela não sabia</em> <em>o que dizer. Ela não sabia como defender Lorena, porque não existia defesa possível para</em> <em>aquilo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>Como se pensasse o mesmo, Paulo soltou uma risada incrédula. Maggye ergueu os olhos</em> <em>para encará-lo e, pela primeira vez, percebeu que, apesar de ser a mesma pessoa, o mesmo</em> <em>rosto que via há anos desde a festa que tinha mudado a vida dos cinco, talvez não conhecesse</em> <em>tanto.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>A raiva tinha transfigurado as suas expressões. Transformado Paulinho em outra pessoa.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— O que eu vou falar para a Eduarda?! — ele gritou, apontando para a porta. — Ela está</em> <em>pronta, Maggye! Ela está linda! Ela está... — Paulo parou, sacudindo a cabeça e se</em> <em>perdendo em um olhar vazio na direção da porta de vidro que protegia a varanda de</em> <em>Leonardo.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>De repente, tudo naquela casa o enojava. Cada pessoa, cada centavo, o cheiro dos lençóis,</em> <em>os cômodos. Até mesmo Maggye, sentada na sua frente, tão surpresa quanto ele.</em>"
+    },
+    {
+      "type": "paragraph",
+      "html": "<em>— Eu juro por Deus, Maggye — ele disse em um sussurro tomado pela dor e pelo ódio. — É</em> <em>melhor que a Lorena realmente tenha embarcado nesse avião! É melhor ela desaparecer do</em> <em>mapa! Que ela nunca mais pise na porra desse país! Porque se ela cruzar comigo, eu mato</em> <em>ela!</em>"
+    }
+  ],
+  "chapterNotes": [
+    "E segue o 16 com outro alerta de gatilho. Dessa vez, descrições gráficas de violência.\n A música citada na cena do carro é \"Me Espera\" - Sandy e Tiago Iorc.\n Agora, me deem uma folguinha depois dessa atualização dupla. Fico no aguardo de comentários e reações."
+  ],
+  "chapterSummary": [],
+  "endNotes": []
+}
