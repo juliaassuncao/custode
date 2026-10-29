@@ -6,11 +6,14 @@ export function HomePage() {
   return (
     <main className="home">
       <section className="home__hero">
-        <img className="home__logo" src="/custode-logo.jpg" alt="Custode — trevo de quatro folhas verde-sálvia" />
-        <p className="home__eyebrow">Fanfic Loquinha · Lorena &amp; Eduarda</p>
+        <img className="home__logo" src="/custode-trevo.svg" width="400" height="510" alt="Trevo verde de quatro folhas da Custode" />
         <h1>{work.title}</h1>
         <p className="home__byline">por {work.author}</p>
-        <p className="home__intro">{work.summary}</p>
+        <div className="home__intro">
+          {work.summary.split(/\n\s*\n/).map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
+        </div>
         <p className="home__notice">Obra para público adulto · Conteúdo sensível, incluindo doença e violência. Leia os avisos originais da autora.</p>
         <Link className="primary-link" to="/capitulo/1">Começar a leitura <span aria-hidden="true">→</span></Link>
       </section>

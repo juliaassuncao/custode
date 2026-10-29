@@ -6,10 +6,10 @@ import work from '../data/chapters/work.json';
 import { loadChapter } from '../services/loadChapter';
 import type { Chapter } from '../types';
 
-function AuthorNotes({ title, paragraphs }: { title: string; paragraphs?: string[] }) {
+function AuthorNotes({ title, paragraphs, variant }: { title: string; paragraphs?: string[]; variant?: 'intro' }) {
   if (!paragraphs?.length) return null;
   return (
-    <aside className="author-notes" aria-label={title}>
+    <aside className={`author-notes${variant === 'intro' ? ' author-notes--intro' : ''}`} aria-label={title}>
       <h2>{title}</h2>
       {paragraphs.map((text, idx) => (
         // HTML é gerado exclusivamente pelo extrator local: só <em>, <strong> e texto escapado.
@@ -63,6 +63,9 @@ export function ChapterPage() {
       {loading ? <p className="reader__status" role="status">Carregando capítulo...</p> : (
         chapter ? (
           <>
+            {chapterNumber === 1 && (
+              <AuthorNotes title="Nota da autora" paragraphs={work.introNotes.split(/\n\s*\n/)} variant="intro" />
+            )}
             <AuthorNotes title="Resumo do capítulo" paragraphs={chapter.chapterSummary} />
             <AuthorNotes title="Notas da autora" paragraphs={chapter.chapterNotes} />
             <article className="chapter-content" aria-label={`Texto do capítulo ${chapterNumber}`}>
