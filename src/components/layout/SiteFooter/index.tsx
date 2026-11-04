@@ -7,8 +7,7 @@ export function SiteFooter({ editorial = false }: { editorial?: boolean }) {
   return (
     <footer className={`${styles.footer}${editorial ? ` ${styles.editorial}` : ''}`}>
       <div className={styles.inner}>
-        <p>Custode é uma obra de ficção escrita por <AuthorCredit />. Os direitos sobre o texto e suas contribuições criativas são reconhecidos à autora.</p>
-        <p>Este portal é uma experiência digital independente e complementar à obra, sem caráter de publicação oficial.</p>
+        <p>Custode é uma obra de fanfiction publicada no AO3. Por ser uma fanfic, a história e a página imersiva não possuem fins lucrativos e todos os direitos referentes aos personagens originais pertencem aos seus respectivos criadores.</p>
         <p className={styles.development}>Concepção e desenvolvimento do portal: <AuthorCredit credit={portalCreator} />.</p>
         <Link className={styles.about} to="/o-projeto">O projeto e os créditos</Link>
       </div>
