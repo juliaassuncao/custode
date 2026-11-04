@@ -1,0 +1,37 @@
+{
+  "id": "lorena-ferette-estado-critico",
+  "slug": "lorena-ferette-estado-critico",
+  "vehicle": "Vértice",
+  "title": "Lorena Ferette, CEO, Diretora Criativa e Fundadora da Custode, se encontra em estado crítico após diagnóstico de Leucemia. Fontes próximas confirmam.",
+  "date": "São Paulo, 11 de agosto, 2026",
+  "paragraphs": [
+    "Há algumas semanas, o mundo da moda foi abalado por uma notícia chocante. Lorena Esteves Ferette (33) anunciou, através de uma nota nas redes sociais, um diagnóstico de Leucemia Mieloide Aguda, detectado no começo de junho, em Milão, seu local de residência desde 2021. ",
+    "Lorena surgiu como uma avalanche no nicho das grifes internacionais por volta de 2022, estabelecendo a Custode, empresa de sua criação, onde atua como CEO e Diretora Criativa, como uma das principais marcas da moda mundial, considerada por especialistas digna da mesma prateleira de gigantes como Louis Vuitton, Valentino, Hermès, Ralph Lauren e Dior. ",
+    "Conhecida por uma desconexão profunda com o Brasil desde que construiu sua carreira na Itália, Lorena já foi criticada inúmeras vezes por manter diversas lojas da Custode em shoppings de elite em solo nacional e pela criação da linha brasilidades, com itens inspirados na tropicália brasileira, dada como incompatível com as suas recusas anuais aos convites para a maior semana de moda do país, a São Paulo Fashion Week. A magnata da moda mantém seus negócios discretos no seu local de nascimento, sem uma filial brasileira oficial, inviabilizando assim a produção de empregos e investimentos massivos que poderiam ser benéficos para o seu país natal. Todos os produtos da Custode vendidos nas principais capitais brasileiras são produzidos e importados diretamente da Itália e da França, onde a Custode mantém suas principais linhas de produção. Apesar disso, a escolha de Lorena para tratar a leucemia foi o hospital de luxo São Peregrino, conhecido como um dos mais caros e exclusivos de São Paulo. ",
+    "Fontes confirmam que os funcionários foram obrigados a assinar termos de confidencialidade para proteger a privacidade de Lorena e que apenas médicos e enfermeiros escolhidos a dedo têm acesso a herdeira do império Ferette, que se mantém discreta e extremamente exigente diante da diretoria da instituição. Contudo, o tratamento, iniciado no fim de junho, não estaria dando os resultados esperados, apesar do tom tranquilizador da nota oficial publicada pela Custode. ",
+    "Lorena estaria evitando aparições públicas por estar extremamente debilitada depois de complicações resultantes da quimioterapia intensa a qual tem sido submetida e da própria leucemia. Segundo informações internas, a última complicação teria sido uma cirurgia para controlar uma hemorragia gastrointestinal. Indícios confirmam que Lorena passou por um procedimento extremamente delicado e estaria em coma induzido, ainda sob risco de vida.",
+    "Além do seu estado de saúde, tivemos acesso a informações sigilosas de um escândalo abafado pelo São Peregrino referente a uma relação pessoal inapropriada entre Lorena Ferette e uma das médicas responsáveis pelo seu tratamento, Eduarda Kamiński Fragoso (35). Uma fonte que preferiu não se identificar confirmou que Lorena e Eduarda são velhas conhecidas dos corredores da USP, onde uma cursou moda e a outra medicina, e que teriam vivido um relacionamento longo e dramático durante anos antes de se separar. ",
+    "A versão que circula nos corredores do hospital é que Lorena e Eduarda se reencontraram no São Peregrino e teriam mantido sua antiga relação amorosa em segredo enquanto Eduarda fazia parte da equipe designada para acompanhar o seu tratamento. A verdade teria sido exposta pela própria médica, após voltar a se envolver romanticamente com Lorena e ser afastada das suas funções desde então. Lorena, que sempre foi discreta sobre as suas relações amorosas, nunca escondeu a sua sexualidade, mas também nunca viveu um relacionamento público.",
+    "A diretoria do São Peregrino foi contatada, mas preferiu não entrar em detalhes sobre o caso ou possíveis medidas disciplinares que podem ser tomadas em relação ao conflito ético. Kasper Damatta, diretor do hospital, fez uma declaração neutra, alegando que o São Peregrino está cuidando da situação e protegendo a privacidade de todos os envolvidos, reafirmando que, no momento, a prioridade número um é a recuperação completa de Lorena."
+  ],
+  "photo": {
+    "src": "/images/imprensa/sao-peregrino-capa.png",
+    "alt": "Ilustração do corredor hospitalar do São Peregrino, com divisórias de vidro e iluminação discreta.",
+    "caption": "Imagem ilustrativa do Hospital São Peregrino · Universo fictício de Custode."
+  },
+  "pullQuote": {
+    "paragraphIndex": 4,
+    "start": 309,
+    "end": 440
+  },
+  "italic": {
+    "title": true,
+    "date": true,
+    "body": true
+  },
+  "portrait": {
+    "src": "/images/imprensa/lorena-ferette-retrato.jpg",
+    "alt": "Retrato de Lorena Ferette.",
+    "caption": "Lorena Ferette."
+  }
+}

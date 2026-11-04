@@ -1,0 +1,25 @@
+.embed {
+  min-width: 0;
+  margin: 28px 0 40px;
+  padding: clamp(18px, 4vw, 32px);
+  border: 1px solid #c8c3bb;
+  overflow-wrap: break-word;
+
+  :global(.vertice__article) { max-width: 680px; margin-inline: auto; }
+  :global(.vertice__lead) { display: flex; flex-direction: column; gap: 24px; padding-bottom: 0; }
+  :global(.vertice__lead) > * { width: 100%; min-width: 0; }
+  :global(.vertice__body) { columns: auto; display: block; padding-top: 0; border-top: 0; }
+  :global(.vertice__opening) { padding-top: 0; border-top: 0; }
+  :global(.vertice__photo-placeholder) { aspect-ratio: 4 / 3; }
+
+  :global(.vertice__masthead) { padding-top: 0; gap: 16px; }
+  :global(.vertice__wordmark) { font-size: clamp(38px, 4.5vw, 54px); }
+  :global(.vertice__sections) { font-size: 9px; gap: 12px; }
+  :global(.vertice__signature) { font-size: 8px; letter-spacing: .13em; }
+  :global(.vertice__headline h2) { font-size: clamp(28px, 3vw, 38px); }
+
+  @media (max-width: 480px) {
+    margin-inline: -10px;
+    :global(.vertice__signature) { font-size: 7px; letter-spacing: .12em; }
+  }
+}

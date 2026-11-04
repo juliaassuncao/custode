@@ -373,10 +373,30 @@ select {
   font-weight: 700;
 }
 .chapter-content__separator {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(12px, 3vw, 18px);
+  width: min(100%, 180px);
+  margin-inline: auto;
   color: var(--color-accent-soft);
-  font-size: 17px;
-  padding: 18px 0 40px;
+  padding: clamp(24px, 5vw, 36px) 0 clamp(36px, 6vw, 48px);
+
+  &::before,
+  &::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--color-border);
+  }
+
+  > span {
+    flex: 0 0 6px;
+    width: 6px;
+    height: 6px;
+    border: 1px solid currentColor;
+    transform: rotate(45deg);
+  }
 }
 .reader__status {
   padding: 32px;
