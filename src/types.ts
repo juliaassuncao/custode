@@ -1,6 +1,7 @@
 export interface ChapterBlock {
-  type: 'paragraph' | 'separator';
+  type: 'paragraph' | 'separator' | 'verticeArticle' | 'socialPosts' | 'internationalHeadlines';
   html?: string;
+  articleId?: string;
 }
 
 export interface Chapter {

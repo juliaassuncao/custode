@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import manifest from '../data/chapters/manifest.json';
+import { listedChapters } from '../../../data/chapter28/metadata';
 
 interface Props {
   current: number;
@@ -8,7 +8,7 @@ interface Props {
 
 export function ChapterNavigation({ current, placement = 'top' }: Props) {
   const navigate = useNavigate();
-  const last = manifest.length;
+  const last = listedChapters.length;
 
   return (
     <nav className={`chapter-nav chapter-nav--${placement}`} aria-label={`Navegação de capítulos (${placement})`}>
@@ -26,8 +26,9 @@ export function ChapterNavigation({ current, placement = 'top' }: Props) {
       </div>
       <label className="chapter-nav__select-label">
         <span>Ir para o capítulo</span>
-        <select value={current} onChange={(event) => navigate(`/capitulo/${event.target.value}`)}>
-          {manifest.map((chapter) => (
+        <select value={listedChapters.some((chapter) => chapter.number === current) ? current : ''} onChange={(event) => navigate(`/capitulo/${event.target.value}`)}>
+          {!listedChapters.some((chapter) => chapter.number === current) && <option value="" disabled hidden>Ir para o capítulo</option>}
+          {listedChapters.map((chapter) => (
             <option key={chapter.number} value={chapter.number}>{chapter.title}</option>
           ))}
         </select>

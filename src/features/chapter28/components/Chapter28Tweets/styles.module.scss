@@ -1,0 +1,10 @@
+.posts {
+  min-width: 0;
+  font-size: clamp(14px, 2.3vw, 16px);
+
+  :global(.lt-social-post__username) { font-style: normal; font-weight: 700; overflow-wrap: anywhere; }
+
+  @media (max-width: 480px) {
+    :global(.lt-social-post__avatar) { flex-basis: 38px; width: 38px; margin-right: 10px; }
+  }
+}

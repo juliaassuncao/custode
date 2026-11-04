@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ThemeToggle } from './ThemeToggle';
+import { ThemeToggle } from '../ThemeToggle';
 
 export function SiteHeader() {
   return (

@@ -1,10 +1,16 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { ChapterNavigation } from '../components/ChapterNavigation';
-import manifest from '../data/chapters/manifest.json';
+import { ChapterNavigation } from '../components/reader/ChapterNavigation';
+import { chapter28Metadata, listedChapters } from '../data/chapter28/metadata';
 import work from '../data/chapters/work.json';
 import { loadChapter } from '../services/loadChapter';
 import type { Chapter } from '../types';
+import { resolveVerticeArticle } from '../features/imprensa/resolveVerticeArticle';
+import { VerticeArticleEmbed } from '../features/imprensa/components/VerticeArticleEmbed';
+import { AuthorCredit } from '../components/layout/AuthorCredit';
+import { Chapter28Tweets } from '../features/chapter28/components/Chapter28Tweets';
+import { InternationalHeadlines } from '../features/chapter28/components/InternationalHeadlines';
+import { SceneSeparator, isSceneSeparator } from '../components/reader/SceneSeparator';
 
 function AuthorNotes({ title, paragraphs, variant }: { title: string; paragraphs?: string[]; variant?: 'intro' }) {
   if (!paragraphs?.length) return null;
@@ -22,7 +28,8 @@ function AuthorNotes({ title, paragraphs, variant }: { title: string; paragraphs
 export function ChapterPage() {
   const { number: numberParam } = useParams();
   const chapterNumber = Number(numberParam);
-  const validChapter = Number.isInteger(chapterNumber) && chapterNumber >= 1 && chapterNumber <= manifest.length;
+  const inReview = chapterNumber === chapter28Metadata.number && !chapter28Metadata.listed;
+  const validChapter = Number.isInteger(chapterNumber) && (listedChapters.some((item) => item.number === chapterNumber) || chapterNumber === chapter28Metadata.number);
   const [chapter, setChapter] = useState<Chapter | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -44,8 +51,8 @@ export function ChapterPage() {
   }, [chapterNumber, validChapter]);
 
   useEffect(() => {
-    document.title = validChapter ? `Custode · Capítulo ${chapterNumber}` : 'Custode · Capítulo não encontrado';
-  }, [chapterNumber, validChapter]);
+    document.title = validChapter ? `Custode · Capítulo ${chapterNumber}${inReview ? ' (em revisão)' : ''}` : 'Custode · Capítulo não encontrado';
+  }, [chapterNumber, validChapter, inReview]);
 
   if (!validChapter) {
     return <main className="state-page"><h1>Capítulo não encontrado</h1><Link to="/">Voltar ao índice</Link></main>;
@@ -55,9 +62,9 @@ export function ChapterPage() {
     <main className="reader">
       <header className="reader__heading">
         <Link className="reader__back" to="/">← Voltar ao índice</Link>
-        <p className="reader__eyebrow">CUSTODE · {chapterNumber} / {manifest.length}</p>
+        <p className="reader__eyebrow">{inReview ? 'CUSTODE · EM REVISÃO' : `CUSTODE · ${chapterNumber} / ${listedChapters.length}`}</p>
         <h1>Capítulo {chapterNumber}</h1>
-        <p className="reader__author">por {work.author}</p>
+        <p className="reader__author">por <AuthorCredit /></p>
       </header>
       <ChapterNavigation current={chapterNumber} />
       {loading ? <p className="reader__status" role="status">Carregando capítulo...</p> : (
@@ -69,11 +76,17 @@ export function ChapterPage() {
             <AuthorNotes title="Resumo do capítulo" paragraphs={chapter.chapterSummary} />
             <AuthorNotes title="Notas da autora" paragraphs={chapter.chapterNotes} />
             <article className="chapter-content" aria-label={`Texto do capítulo ${chapterNumber}`}>
-              {chapter.blocks.map((block, index) => (
-                block.type === 'separator'
-                  ? <div className="chapter-content__separator" key={index} aria-hidden="true">✦</div>
-                  : <p key={index} dangerouslySetInnerHTML={{ __html: block.html ?? '' }} />
-              ))}
+              {chapter.blocks.map((block, index) => {
+                const publication = resolveVerticeArticle(chapter.number, block);
+                if (publication) return <VerticeArticleEmbed key={index} publication={publication} />;
+                if (block.type === 'verticeArticle') return null;
+                if (block.type === 'socialPosts' && chapter.number === chapter28Metadata.number) return <Chapter28Tweets key={index} />;
+                if (block.type === 'internationalHeadlines' && chapter.number === chapter28Metadata.number) return <InternationalHeadlines key={index} />;
+                if (isSceneSeparator(block)) return <SceneSeparator key={index} />;
+                return block.type === 'separator'
+                  ? <div className="chapter-content__separator" key={index} aria-hidden="true" dangerouslySetInnerHTML={{ __html: block.html ?? '✦' }} />
+                  : <p key={index} dangerouslySetInnerHTML={{ __html: block.html ?? '' }} />;
+              })}
             </article>
             <AuthorNotes title="Notas finais da autora" paragraphs={chapter.endNotes} />
           </>

@@ -56,14 +56,28 @@ O arquivo `vercel.json` já contempla o rewrite necessário para links diretos n
 
 ```text
 src/
-  components/           Cabeçalho e navegação entre capítulos
-  pages/                Home e página de leitura
+  components/
+    layout/             AuthorCredit, SiteFooter, SiteHeader e ThemeToggle
+    reader/             ChapterNavigation e SceneSeparator
+    SocialPost/         Publicações sociais reutilizáveis e seus utilitários
+  features/
+    chapter28/
+      components/       Chapter28Tweets e InternationalHeadlines
+    imprensa/           Componentes, dados, páginas e estilos do Vértice
+  pages/                Home, leitura e créditos do projeto
   services/             Importação sob demanda dos capítulos
-  data/chapters/        chapter-01.json a chapter-27.json, manifest.json, work.json
-  styles/               Estilos SCSS
-public/                 Identidade visual fornecida pela usuária
+  data/
+    chapters/           chapter-01.json a chapter-28.json, manifest.json, work.json
+    chapter28/          Tweets, manchetes e configuração de visibilidade
+    projectCredits.ts   Créditos compartilhados do portal
+  styles/               Estilos globais do leitor; módulos ficam junto aos componentes
+public/                 Identidade visual, imagens da Imprensa e avatares
 scripts/                Extração do PDF oficial e adição de novo capítulo
 ```
+
+Os componentes de layout, leitor e capítulo 28 usam uma pasta por componente, com `index.tsx` e, quando já existentes, `styles.module.scss`. O componente SocialPost e a organização interna da Imprensa são preservados.
+
+O capítulo 28 está completo e acessível diretamente em `/capitulo/28`, mas permanece fora do índice, do seletor e da navegação pública. Sua visibilidade e a listagem da reportagem são controladas exclusivamente por `chapter28Metadata.listed`, em `src/data/chapter28/metadata.ts`, atualmente `false`. Após aprovação da autora, alterar essa opção para `true` habilita as duas listagens. O carregamento dos capítulos continua sob demanda.
 
 ## Regenerar os capítulos a partir do PDF correto
 
