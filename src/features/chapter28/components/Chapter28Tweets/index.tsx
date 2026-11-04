@@ -6,7 +6,7 @@ import styles from './styles.module.scss';
 const avatarFiles: Record<string, string> = {
   '@Custorette': 'custorette.png',
   '@Daniliiima': 'dani-lima.jpg',
-  '@GEFerette': 'ge-ferette.jpg',
+  '@GEFerette': 'ge-ferette.jpeg',
   '@LorenaFeretteBrasil': 'portal.jpg',
   '@TimeLoarda': 'time-loarda.jpg',
 };
