@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { lazy, Suspense, useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ChapterNavigation } from '../components/reader/ChapterNavigation';
 import { chapter28Metadata, listedChapters } from '../data/chapter28/metadata';
@@ -11,6 +11,9 @@ import { AuthorCredit } from '../components/layout/AuthorCredit';
 import { Chapter28Tweets } from '../features/chapter28/components/Chapter28Tweets';
 import { InternationalHeadlines } from '../features/chapter28/components/InternationalHeadlines';
 import { SceneSeparator, isSceneSeparator } from '../components/reader/SceneSeparator';
+import { CommunityBoundary } from '../features/community/components/CommunityBoundary';
+
+const ChapterCommunity = lazy(() => import('../features/community/ChapterCommunity').then((module) => ({ default: module.ChapterCommunity })));
 
 function AuthorNotes({ title, paragraphs, variant }: { title: string; paragraphs?: string[]; variant?: 'intro' }) {
   if (!paragraphs?.length) return null;
@@ -94,6 +97,11 @@ export function ChapterPage() {
       )}
       <ChapterNavigation current={chapterNumber} placement="bottom" />
       <div className="reader__end"><Link to="/">Ver todos os capítulos</Link></div>
+      {!loading && chapter?.number === chapterNumber && <CommunityBoundary key={chapterNumber}>
+        <Suspense fallback={<p className="reader__status" role="status">Abrindo a comunidade…</p>}>
+          <ChapterCommunity chapterNumber={chapterNumber} />
+        </Suspense>
+      </CommunityBoundary>}
     </main>
   );
 }
