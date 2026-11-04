@@ -28,7 +28,6 @@ function AuthorNotes({ title, paragraphs, variant }: { title: string; paragraphs
 export function ChapterPage() {
   const { number: numberParam } = useParams();
   const chapterNumber = Number(numberParam);
-  const inReview = chapterNumber === chapter28Metadata.number && !chapter28Metadata.listed;
   const validChapter = Number.isInteger(chapterNumber) && (listedChapters.some((item) => item.number === chapterNumber) || chapterNumber === chapter28Metadata.number);
   const [chapter, setChapter] = useState<Chapter | null>(null);
   const [loading, setLoading] = useState(true);
@@ -51,8 +50,8 @@ export function ChapterPage() {
   }, [chapterNumber, validChapter]);
 
   useEffect(() => {
-    document.title = validChapter ? `Custode · Capítulo ${chapterNumber}${inReview ? ' (em revisão)' : ''}` : 'Custode · Capítulo não encontrado';
-  }, [chapterNumber, validChapter, inReview]);
+    document.title = validChapter ? `Custode · Capítulo ${chapterNumber}` : 'Custode · Capítulo não encontrado';
+  }, [chapterNumber, validChapter]);
 
   if (!validChapter) {
     return <main className="state-page"><h1>Capítulo não encontrado</h1><Link to="/">Voltar ao índice</Link></main>;
@@ -62,7 +61,7 @@ export function ChapterPage() {
     <main className="reader">
       <header className="reader__heading">
         <Link className="reader__back" to="/">← Voltar ao índice</Link>
-        <p className="reader__eyebrow">{inReview ? 'CUSTODE · EM REVISÃO' : `CUSTODE · ${chapterNumber} / ${listedChapters.length}`}</p>
+        <p className="reader__eyebrow">{`CUSTODE · ${chapterNumber} / ${listedChapters.length}`}</p>
         <h1>Capítulo {chapterNumber}</h1>
         <p className="reader__author">por <AuthorCredit /></p>
       </header>
