@@ -1,5 +1,6 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Navigate, Route, Routes, useLocation } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import { SiteHeader } from "./components/layout/SiteHeader";
 import { HomePage } from "./pages/HomePage";
 import { ChapterPage } from "./pages/ChapterPage";
@@ -14,6 +15,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <AppContent />
+      <Analytics />
     </BrowserRouter>
   );
 }
