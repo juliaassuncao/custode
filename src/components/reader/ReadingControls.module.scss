@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Custode Reading DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./reading-controls-assets/dm-sans-regular.ttf') format('truetype');
+}
+
+// Estrutura e medidas do Bones; somente as cores usam o tema do Custode.
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(.7rem, 2vw, 1.7rem);
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--color-border);
+  background: var(--color-reader-background);
+  font-family: 'Custode Reading DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.group {
+  display: flex;
+  align-items: center;
+  gap: .35rem;
+}
+.legend {
+  font-size: .53rem;
+  letter-spacing: .15em;
+  color: var(--color-muted);
+  margin-right: .4rem;
+}
+.group button {
+  display: grid;
+  place-items: center;
+  min-width: 30px;
+  height: 30px;
+  padding: .3rem;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--color-muted);
+  cursor: pointer;
+
+  &:hover,
+  &.selected {
+    color: var(--color-link);
+    border-color: var(--color-accent-soft);
+    background: var(--color-intro-background);
+  }
+  &:disabled {
+    opacity: .3;
+    cursor: default;
+  }
+}
+.serif {
+  font-family: Georgia, serif;
+}
+.value {
+  min-width: 22px;
+  text-align: center;
+  color: var(--color-text);
+  font-size: .7rem;
+}
+.alignIcon {
+  color: var(--color-muted);
+}
+@media (max-width: 650px) {
+  .controls {
+    justify-content: start;
+    gap: .8rem;
+  }
+  .legend {
+    font-size: .49rem;
+  }
+}

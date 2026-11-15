@@ -1,6 +1,12 @@
-import { lazy, Suspense, useEffect, useState } from 'react';
+import { lazy, Suspense, useEffect, useRef, useState } from 'react';
+import type { CSSProperties } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ChapterNavigation } from '../components/reader/ChapterNavigation';
+import { ReadingControls } from '../components/reader/ReadingControls';
+import { ChapterDownloads } from '../components/reader/ChapterDownloads';
+import { BackToTop } from '../components/reader/BackToTop';
+import { useReadingPreferences } from '../hooks/useReadingPreferences';
+import { useReadingProgress } from '../hooks/useReadingProgress';
 import { chapter28Metadata, listedChapters } from '../data/chapter28/metadata';
 import work from '../data/chapters/work.json';
 import { loadChapter } from '../services/loadChapter';
@@ -34,9 +40,23 @@ export function ChapterPage() {
   const validChapter = Number.isInteger(chapterNumber) && (listedChapters.some((item) => item.number === chapterNumber) || chapterNumber === chapter28Metadata.number);
   const [chapter, setChapter] = useState<Chapter | null>(null);
   const [loading, setLoading] = useState(true);
+  const { prefs, update } = useReadingPreferences();
+  const readerRef = useRef<HTMLElement>(null);
+  const contentRef = useRef<HTMLElement>(null);
+  const titleRef = useRef<HTMLHeadingElement>(null);
+  const { preserveForTop } = useReadingProgress({
+    chapterNumber,
+    ready: !loading && chapter?.number === chapterNumber,
+    contentRef,
+    layoutKey: `${prefs.font}:${prefs.size}:${prefs.lineHeight}`,
+  });
+  const readingStyle = {
+    '--reading-font': prefs.font === 'sans' ? 'Arial, Helvetica, sans-serif' : '"Times New Roman", Times, serif',
+    '--reading-size': `${prefs.size}px`,
+    '--reading-line-height': String(prefs.lineHeight),
+  } as CSSProperties;
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'auto' });
     if (!validChapter) {
       setChapter(null);
       setLoading(false);
@@ -61,14 +81,19 @@ export function ChapterPage() {
   }
 
   return (
-    <main className="reader">
+    <main ref={readerRef} className="reader">
       <header className="reader__heading">
         <Link className="reader__back" to="/">← Voltar ao índice</Link>
         <p className="reader__eyebrow">{`CUSTODE · ${chapterNumber} / ${listedChapters.length}`}</p>
-        <h1>Capítulo {chapterNumber}</h1>
+        <h1 ref={titleRef} tabIndex={-1}>Capítulo {chapterNumber}</h1>
         <p className="reader__author">por <AuthorCredit /></p>
       </header>
       <ChapterNavigation current={chapterNumber} />
+      <ReadingControls
+        value={prefs}
+        onChange={update}
+        actions={<ChapterDownloads key={chapterNumber} chapter={!loading && chapter?.number === chapterNumber ? chapter : null} />}
+      />
       {loading ? <p className="reader__status" role="status">Carregando capítulo...</p> : (
         chapter ? (
           <>
@@ -77,7 +102,7 @@ export function ChapterPage() {
             )}
             <AuthorNotes title="Resumo do capítulo" paragraphs={chapter.chapterSummary} />
             <AuthorNotes title="Notas da autora" paragraphs={chapter.chapterNotes} />
-            <article className="chapter-content" aria-label={`Texto do capítulo ${chapterNumber}`}>
+            <article ref={contentRef} className="chapter-content" style={readingStyle} aria-label={`Texto do capítulo ${chapterNumber}`}>
               {chapter.blocks.map((block, index) => {
                 const publication = resolveVerticeArticle(chapter.number, block);
                 if (publication) return <VerticeArticleEmbed key={index} publication={publication} />;
@@ -101,6 +126,7 @@ export function ChapterPage() {
           <ChapterCommunity chapterNumber={chapterNumber} />
         </Suspense>
       </CommunityBoundary>}
+      <BackToTop key={chapterNumber} readerRef={readerRef} topRef={titleRef} onBeforeScroll={preserveForTop} />
     </main>
   );
 }

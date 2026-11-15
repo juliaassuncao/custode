@@ -1,70 +1,14 @@
-import { useEffect, useRef, useState } from 'react';
-
-type Theme = 'light' | 'dark';
-const storageKey = 'custode-theme';
-
-function savedTheme(): Theme | null {
-  try {
-    const value = window.localStorage.getItem(storageKey);
-    return value === 'light' || value === 'dark' ? value : null;
-  } catch {
-    return null;
-  }
-}
-
-function applyTheme(theme: Theme) {
-  document.documentElement.dataset.theme = theme;
-  document.querySelector('meta[name="theme-color"]')?.setAttribute(
-    'content', theme === 'dark' ? '#151c18' : '#f9f6ef',
-  );
-}
+import { useTheme } from '../../../hooks/useTheme';
 
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>(() => (
-    document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light'
-  ));
-  const manualTheme = useRef<Theme | null>(savedTheme());
-
-  useEffect(() => {
-    const preference = window.matchMedia('(prefers-color-scheme: dark)');
-    const syncTheme = () => {
-      const nextTheme = manualTheme.current ?? (preference.matches ? 'dark' : 'light');
-      applyTheme(nextTheme);
-      setTheme(nextTheme);
-    };
-    const syncStoredTheme = (event: StorageEvent) => {
-      if (event.key !== storageKey && event.key !== null) return;
-      manualTheme.current = savedTheme();
-      syncTheme();
-    };
-
-    syncTheme();
-    preference.addEventListener('change', syncTheme);
-    window.addEventListener('storage', syncStoredTheme);
-    return () => {
-      preference.removeEventListener('change', syncTheme);
-      window.removeEventListener('storage', syncStoredTheme);
-    };
-  }, []);
-
-  const toggleTheme = () => {
-    const nextTheme = theme === 'dark' ? 'light' : 'dark';
-    manualTheme.current = nextTheme;
-    applyTheme(nextTheme);
-    setTheme(nextTheme);
-    try {
-      window.localStorage.setItem(storageKey, nextTheme);
-    } catch {
-      // Mantém a escolha nesta sessão quando o navegador bloqueia o armazenamento.
-    }
-  };
+  const { theme, setTheme } = useTheme();
   const label = theme === 'dark' ? 'Ativar modo claro' : 'Ativar modo escuro';
 
   return (
     <button
       type="button"
       className="theme-toggle"
-      onClick={toggleTheme}
+      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
       aria-label={label}
       aria-pressed={theme === 'dark'}
       title={label}

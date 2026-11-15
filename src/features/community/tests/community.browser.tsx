@@ -32,7 +32,8 @@ export async function runChapterCommunityBrowserTests() {
   let expireFeedback: (() => void) | undefined;
   let signupProof = '';
   window.setTimeout = ((handler: TimerHandler, delay?: number, ...args: unknown[]) => {
-    const id = original.setTimeout.call(window, handler, delay, ...args);
+    const browserSetTimeout: Window['setTimeout'] = original.setTimeout;
+    const id = browserSetTimeout.call(window, handler, delay, ...args);
     if (delay === 8000 && typeof handler === 'function') expireFeedback = () => { clearTimeout(id); handler(...args); };
     return id;
   }) as typeof window.setTimeout;
