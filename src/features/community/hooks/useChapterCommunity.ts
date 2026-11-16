@@ -1,53 +1,64 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import type { CommentOrder, CommunityPage } from '../types';
+import type { CommentOrder, NumberedCommunityPage } from '../types';
 import { communityRead, subscribeCommunityIdentity } from '../services/communityRead';
 
-type State = Omit<CommunityPage, 'chapter_number'> & { order: CommentOrder; ready: boolean; loading: boolean; error: string };
-const initial: State = { comments: [], clover_count: 0, has_left_clover: false, next_cursor: null,
-  order: 'asc', ready: false, loading: true, error: '' };
+type State = NumberedCommunityPage & { order: CommentOrder; ready: boolean; loading: boolean; error: string };
+const initial: Omit<State, 'chapter_number' | 'order'> = {
+  comments: [], clover_count: 0, has_left_clover: false, next_cursor: null,
+  page: 1, limit: 10, total_count: 0, total_pages: 1, ready: false, loading: true, error: '',
+};
 export function useChapterCommunity(chapter: number, order: CommentOrder = 'asc') {
-  const [state, setState] = useState(initial);
+  const [state, setState] = useState<State>({ ...initial, chapter_number: chapter, order });
   const latest = useRef(state);
   latest.current = state;
   const version = useRef(0);
   const inFlight = useRef(false);
-  const lastReset = useRef(true);
-  const load = useCallback(async (reset = false) => {
-    if (!reset && (inFlight.current || !latest.current.next_cursor)) return;
+  const lastPage = useRef(1);
+  const loadPage = useCallback(async (requestedPage: number, refresh = false) => {
     inFlight.current = true;
-    lastReset.current = reset;
+    lastPage.current = requestedPage;
     const requestVersion = ++version.current;
-    const cursor = reset ? null : latest.current.next_cursor;
-    setState((old) => ({ ...old, ...(old.order !== order ? { comments: [], next_cursor: null, ready: false } : {}), order, loading: true, error: '' }));
+    setState((old) => ({ ...old,
+      ...(old.chapter_number !== chapter ? initial : old.order !== order
+        ? { comments: [], next_cursor: null, page: 1, total_count: 0, total_pages: 1, ready: false } : {}),
+      chapter_number: chapter, order, loading: true, error: '' }));
     try {
-      const page = await communityRead(chapter, cursor, order);
-      if (requestVersion !== version.current) return;
-      setState((old) => {
-        const existing = reset ? [] : old.comments;
-        const ids = new Set(existing.map((row) => row.id));
-        return { ...page, order, comments: [...existing, ...page.comments.filter((row) => !ids.has(row.id))],
-          ready: true, loading: false, error: '' };
-      });
+      const page = await communityRead(chapter, requestedPage, order, refresh);
+      if (requestVersion !== version.current) return false;
+      lastPage.current = page.page;
+      setState({ ...page, order, ready: true, loading: false, error: '' });
+      return true;
     } catch (cause) {
       if (requestVersion === version.current) setState((old) => ({ ...old, loading: false,
         error: cause instanceof Error ? cause.message : 'Não foi possível carregar a conversa.' }));
+      return false;
     } finally { if (requestVersion === version.current) inFlight.current = false; }
   }, [chapter, order]);
   useEffect(() => {
-    void load(true);
+    void loadPage(1);
     let mounted = true;
     const unsubscribe = subscribeCommunityIdentity(() => {
       if (mounted) {
         setState((old) => ({ ...old, ready: false }));
-        void load(true);
+        // Session personalization refreshes the current page instead of restarting the list.
+        const current = latest.current;
+        void loadPage(current.chapter_number === chapter && current.order === order ? current.page : 1);
       }
     });
     return () => { mounted = false; unsubscribe(); version.current++; };
-  }, [load]);
+  }, [loadPage]);
+  function load(reset = false) {
+    return loadPage(reset ? 1 : latest.current.page, true);
+  }
+  function goToPage(page: number) {
+    if (inFlight.current || page === latest.current.page || !Number.isSafeInteger(page) ||
+      page < 1 || page > latest.current.total_pages) return Promise.resolve(false);
+    return loadPage(page);
+  }
   function confirmClover(count: number) {
     // Discard reads begun before this confirmed write; retain pagination position.
     version.current++; inFlight.current = false;
     setState((old) => ({ ...old, has_left_clover: true, clover_count: count, ready: true, loading: false, error: '' }));
   }
-  return { ...state, load, confirmClover, retry: () => load(lastReset.current) };
+  return { ...state, load, goToPage, confirmClover, retry: () => loadPage(lastPage.current) };
 }

@@ -126,7 +126,14 @@
   .community-comment time { font-size: 10px; color: var(--color-muted); flex-shrink: 0; }
   .community-comment__body { margin: 12px 0 2px 40px; white-space: pre-wrap; font: 400 17px/1.8 Georgia, 'Times New Roman', serif; }
   .community-comment__footer { display: flex; justify-content: flex-end; }
-  .community-load-more { display: flex; margin: 24px auto 0; }
+  .community-pagination { margin-top: 24px; }
+  .community-pagination__controls, .community-pagination__pages, .community-pagination__item { display: flex; align-items: center; justify-content: center; gap: 6px; }
+  .community-pagination__controls, .community-pagination__pages { flex-wrap: wrap; }
+  .community-pagination__pages { min-width: 0; }
+  .community-pagination__pages .community-button { min-width: 44px; padding: 10px 8px; font-variant-numeric: tabular-nums; }
+  .community-pagination__ellipsis { color: var(--color-muted); }
+  .community-pagination__status { margin: 10px 0 0; text-align: center; color: var(--color-muted); font-size: 11px; }
+  .community-pagination button:focus-visible, .community-comments:focus-visible { outline: 2px solid var(--color-link); outline-offset: 3px; }
   .community-empty { padding: 40px 18px; text-align: center; color: var(--color-muted); border-bottom: 1px solid var(--color-border); }
   .community-empty p { font: 400 21px/1.5 Georgia, 'Times New Roman', serif; color: var(--color-text); margin-bottom: 5px; }
   .community-empty > span:last-child { font-size: 12px; }
@@ -152,6 +159,8 @@
     .community-composer__help { flex-wrap: wrap; }
     .community-comment__heading { flex-direction: column; align-items: flex-start; gap: 4px; }
     .community-comment time { padding-left: 40px; }
+    .community-pagination__controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .community-pagination__pages { grid-column: 1 / -1; grid-row: 1; gap: 4px; }
     &__list-heading { align-items: flex-end; }
     &__title { gap: 8px; }
     &__chapter { font-size: 9px; }

@@ -14,7 +14,7 @@ export async function handleRequest(request: Request): Promise<Response> {
   }
 
   try {
-    const { chapter, limit, cursor, order } = parseReadParameters(new URL(request.url));
+    const { chapter, limit, cursor, order, page: requestedPage } = parseReadParameters(new URL(request.url));
     const baseUrl = Deno.env.get('SUPABASE_URL');
     const key = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY');
     if (!baseUrl || !key) throw new Error('Missing server configuration');
@@ -43,7 +43,7 @@ export async function handleRequest(request: Request): Promise<Response> {
     }
 
     // Native fetch keeps this function dependency-free. Never forward caller headers.
-    async function read(table: string, params: Record<string, string>, countOnly = false) {
+    async function read(table: string, params: Record<string, string>, countOnly = false, withCount = false) {
       const url = new URL(`/rest/v1/${table}`, baseUrl);
       url.search = new URLSearchParams(params).toString();
       const response = await fetch(url, {
@@ -51,12 +51,20 @@ export async function handleRequest(request: Request): Promise<Response> {
         headers: {
           apikey: key!,
           Authorization: `Bearer ${key}`,
-          ...(countOnly ? { Prefer: 'count=exact' } : {}),
+          ...(countOnly || withCount ? { Prefer: 'count=exact' } : {}),
         },
         signal: AbortSignal.timeout(10000),
       });
-      if (!response.ok) throw new Error('Database read failed');
+      // PostgREST may return 416 with the exact total when the offset no longer exists.
+      if (!response.ok && !(withCount && response.status === 416)) throw new Error('Database read failed');
       return response;
+    }
+    function exactCount(response: Response) {
+      const total = response.headers.get('content-range')?.split('/')[1];
+      if (!total || !/^\d+$/.test(total) || !Number.isSafeInteger(Number(total))) {
+        throw new Error('Invalid count');
+      }
+      return Number(total);
     }
 
     const chapterResponse = await read('community_chapters', {
@@ -71,32 +79,39 @@ export async function handleRequest(request: Request): Promise<Response> {
       chapter_number: `eq.${chapter}`,
       status: 'eq.published',
       order: `created_at.${order},id.${order}`,
-      limit: String(limit + 1),
+      limit: String(requestedPage === null ? limit + 1 : limit),
+      ...(requestedPage !== null ? { offset: String((requestedPage - 1) * limit) } : {}),
     };
     // Tuple comparison (created_at, id) > cursor, including timestamp ties.
     if (cursor) {
       const comparison = order === 'asc' ? 'gt' : 'lt';
       filters.or = `(created_at.${comparison}.${cursor.created_at},and(created_at.eq.${cursor.created_at},id.${comparison}.${cursor.id}))`;
     }
-    const [commentsResponse, cloversResponse, viewerCloverResponse] = await Promise.all([
-      read('comments', filters),
+    const [initialCommentsResponse, cloversResponse, viewerCloverResponse] = await Promise.all([
+      read('comments', filters, false, requestedPage !== null),
       read('chapter_clovers', { select: 'chapter_number', chapter_number: `eq.${chapter}` }, true),
       viewerId ? read('chapter_clovers', { select: 'chapter_number', chapter_number: `eq.${chapter}`,
         user_id: `eq.${viewerId}`, limit: '1' }) : Promise.resolve(null),
     ]);
-    const rows: PublicComment[] = await commentsResponse.json();
-    const total = cloversResponse.headers.get('content-range')?.split('/')[1];
-    if (!total || !/^\d+$/.test(total) || !Number.isSafeInteger(Number(total))) {
-      throw new Error('Invalid count');
+    let commentsResponse = initialCommentsResponse;
+    const totalCount = requestedPage === null ? null : exactCount(commentsResponse);
+    const totalPages = totalCount === null ? null : Math.max(1, Math.ceil(totalCount / limit));
+    const page = requestedPage === null ? null : Math.min(requestedPage, totalPages!);
+    if (page !== null && page !== requestedPage && totalCount! > 0) {
+      // Only repeat the bounded comments query if moderation made the requested page invalid.
+      commentsResponse = await read('comments', { ...filters, offset: String((page - 1) * limit) });
     }
+    const rows: PublicComment[] = totalCount === 0 ? [] : await commentsResponse.json();
     const comments = rows.slice(0, limit).map(({ id, pseudonym, body, created_at }) =>
       ({ id, pseudonym, body, created_at }));
     return jsonResponse({
       chapter_number: chapter,
       comments,
-      clover_count: Number(total),
+      clover_count: exactCount(cloversResponse),
       has_left_clover: viewerCloverResponse ? (await viewerCloverResponse.json()).length > 0 : false,
-      next_cursor: rows.length > limit ? encodeCursor(chapter, comments[comments.length - 1], order) : null,
+      next_cursor: comments.length > 0 && (requestedPage === null ? rows.length > limit : page! < totalPages!)
+        ? encodeCursor(chapter, comments[comments.length - 1], order) : null,
+      ...(page !== null ? { page, limit, total_count: totalCount, total_pages: totalPages } : {}),
     });
   } catch (error) {
     if (error instanceof InvalidParameters) {

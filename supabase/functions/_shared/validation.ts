@@ -20,14 +20,16 @@ export function encodeCursor(chapter: number, row: { created_at: string; id: str
 export function parseReadParameters(url: URL) {
   const params = url.searchParams;
   for (const key of params.keys()) {
-    if (!['chapter', 'limit', 'cursor', 'order'].includes(key) || params.getAll(key).length !== 1) {
+    if (!['chapter', 'limit', 'cursor', 'order', 'page'].includes(key) || params.getAll(key).length !== 1) {
       throw new InvalidParameters();
     }
   }
   const chapter = positiveInteger(params.get('chapter'), 2147483647);
   const order = params.get('order') ?? 'asc';
   if (order !== 'asc' && order !== 'desc') throw new InvalidParameters();
-  const limit = params.has('limit') ? positiveInteger(params.get('limit'), 50) : 20;
+  const page = params.has('page') ? positiveInteger(params.get('page'), 2147483647) : null;
+  if (page !== null && params.has('cursor')) throw new InvalidParameters();
+  const limit = params.has('limit') ? positiveInteger(params.get('limit'), 50) : page === null ? 20 : 10;
   let cursor: Cursor | null = null;
   if (params.has('cursor')) {
     const raw = params.get('cursor')!;
@@ -49,5 +51,5 @@ export function parseReadParameters(url: URL) {
       throw new InvalidParameters();
     }
   }
-  return { chapter, limit, cursor, order };
+  return { chapter, limit, cursor, order, page };
 }

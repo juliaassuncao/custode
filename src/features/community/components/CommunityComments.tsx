@@ -2,11 +2,11 @@ import { useReaderText } from '../../../i18n/ReaderLocaleContext';
 import type { CommunityComment } from '../types';
 import { commentAvatar } from '../services/commentAvatar';
 import { CommunityIcon } from './CommunityIcon';
-type Props = { comments: CommunityComment[]; reported: Set<string>; disabled: boolean; onReport(comment: CommunityComment): void };
-export function CommunityComments({ comments, reported, disabled, onReport }: Props) {
+type Props = { id?: string; comments: CommunityComment[]; reported: Set<string>; disabled: boolean; onReport(comment: CommunityComment): void };
+export function CommunityComments({ id, comments, reported, disabled, onReport }: Props) {
   const { locale, t } = useReaderText();
   const date = new Intl.DateTimeFormat(locale, { dateStyle: 'medium', timeStyle: 'short' });
-  return <ol className="community-comments">
+  return <ol id={id} className="community-comments" tabIndex={-1} aria-label={t('Comentários deste capítulo')}>
     {comments.map((comment) => { const avatar = commentAvatar(comment.pseudonym); return <li key={comment.id} className="community-comment">
       <article aria-label={t('Comentário de {name}', { name: comment.pseudonym })}>
         <div className="community-comment__heading"><div className="community-comment__author">

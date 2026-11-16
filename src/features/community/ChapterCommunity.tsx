@@ -4,6 +4,7 @@ import { useChapterCommunity } from './hooks/useChapterCommunity';
 import { ChapterCloverButton } from './components/ChapterCloverButton';
 import { CommentComposer } from './components/CommentComposer';
 import { CommunityComments } from './components/CommunityComments';
+import { CommunityPagination } from './components/CommunityPagination';
 import { CommentReportForm } from './components/CommentReportForm';
 import { CommunityAction } from './components/CommunityAction';
 import { CommunityFeedback, type CommunityNotice } from './components/CommunityFeedback';
@@ -30,6 +31,7 @@ export function ChapterCommunity({ chapterNumber }: { chapterNumber: number }) {
   const heading = useRef<HTMLHeadingElement>(null);
   const opener = useRef<HTMLElement | null>(null);
   const titleId = useId();
+  const commentsId = useId();
   function rememberFocus() { opener.current = document.activeElement instanceof HTMLElement ? document.activeElement : null; }
   function restoreFocus() { requestAnimationFrame(() => {
     if (opener.current?.isConnected && !(opener.current instanceof HTMLButtonElement && opener.current.disabled)) opener.current.focus({ preventScroll: true });
@@ -98,15 +100,16 @@ export function ChapterCommunity({ chapterNumber }: { chapterNumber: number }) {
       {intent?.operation === 'report' && action}
       <CommunityFeedback notice={notice?.operation === 'report' ? notice : null} />
       {!feed.ready && feed.loading && <p className="community-empty" role="status">{t('Abrindo a conversa…')}</p>}
-      {feed.ready && !feed.comments.length && <div className="community-empty">
+      {feed.ready && feed.loading && <p className="community-pagination__status" role="status">{t('Carregando…')}</p>}
+      {feed.ready && !feed.loading && !feed.comments.length && <div className="community-empty">
         <p>{t('Ainda não há comentários.')}</p></div>}
-      <CommunityComments comments={feed.comments} reported={reported} disabled={!!intent || !feed.ready} onReport={(comment) => {
+      <CommunityComments id={commentsId} comments={feed.comments} reported={reported} disabled={!!intent || !feed.ready} onReport={(comment) => {
         rememberFocus(); setReportFor(comment); setNotice(null);
       }} />
       {feed.error && <div className="community-message community-message--error" role="alert"><p>{t(feed.error)}</p>
         <button className="community-text-button" type="button" disabled={feed.loading} onClick={() => void feed.retry()}>{t('Tentar novamente')}</button></div>}
-      {feed.next_cursor && <button className="community-button community-button--secondary community-load-more" type="button" disabled={feed.loading}
-        onClick={() => void feed.load()}>{feed.loading ? t('Carregando…') : t('Carregar mais comentários')}<span aria-hidden="true">↓</span></button>}
+      <CommunityPagination page={feed.page} totalPages={feed.total_pages} loading={feed.loading}
+        disabled={!!intent || !feed.ready} commentsId={commentsId} onPageChange={feed.goToPage} />
     </div>
   </section>;
 }

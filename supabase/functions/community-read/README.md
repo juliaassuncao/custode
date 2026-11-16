@@ -9,12 +9,17 @@ The privileged key is read only from the Edge Function environment, never from c
 Parameters (unknown and repeated parameters are rejected):
 
 - `chapter`: required positive PostgreSQL integer; chapter must exist and be enabled.
-- `limit`: integer from 1 to 50, default 20; larger values return 400.
+- `limit`: integer from 1 to 50, default 10 with `page`, otherwise 20; larger values return 400.
+- `page`: optional integer from 1 to 2147483647 for direct numbered pagination. Cannot be combined with `cursor`.
 - `cursor`: optional opaque continuation returned by the previous page, bound to the chapter.
 - `order`: `asc` (default, oldest first) or `desc` (newest first). Unknown/empty/repeated values return 400.
 
 Response: `{ chapter_number, comments: [{ id, pseudonym, body, created_at }],
 clover_count, has_left_clover, next_cursor }`. `next_cursor` is null at the end.
+Requests with `page` also return `{ page, limit, total_count, total_pages }`.
+The count includes only published comments for this chapter. Empty chapters have
+one empty page; requests beyond the last page are adjusted to the last valid page.
+The chapter UI requests `page` with `limit=10` and replaces the displayed rows.
 Comments are untrusted plain text: consumers must render them as text, never HTML.
 The clover count covers the whole chapter, not only the current page.
 
@@ -25,8 +30,12 @@ Without Authorization the field is false and reading remains public. An invalid
 or expired JWT returns 401; an Auth infrastructure failure returns a generic 500.
 No user ID query parameter is accepted. No new tables, grants or migrations.
 
-Ordering uses `(created_at, id)` in the selected direction with a strict keyset
-boundary (`>` for asc, `<` for desc), not offset. Both keys use the same direction.
+Ordering uses `(created_at, id)` in the selected direction. Both keys use the same direction.
+Numbered requests use a bounded `limit`/`offset` query with `Prefer: count=exact`,
+obtaining the published total in the same read. Only an out-of-range page needs
+a second bounded comments query. No comments are loaded just to count or skip them
+in the browser. Requests without `page` keep the strict keyset boundary
+(`>` for asc, `<` for desc) and their existing response shape.
 Existing v1 ascending cursors remain valid. Descending v2 cursors include their
 direction; crossing chapter or direction returns 400. Changing order must start
 without a cursor. Pagination returns the selected order from the server, never
@@ -35,7 +44,8 @@ Timestamp microseconds are preserved. Cursors are validated, not signed: changin
 a valid cursor may reposition a public listing but never grants access to other data.
 This is a live listing, not a snapshot: moderation, edits to sort keys and backdated
 inserts between requests can change visible results. Counts and comments are separate
-reads. Every request filters `published` again, and responses use `Cache-Control: no-store`.
+reads for cursor requests; numbered requests count and read comments together.
+Every request filters `published` again, and responses use `Cache-Control: no-store`.
 
 Errors: 400 invalid parameters/cursor; 404 absent or disabled chapter;
 405 non-GET method (`Allow: GET, OPTIONS`); 500 generic internal failure.
