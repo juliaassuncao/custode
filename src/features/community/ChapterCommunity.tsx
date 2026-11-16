@@ -1,3 +1,4 @@
+import { useReaderText } from '../../i18n/ReaderLocaleContext';
 import { useId, useRef, useState } from 'react';
 import { useChapterCommunity } from './hooks/useChapterCommunity';
 import { ChapterCloverButton } from './components/ChapterCloverButton';
@@ -12,6 +13,7 @@ import type { CommentOrder, CommunityComment, WriteResults } from './types';
 import './chapter-community.scss';
 
 export function ChapterCommunity({ chapterNumber }: { chapterNumber: number }) {
+  const { t } = useReaderText();
   const [order, setOrder] = useState<CommentOrder>('desc');
   const feed = useChapterCommunity(chapterNumber, order);
   const [pending, setPending] = useState<CommentDraft | null>(() => restoreComment(chapterNumber));
@@ -78,33 +80,33 @@ export function ChapterCommunity({ chapterNumber }: { chapterNumber: number }) {
       <CommunityFeedback notice={notice?.operation === 'clover' ? notice : null} />
     </ChapterCloverButton>
     <header className="chapter-community__heading">
-      <div className="chapter-community__title"><h2 id={titleId} ref={heading} tabIndex={-1}>Comentários</h2>
-        <span className="chapter-community__chapter">CAP. {String(chapterNumber).padStart(2, '0')}</span></div>
+      <div className="chapter-community__title"><h2 id={titleId} ref={heading} tabIndex={-1}>{t('Comentários')}</h2>
+        <span className="chapter-community__chapter">{t('CAP.')} {String(chapterNumber).padStart(2, '0')}</span></div>
     </header>
     <CommentComposer pseudonym={pseudonym} body={body} locked={!!pending} pending={!!pending && attempted.current}
       disabled={!feed.ready || !!intent} error={validation} onPseudonym={setPseudonym} onBody={setBody} onPublish={publish} />
     {intent?.operation === 'comment' && action}
     <CommunityFeedback notice={notice?.operation === 'comment' ? notice : null} />
     <div className="chapter-community__conversation" aria-busy={feed.loading}>
-      <div className="chapter-community__list-heading"><h3 className="community-visually-hidden">Comentários deste capítulo</h3>
-        <label className="community-order"><span className="community-visually-hidden">Ordenar comentários</span>
+      <div className="chapter-community__list-heading"><h3 className="community-visually-hidden">{t('Comentários deste capítulo')}</h3>
+        <label className="community-order"><span className="community-visually-hidden">{t('Ordenar comentários')}</span>
           <select value={order} disabled={!!intent} onChange={(event) => setOrder(event.target.value as CommentOrder)}>
-            <option value="desc">Mais recentes primeiro</option><option value="asc">Mais antigos primeiro</option>
+            <option value="desc">{t('Mais recentes primeiro')}</option><option value="asc">{t('Mais antigos primeiro')}</option>
           </select></label></div>
       {reportFor && <CommentReportForm key={reportFor.id} comment={reportFor} locked={!!intent}
         onCancel={() => { setReportFor(null); restoreFocus(); }} onSubmit={(command) => { setNotice(null); setIntent(command); }} />}
       {intent?.operation === 'report' && action}
       <CommunityFeedback notice={notice?.operation === 'report' ? notice : null} />
-      {!feed.ready && feed.loading && <p className="community-empty" role="status">Abrindo a conversa…</p>}
+      {!feed.ready && feed.loading && <p className="community-empty" role="status">{t('Abrindo a conversa…')}</p>}
       {feed.ready && !feed.comments.length && <div className="community-empty">
-        <p>Ainda não há comentários.</p></div>}
+        <p>{t('Ainda não há comentários.')}</p></div>}
       <CommunityComments comments={feed.comments} reported={reported} disabled={!!intent || !feed.ready} onReport={(comment) => {
         rememberFocus(); setReportFor(comment); setNotice(null);
       }} />
-      {feed.error && <div className="community-message community-message--error" role="alert"><p>{feed.error}</p>
-        <button className="community-text-button" type="button" disabled={feed.loading} onClick={() => void feed.retry()}>Tentar novamente</button></div>}
+      {feed.error && <div className="community-message community-message--error" role="alert"><p>{t(feed.error)}</p>
+        <button className="community-text-button" type="button" disabled={feed.loading} onClick={() => void feed.retry()}>{t('Tentar novamente')}</button></div>}
       {feed.next_cursor && <button className="community-button community-button--secondary community-load-more" type="button" disabled={feed.loading}
-        onClick={() => void feed.load()}>{feed.loading ? 'Carregando…' : 'Carregar mais comentários'}<span aria-hidden="true">↓</span></button>}
+        onClick={() => void feed.load()}>{feed.loading ? t('Carregando…') : t('Carregar mais comentários')}<span aria-hidden="true">↓</span></button>}
     </div>
   </section>;
 }

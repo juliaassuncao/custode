@@ -9,8 +9,12 @@ import { useReadingPreferences } from '../hooks/useReadingPreferences';
 import { useReadingProgress } from '../hooks/useReadingProgress';
 import { chapter28Metadata, listedChapters } from '../data/chapter28/metadata';
 import work from '../data/chapters/work.json';
-import { loadChapter } from '../services/loadChapter';
-import type { Chapter } from '../types';
+import { loadReaderChapter, type ReaderChapter } from '../services/loadTranslation';
+import { useReaderLanguage } from '../hooks/useReaderLanguage';
+import { ReaderLocaleContext } from '../i18n/ReaderLocaleContext';
+import { readerText } from '../i18n/messages';
+import { ReaderLanguageSelector } from '../components/reader/ReaderLanguageSelector';
+import { TranslationEditorialNotice } from '../components/reader/TranslationEditorialNotice';
 import { resolveVerticeArticle } from '../features/imprensa/resolveVerticeArticle';
 import { VerticeArticleEmbed } from '../features/imprensa/components/VerticeArticleEmbed';
 import { AuthorCredit } from '../components/layout/AuthorCredit';
@@ -38,14 +42,22 @@ export function ChapterPage() {
   const { number: numberParam } = useParams();
   const chapterNumber = Number(numberParam);
   const validChapter = Number.isInteger(chapterNumber) && (listedChapters.some((item) => item.number === chapterNumber) || chapterNumber === chapter28Metadata.number);
-  const [chapter, setChapter] = useState<Chapter | null>(null);
-  const [loading, setLoading] = useState(true);
+  const { requestedLocale, selectLocale, previewDrafts, unsupportedLocale } = useReaderLanguage();
+  const requestKey = `${chapterNumber}:${requestedLocale}:${previewDrafts}`;
+  const [loaded, setLoaded] = useState<{ key: string; result: ReaderChapter | null } | null>(null);
+  // Não renderizar dados antigos durante a mudança de capítulo ou idioma.
+  const loading = validChapter && loaded?.key !== requestKey;
+  const result = loaded?.key === requestKey ? loaded.result : null;
+  const chapter = result?.chapter ?? null;
+  const locale = result?.locale ?? requestedLocale;
+  const t = (message: string, values?: Record<string, string | number>) => readerText(locale, message, values);
   const { prefs, update } = useReadingPreferences();
   const readerRef = useRef<HTMLElement>(null);
   const contentRef = useRef<HTMLElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const { preserveForTop } = useReadingProgress({
     chapterNumber,
+    locale,
     ready: !loading && chapter?.number === chapterNumber,
     contentRef,
     layoutKey: `${prefs.font}:${prefs.size}:${prefs.lineHeight}`,
@@ -57,76 +69,76 @@ export function ChapterPage() {
   } as CSSProperties;
 
   useEffect(() => {
-    if (!validChapter) {
-      setChapter(null);
-      setLoading(false);
-      return;
-    }
+    if (!validChapter) return;
     let cancelled = false;
-    setChapter(null);
-    setLoading(true);
-    loadChapter(chapterNumber)
-      .then((data) => { if (!cancelled) setChapter(data); })
-      .catch(() => { if (!cancelled) setChapter(null); })
-      .finally(() => { if (!cancelled) setLoading(false); });
+    loadReaderChapter(chapterNumber, requestedLocale, { previewDrafts })
+      .then((data) => { if (!cancelled) setLoaded({ key: requestKey, result: data }); })
+      .catch(() => { if (!cancelled) setLoaded({ key: requestKey, result: null }); });
     return () => { cancelled = true; };
-  }, [chapterNumber, validChapter]);
+  }, [chapterNumber, validChapter, requestedLocale, previewDrafts, requestKey]);
 
   useEffect(() => {
-    document.title = validChapter ? `Custode · Capítulo ${chapterNumber}` : 'Custode · Capítulo não encontrado';
-  }, [chapterNumber, validChapter]);
+    document.title = `Custode · ${readerText(locale, validChapter ? 'Capítulo {number}' : 'Capítulo não encontrado', { number: chapterNumber })}`;
+  }, [chapterNumber, validChapter, locale]);
 
   if (!validChapter) {
-    return <main className="state-page"><h1>Capítulo não encontrado</h1><Link to="/">Voltar ao índice</Link></main>;
+    return <main className="state-page"><h1>{t('Capítulo não encontrado')}</h1><Link to="/">{t('Voltar ao índice')}</Link></main>;
   }
 
   return (
-    <main ref={readerRef} className="reader">
-      <header className="reader__heading">
-        <Link className="reader__back" to="/">← Voltar ao índice</Link>
-        <p className="reader__eyebrow">{`CUSTODE · ${chapterNumber} / ${listedChapters.length}`}</p>
-        <h1 ref={titleRef} tabIndex={-1}>Capítulo {chapterNumber}</h1>
-        <p className="reader__author">por <AuthorCredit /></p>
-      </header>
-      <ChapterNavigation current={chapterNumber} />
-      <ReadingControls
-        value={prefs}
-        onChange={update}
-        actions={<ChapterDownloads key={chapterNumber} chapter={!loading && chapter?.number === chapterNumber ? chapter : null} />}
-      />
-      {loading ? <p className="reader__status" role="status">Carregando capítulo...</p> : (
-        chapter ? (
-          <>
-            {chapterNumber === 1 && (
-              <AuthorNotes title="Nota da autora" paragraphs={work.introNotes.split(/\n\s*\n/)} variant="intro" />
-            )}
-            <AuthorNotes title="Resumo do capítulo" paragraphs={chapter.chapterSummary} />
-            <AuthorNotes title="Notas da autora" paragraphs={chapter.chapterNotes} />
-            <article ref={contentRef} className="chapter-content" style={readingStyle} aria-label={`Texto do capítulo ${chapterNumber}`}>
-              {chapter.blocks.map((block, index) => {
-                const publication = resolveVerticeArticle(chapter.number, block);
-                if (publication) return <VerticeArticleEmbed key={index} publication={publication} />;
-                if (block.type === 'verticeArticle') return null;
-                if (block.type === 'socialPosts' && chapter.number === chapter28Metadata.number) return <Chapter28Tweets key={index} />;
-                if (block.type === 'internationalHeadlines' && chapter.number === chapter28Metadata.number) return <InternationalHeadlines key={index} />;
-                if (isSceneSeparator(block)) return <SceneSeparator key={index} />;
-                return block.type === 'separator'
-                  ? <div className="chapter-content__separator" key={index} aria-hidden="true" dangerouslySetInnerHTML={{ __html: block.html ?? '✦' }} />
-                  : <p key={index} dangerouslySetInnerHTML={{ __html: block.html ?? '' }} />;
-              })}
-            </article>
-            <AuthorNotes title="Notas finais da autora" paragraphs={chapter.endNotes} />
-          </>
-        ) : <p className="reader__status" role="alert">Não foi possível carregar este capítulo.</p>
-      )}
-      <ChapterNavigation current={chapterNumber} placement="bottom" />
-      <div className="reader__end"><Link to="/">Ver todos os capítulos</Link></div>
-      {!loading && chapter?.number === chapterNumber && <CommunityBoundary key={chapterNumber}>
-        <Suspense fallback={<p className="reader__status" role="status">Abrindo a comunidade…</p>}>
-          <ChapterCommunity chapterNumber={chapterNumber} />
-        </Suspense>
-      </CommunityBoundary>}
-      <BackToTop key={chapterNumber} readerRef={readerRef} topRef={titleRef} onBeforeScroll={preserveForTop} />
-    </main>
+    <ReaderLocaleContext.Provider value={locale}>
+      <main ref={readerRef} className="reader" lang={locale}>
+        <header className="reader__heading">
+          <Link className="reader__back" to="/">← {t('Voltar ao índice')}</Link>
+          <p className="reader__eyebrow">{`CUSTODE · ${chapterNumber} / ${listedChapters.length}`}</p>
+          <h1 ref={titleRef} tabIndex={-1}>{t('Capítulo {number}', { number: chapterNumber })}</h1>
+          <p className="reader__author">{t('por')} <AuthorCredit /></p>
+        </header>
+        <ReaderLanguageSelector value={locale} availableLocales={result?.availableLocales ?? ['pt-BR']} onChange={selectLocale} disabled={loading} />
+        {previewDrafts && result && <p className="reader__preview" role="status">{t('Prévia local de traduções · Rascunhos não publicados.')}</p>}
+        {!loading && result && (unsupportedLocale || result.locale !== requestedLocale) &&
+          <p className="reader__status" role="status">{t('Esta versão ainda não está disponível. Você está lendo o original em português.')}</p>}
+        <ChapterNavigation current={chapterNumber} requestedLocale={requestedLocale} previewDrafts={previewDrafts} />
+        <ReadingControls
+          value={prefs}
+          onChange={update}
+          actions={<ChapterDownloads key={`${chapterNumber}:${locale}:${previewDrafts}`} locale={locale} previewDrafts={previewDrafts} chapter={!loading && chapter?.number === chapterNumber ? chapter : null} />}
+        />
+        {loading ? <p className="reader__status" role="status">{t('Carregando capítulo...')}</p> : (
+          chapter ? (
+            <>
+              {chapterNumber === 1 && (
+                <AuthorNotes title={t('Nota da autora')} paragraphs={work.introNotes.split(/\n\s*\n/)} variant="intro" />
+              )}
+              <AuthorNotes title={t('Resumo do capítulo')} paragraphs={chapter.chapterSummary} />
+              <AuthorNotes title={t('Notas da autora')} paragraphs={chapter.chapterNotes} />
+              <TranslationEditorialNotice locale={locale} />
+              <article ref={contentRef} className="chapter-content" style={readingStyle} aria-label={t('Texto do capítulo {number}', { number: chapterNumber })}>
+                {chapter.blocks.map((block, index) => {
+                  const publication = resolveVerticeArticle(chapter.number, block);
+                  if (publication) return <VerticeArticleEmbed key={index} publication={publication} />;
+                  if (block.type === 'verticeArticle') return null;
+                  if (block.type === 'socialPosts' && chapter.number === chapter28Metadata.number) return <Chapter28Tweets key={index} />;
+                  if (block.type === 'internationalHeadlines' && chapter.number === chapter28Metadata.number) return <InternationalHeadlines key={index} />;
+                  if (isSceneSeparator(block)) return <SceneSeparator key={index} />;
+                  return block.type === 'separator'
+                    ? <div className="chapter-content__separator" key={index} aria-hidden="true" dangerouslySetInnerHTML={{ __html: block.html ?? '✦' }} />
+                    : <p key={index} dangerouslySetInnerHTML={{ __html: block.html ?? '' }} />;
+                })}
+              </article>
+              <AuthorNotes title={t('Notas finais da autora')} paragraphs={chapter.endNotes} />
+            </>
+          ) : <p className="reader__status" role="alert">{t('Não foi possível carregar este capítulo.')}</p>
+        )}
+        <ChapterNavigation current={chapterNumber} requestedLocale={requestedLocale} previewDrafts={previewDrafts} placement="bottom" />
+        <div className="reader__end"><Link to="/">{t('Ver todos os capítulos')}</Link></div>
+        {loaded?.result?.chapter.number === chapterNumber && <CommunityBoundary key={`community:${chapterNumber}`} locale={locale}>
+          <Suspense fallback={<p className="reader__status" role="status">{t('Abrindo a comunidade…')}</p>}>
+            <ChapterCommunity chapterNumber={chapterNumber} />
+          </Suspense>
+        </CommunityBoundary>}
+        <BackToTop key={`back-to-top:${chapterNumber}`} readerRef={readerRef} topRef={titleRef} onBeforeScroll={preserveForTop} />
+      </main>
+    </ReaderLocaleContext.Provider>
   );
 }

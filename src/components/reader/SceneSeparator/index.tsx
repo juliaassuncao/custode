@@ -1,3 +1,4 @@
+import { useReaderText } from '../../../i18n/ReaderLocaleContext';
 import type { ChapterBlock } from '../../../types';
 
 export function isSceneSeparator(block: ChapterBlock) {
@@ -11,8 +12,9 @@ export function isSceneSeparator(block: ChapterBlock) {
 }
 
 export function SceneSeparator() {
+  const { t } = useReaderText();
   return (
-    <div className="chapter-content__separator" role="separator" aria-label="Mudança de cena">
+    <div className="chapter-content__separator" role="separator" aria-label={t('Mudança de cena')}>
       <span aria-hidden="true" />
     </div>
   );

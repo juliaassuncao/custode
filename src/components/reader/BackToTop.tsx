@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import type { RefObject } from 'react';
+import { useReaderText } from '../../i18n/ReaderLocaleContext';
 import { ArrowUp } from 'lucide-react';
 
 export function BackToTop({ readerRef, topRef, onBeforeScroll }: {
@@ -7,6 +8,7 @@ export function BackToTop({ readerRef, topRef, onBeforeScroll }: {
   topRef: RefObject<HTMLElement>;
   onBeforeScroll: () => void;
 }) {
+  const { t } = useReaderText();
   const position = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
 
@@ -57,8 +59,8 @@ export function BackToTop({ readerRef, topRef, onBeforeScroll }: {
         type="button"
         className="reader-back-to-top__button"
         hidden={!visible}
-        aria-label="Voltar ao topo"
-        title="Voltar ao topo"
+        aria-label={t('Voltar ao topo')}
+        title={t('Voltar ao topo')}
         onClick={() => {
           onBeforeScroll();
           topRef.current?.focus({ preventScroll: true });

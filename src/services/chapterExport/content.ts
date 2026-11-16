@@ -1,3 +1,6 @@
+import type { ReaderLocale } from '../../i18n/locales';
+import { readerText } from '../../i18n/messages';
+import { translationEditorialNotices } from '../../i18n/editorial';
 import work from '../../data/chapters/work.json';
 import type { Chapter } from '../../types';
 import { isSceneSeparator } from '../../components/reader/SceneSeparator';
@@ -18,11 +21,12 @@ export interface ExportBlock {
 export interface ExportSection {
   id: string;
   title: string;
-  kind: 'notes' | 'story';
+  kind: 'notes' | 'story' | 'editorial';
   blocks: ExportBlock[];
 }
 
 export interface ChapterDocument {
+  locale: ReaderLocale;
   number: number;
   title: string;
   workTitle: string;
@@ -83,11 +87,12 @@ export function textBlock(text: string, options: Partial<Omit<ExportBlock, 'runs
   return { kind: 'paragraph', ...options, runs: [{ text, ...style }] };
 }
 
-export async function buildChapterDocument(chapter: Chapter): Promise<ChapterDocument> {
+export async function buildChapterDocument(chapter: Chapter, locale: ReaderLocale = 'pt-BR'): Promise<ChapterDocument> {
   if (!Number.isInteger(chapter.number) || chapter.number < 1 || !chapter.title.trim() || !chapter.blocks.length) {
     throw new ChapterExportError('Os dados do capítulo estão incompletos. Recarregue a página e tente novamente.');
   }
 
+  const t = (message: string) => readerText(locale, message);
   const sections: ExportSection[] = [];
   function notes(id: string, title: string, paragraphs?: string[]) {
     if (paragraphs?.length) {
@@ -96,10 +101,17 @@ export async function buildChapterDocument(chapter: Chapter): Promise<ChapterDoc
   }
 
   if (chapter.number === 1 && work.introNotes) {
-    notes('introducao', 'Nota da autora', work.introNotes.split(/\n\s*\n/));
+    notes('introducao', t('Nota da autora'), work.introNotes.split(/\n\s*\n/));
   }
-  notes('resumo', 'Resumo do capítulo', chapter.chapterSummary);
-  notes('notas-iniciais', 'Notas da autora', chapter.chapterNotes);
+  notes('resumo', t('Resumo do capítulo'), chapter.chapterSummary);
+  notes('notas-iniciais', t('Notas da autora'), chapter.chapterNotes);
+
+  if (locale !== 'pt-BR') {
+    sections.push({
+      id: 'translation-notice', title: t('Aviso sobre a tradução'), kind: 'editorial',
+      blocks: [textBlock(translationEditorialNotices[locale], { language: locale })],
+    });
+  }
 
   const blocks: ExportBlock[] = [];
   const specialContent = chapter.blocks.some((block) => !['paragraph', 'separator'].includes(block.type))
@@ -124,7 +136,7 @@ export async function buildChapterDocument(chapter: Chapter): Promise<ChapterDoc
     throw new ChapterExportError('O capítulo não possui texto disponível para download.');
   }
   sections.push({ id: 'historia', title: chapter.title, kind: 'story', blocks });
-  notes('notas-finais', 'Notas finais da autora', chapter.endNotes);
+  notes('notas-finais', t('Notas finais da autora'), chapter.endNotes);
 
-  return { number: chapter.number, title: chapter.title, workTitle: work.title, author: work.author, sections };
+  return { locale, number: chapter.number, title: chapter.title, workTitle: work.title, author: work.author, sections };
 }

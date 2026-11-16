@@ -1,3 +1,4 @@
+import { useReaderText } from '../../../i18n/ReaderLocaleContext';
 import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 'react';
 import { invalidateCaptchaToken, registerCaptchaToken } from '../services/captchaTokens';
 import { loadTurnstile, type TurnstileApi } from '../services/turnstileScript';
@@ -9,6 +10,7 @@ type Status = 'loading' | 'ready' | 'verified' | 'expired' | 'consumed' | 'error
 // Mount only when participation is requested; importing this module loads no script.
 export const TurnstileChallenge = forwardRef<TurnstileChallengeHandle, Props>(
   function TurnstileChallenge({ onToken, compact = false }, ref) {
+    const { t } = useReaderText();
     const container = useRef<HTMLDivElement>(null);
     const callback = useRef(onToken);
     callback.current = onToken;
@@ -87,9 +89,9 @@ export const TurnstileChallenge = forwardRef<TurnstileChallengeHandle, Props>(
     };
     return <div>
       <div ref={container} />
-      <p role="status" aria-live="polite">{text[status]}</p>
+      <p role="status" aria-live="polite">{t(text[status])}</p>
       {['error', 'expired', 'consumed'].includes(status) &&
-        <button type="button" onClick={() => setRevision((value) => value + 1)}>Tentar novamente</button>}
+        <button type="button" onClick={() => setRevision((value) => value + 1)}>{t('Tentar novamente')}</button>}
     </div>;
   },
 );

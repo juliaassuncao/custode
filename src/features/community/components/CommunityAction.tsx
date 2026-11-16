@@ -1,3 +1,4 @@
+import { useReaderText } from '../../../i18n/ReaderLocaleContext';
 import { useEffect, useId, useRef, useState } from 'react';
 import { useAnonymousSession } from '../hooks/useAnonymousSession';
 import { communityWrite, type Mutation } from '../services/communityWrite';
@@ -10,6 +11,7 @@ type Props = { command: Mutation; onSuccess(result: WriteResults[Mutation['opera
   onCancel(): void; onAttempt?(): void; onRejected?(): void; onUncertain?(): void };
 type Phase = 'checking' | 'session' | 'session-busy' | 'write' | 'write-busy' | 'error';
 export function CommunityAction({ command, onSuccess, onCancel, onAttempt, onRejected, onUncertain }: Props) {
+  const { t } = useReaderText();
   const { ensureSession, getSnapshot } = useAnonymousSession();
   const [phase, setPhase] = useState<Phase>('checking');
   const current = useRef<Phase>('checking');
@@ -71,15 +73,15 @@ export function CommunityAction({ command, onSuccess, onCancel, onAttempt, onRej
   const widgetStage = phase === 'session' || phase === 'session-busy' ? 'session' : 'write';
   return <section className="community-action" aria-labelledby={titleId}
     onKeyDown={(event) => { if (event.key === 'Escape' && !busy) { event.stopPropagation(); onCancel(); } }}>
-    <div className="community-action__heading"><h3 id={titleId} ref={heading} tabIndex={-1}><CommunityIcon name="shield" /> Verificação de segurança</h3>
-      <button className="community-text-button" type="button" disabled={busy} onClick={onCancel}>Cancelar</button></div>
-    <p className="community-help" role="status">{busy ? 'Confirmando…' : phase === 'error' ? 'O envio não foi concluído.' : 'Conclua a verificação. O envio continuará automaticamente.'}</p>
+    <div className="community-action__heading"><h3 id={titleId} ref={heading} tabIndex={-1}><CommunityIcon name="shield" /> {t('Verificação de segurança')}</h3>
+      <button className="community-text-button" type="button" disabled={busy} onClick={onCancel}>{t('Cancelar')}</button></div>
+    <p className="community-help" role="status">{busy ? t('Confirmando…') : phase === 'error' ? t('O envio não foi concluído.') : t('Conclua a verificação. O envio continuará automaticamente.')}</p>
     {phase !== 'checking' && phase !== 'error' && <div hidden={busy}>
       {/* Keep mounted while consuming: unmounting invalidates the proof. */}
       <TurnstileChallenge key={widgetStage} compact onToken={(token) => { if (token) void continueWithProof(token); }} />
     </div>}
-    {failure && <p className="community-message community-message--error" role="alert">{failure}</p>}
-    {remaining > 0 && <p role="status">Tente novamente em {remaining}s.</p>}
-    {phase === 'error' && <button className="community-button community-button--secondary" type="button" disabled={remaining > 0} onClick={() => void checkSession()}>Tentar novamente</button>}
+    {failure && <p className="community-message community-message--error" role="alert">{t(failure)}</p>}
+    {remaining > 0 && <p role="status">{t('Tente novamente em {seconds}s.', { seconds: remaining })}</p>}
+    {phase === 'error' && <button className="community-button community-button--secondary" type="button" disabled={remaining > 0} onClick={() => void checkSession()}>{t('Tentar novamente')}</button>}
   </section>;
 }

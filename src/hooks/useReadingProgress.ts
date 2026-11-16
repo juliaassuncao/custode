@@ -1,5 +1,6 @@
 import { useCallback, useLayoutEffect, useRef } from 'react';
 import type { RefObject } from 'react';
+import type { ReaderLocale } from '../i18n/locales';
 
 interface ReadingPosition {
   chapter: number;
@@ -15,11 +16,14 @@ interface ProgressController {
 }
 
 const readingInset = 24;
-const storageKey = (chapter: number) => `custode:reading-progress:v1:${chapter}`;
+// Manter a chave legada para português, sem migrar ou copiar posições para traduções.
+const storageKey = (chapter: number, locale: ReaderLocale) => locale === 'pt-BR'
+  ? `custode:reading-progress:v1:${chapter}`
+  : `custode:reading-progress:v2:${chapter}:${locale}`;
 
-function readPosition(chapter: number): ReadingPosition | null {
+function readPosition(chapter: number, locale: ReaderLocale): ReadingPosition | null {
   try {
-    const value = JSON.parse(window.localStorage.getItem(storageKey(chapter)) ?? 'null') as Partial<ReadingPosition> | null;
+    const value = JSON.parse(window.localStorage.getItem(storageKey(chapter, locale)) ?? 'null') as Partial<ReadingPosition> | null;
     if (!value || value.chapter !== chapter
       || !(value.paragraph === null || (Number.isInteger(value.paragraph) && Number(value.paragraph) >= 0))
       || typeof value.offset !== 'number' || !Number.isFinite(value.offset)
@@ -72,8 +76,9 @@ function targetScroll(article: HTMLElement, position: ReadingPosition): number {
   return Math.max(0, Math.min(target, narrativeEnd, pageEnd));
 }
 
-export function useReadingProgress({ chapterNumber, ready, contentRef, layoutKey }: {
+export function useReadingProgress({ chapterNumber, locale = 'pt-BR', ready, contentRef, layoutKey }: {
   chapterNumber: number;
+  locale?: ReaderLocale;
   ready: boolean;
   contentRef: RefObject<HTMLElement>;
   layoutKey: string;
@@ -95,7 +100,7 @@ export function useReadingProgress({ chapterNumber, ready, contentRef, layoutKey
 
     let disposed = false;
     let phase: 'restoring' | 'active' = 'restoring';
-    let progress = readPosition(chapterNumber);
+    let progress = readPosition(chapterNumber, locale);
     let anchor = progress;
     let restoreGoal = progress;
     let dirty = false;
@@ -112,7 +117,7 @@ export function useReadingProgress({ chapterNumber, ready, contentRef, layoutKey
       window.clearTimeout(saveTimer);
       if (!dirty || !progress) return;
       try {
-        window.localStorage.setItem(storageKey(chapterNumber), JSON.stringify(progress));
+        window.localStorage.setItem(storageKey(chapterNumber, locale), JSON.stringify(progress));
         dirty = false;
       } catch {
         // Armazenamento opcional: a posição continua disponível nesta montagem do leitor.
@@ -216,7 +221,7 @@ export function useReadingProgress({ chapterNumber, ready, contentRef, layoutKey
     const onPageShow = (event: PageTransitionEvent) => {
       if (event.persisted) {
         preservingTop = false;
-        restore(readPosition(chapterNumber) ?? progress);
+        restore(readPosition(chapterNumber, locale) ?? progress);
       }
     };
     const onResize = () => {
@@ -277,7 +282,7 @@ export function useReadingProgress({ chapterNumber, ready, contentRef, layoutKey
       document.fonts?.removeEventListener('loadingdone', onLayoutChange);
       article.removeEventListener('load', onLayoutChange, true);
     };
-  }, [chapterNumber, ready, contentRef]);
+  }, [chapterNumber, locale, ready, contentRef]);
 
   useLayoutEffect(() => { controller.current?.realign(); }, [layoutKey]);
 

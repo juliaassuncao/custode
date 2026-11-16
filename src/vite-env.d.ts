@@ -9,3 +9,7 @@ interface ImportMetaEnv {
 interface ImportMeta {
   readonly env: ImportMetaEnv;
 }
+
+declare module 'virtual:custode-translations' {
+  export const translationModules: Record<string, () => Promise<string>>;
+}

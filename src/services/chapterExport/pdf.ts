@@ -1,3 +1,4 @@
+import { readerText } from '../../i18n/messages';
 import pdfMake from 'pdfmake/build/pdfmake';
 import pdfFonts from 'pdfmake/build/vfs_fonts';
 import type { Content, ContentText, TDocumentDefinitions } from 'pdfmake/interfaces';
@@ -26,7 +27,7 @@ function blockContent(block: ExportBlock, section: ExportSection): Content {
     margin: [0, 0, 0, 11],
     alignment: 'justify',
   };
-  if (section.kind === 'notes') {
+  if (section.kind !== 'story') {
     content.fontSize = 10;
     content.color = '#50584e';
   }
@@ -49,15 +50,16 @@ function blockContent(block: ExportBlock, section: ExportSection): Content {
 }
 
 export async function createPdf(chapter: ChapterDocument): Promise<Blob> {
+  const label = readerText(chapter.locale, 'Capítulo {number}', { number: chapter.number });
   const content: Content[] = [
-    { text: `${chapter.workTitle} · Capítulo ${chapter.number}`, color: '#425a44', fontSize: 11, margin: [0, 0, 0, 14] },
+    { text: `${chapter.workTitle} · ${label}`, color: '#425a44', fontSize: 11, margin: [0, 0, 0, 14] },
     { text: chapter.title, fontSize: 24, bold: true, margin: [0, 0, 0, 8] },
-    { text: `por ${chapter.author}`, color: '#50584e', fontSize: 10, margin: [0, 0, 0, 28] },
+    { text: `${readerText(chapter.locale, 'por')} ${chapter.author}`, color: '#50584e', fontSize: 10, margin: [0, 0, 0, 28] },
   ];
 
   for (const section of chapter.sections) {
     content.push({
-      text: section.kind === 'story' ? `Capítulo ${chapter.number}` : section.title,
+      text: section.kind === 'story' ? label : section.title,
       headlineLevel: 2,
       fontSize: section.kind === 'story' ? 16 : 12,
       bold: true,
@@ -68,7 +70,7 @@ export async function createPdf(chapter: ChapterDocument): Promise<Blob> {
   }
 
   const definition: TDocumentDefinitions = {
-    info: { title: `${chapter.workTitle} · ${chapter.title}`, author: chapter.author, subject: `Capítulo ${chapter.number}`, creator: 'Custode' },
+    info: { title: `${chapter.workTitle} · ${chapter.title}`, author: chapter.author, subject: label, creator: 'Custode' },
     pageSize: 'A4',
     pageMargins: [50, 54, 50, 54],
     defaultStyle: { font: 'Roboto', fontSize: 11, lineHeight: 1.55, color: '#242622' },

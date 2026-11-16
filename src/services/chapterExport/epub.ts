@@ -1,3 +1,5 @@
+import type { ReaderLocale } from '../../i18n/locales';
+import { readerText } from '../../i18n/messages';
 import { strToU8, zipSync } from 'fflate';
 import { ChapterExportError, type ChapterDocument, type ExportBlock, type TextRun } from './content';
 
@@ -22,10 +24,10 @@ function blockXhtml(block: ExportBlock): string {
   return `<${tag} class="${className}"${language}>${inline(block.runs)}</${tag}>`;
 }
 
-function xhtml(title: string, body: string): string {
+function xhtml(title: string, body: string, locale: ReaderLocale): string {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="pt-BR" xml:lang="pt-BR">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="${locale}" xml:lang="${locale}">
 <head><meta charset="UTF-8" /><title>${xml(title)}</title><link rel="stylesheet" type="text/css" href="reading.css" /></head>
 <body>${body}</body></html>`;
 }
@@ -43,25 +45,26 @@ nav ol { padding-left: 1.5em; } nav li { margin-bottom: 0.6em; }
 `;
 
 export function createEpub(chapter: ChapterDocument): Blob {
+  const t = (message: string, values?: Record<string, string | number>) => readerText(chapter.locale, message, values);
   const title = `${chapter.workTitle} · ${chapter.title}`;
-  const identifier = `urn:custode:chapter:${chapter.number}`;
-  const sections = chapter.sections.map((section) => `<section id="${xml(section.id)}" class="${section.kind}"${section.kind === 'story' ? ' epub:type="chapter"' : ''}>
+  const identifier = `urn:custode:chapter:${chapter.number}${chapter.locale === 'pt-BR' ? '' : `:${chapter.locale}`}`;
+  const sections = chapter.sections.map((section) => `<section id="${xml(section.id)}" class="${section.kind === 'editorial' ? 'notes editorial' : section.kind}"${section.kind === 'story' ? ' epub:type="chapter"' : ''}>
 <h2>${xml(section.title)}</h2>${section.blocks.map(blockXhtml).join('\n')}</section>`).join('\n');
-  const chapterXhtml = xhtml(title, `<header><p class="eyebrow">${xml(chapter.workTitle)} · Capítulo ${chapter.number}</p><h1>${xml(chapter.title)}</h1><p class="byline">por ${xml(chapter.author)}</p></header>${sections}`);
-  const navXhtml = xhtml('Sumário', `<nav epub:type="toc" id="toc"><h1>Sumário</h1><ol>${chapter.sections.map((section) => `<li><a href="chapter.xhtml#${xml(section.id)}">${xml(section.title)}</a></li>`).join('')}</ol></nav>`);
+  const chapterXhtml = xhtml(title, `<header><p class="eyebrow">${xml(chapter.workTitle)} · ${xml(t('Capítulo {number}', { number: chapter.number }))}</p><h1>${xml(chapter.title)}</h1><p class="byline">${xml(t('por'))} ${xml(chapter.author)}</p></header>${sections}`, chapter.locale);
+  const navXhtml = xhtml(t('Sumário'), `<nav epub:type="toc" id="toc"><h1>${xml(t('Sumário'))}</h1><ol>${chapter.sections.map((section) => `<li><a href="chapter.xhtml#${xml(section.id)}">${xml(section.title)}</a></li>`).join('')}</ol></nav>`, chapter.locale);
   const container = `<?xml version="1.0" encoding="UTF-8"?>
 <container version="1.0" xmlns="urn:oasis:names:tc:opendocument:xmlns:container"><rootfiles><rootfile full-path="EPUB/package.opf" media-type="application/oebps-package+xml" /></rootfiles></container>`;
   const packageOpf = `<?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="chapter-id" xml:lang="pt-BR">
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="chapter-id" xml:lang="${chapter.locale}">
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-<dc:identifier id="chapter-id">${xml(identifier)}</dc:identifier><dc:title>${xml(title)}</dc:title><dc:creator>${xml(chapter.author)}</dc:creator><dc:language>pt-BR</dc:language>
-<dc:description>Capítulo ${chapter.number} de ${xml(chapter.workTitle)}.</dc:description><meta property="dcterms:modified">${new Date().toISOString().replace(/\.\d{3}Z$/, 'Z')}</meta>
+<dc:identifier id="chapter-id">${xml(identifier)}</dc:identifier><dc:title>${xml(title)}</dc:title><dc:creator>${xml(chapter.author)}</dc:creator><dc:language>${chapter.locale}</dc:language>
+<dc:description>${xml(t('Capítulo {number} de {work}.', { number: chapter.number, work: chapter.workTitle }))}</dc:description><meta property="dcterms:modified">${new Date().toISOString().replace(/\.\d{3}Z$/, 'Z')}</meta>
 </metadata>
 <manifest><item id="chapter" href="chapter.xhtml" media-type="application/xhtml+xml" /><item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav" /><item id="css" href="reading.css" media-type="text/css" /><item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" /></manifest>
 <spine toc="ncx"><itemref idref="chapter" /></spine></package>`;
   // NCX mantém a navegação também em leitores mais antigos.
   const ncx = `<?xml version="1.0" encoding="UTF-8"?>
-<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="pt-BR"><head><meta name="dtb:uid" content="${xml(identifier)}" /><meta name="dtb:depth" content="1" /><meta name="dtb:totalPageCount" content="0" /><meta name="dtb:maxPageNumber" content="0" /></head><docTitle><text>${xml(title)}</text></docTitle><docAuthor><text>${xml(chapter.author)}</text></docAuthor><navMap>${chapter.sections.map((section, index) => `<navPoint id="nav-${index + 1}" playOrder="${index + 1}"><navLabel><text>${xml(section.title)}</text></navLabel><content src="chapter.xhtml#${xml(section.id)}" /></navPoint>`).join('')}</navMap></ncx>`;
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="${chapter.locale}"><head><meta name="dtb:uid" content="${xml(identifier)}" /><meta name="dtb:depth" content="1" /><meta name="dtb:totalPageCount" content="0" /><meta name="dtb:maxPageNumber" content="0" /></head><docTitle><text>${xml(title)}</text></docTitle><docAuthor><text>${xml(chapter.author)}</text></docAuthor><navMap>${chapter.sections.map((section, index) => `<navPoint id="nav-${index + 1}" playOrder="${index + 1}"><navLabel><text>${xml(section.title)}</text></navLabel><content src="chapter.xhtml#${xml(section.id)}" /></navPoint>`).join('')}</navMap></ncx>`;
 
   const documents = { 'META-INF/container.xml': container, 'EPUB/package.opf': packageOpf, 'EPUB/chapter.xhtml': chapterXhtml, 'EPUB/nav.xhtml': navXhtml, 'EPUB/toc.ncx': ncx };
   for (const markup of Object.values(documents)) {
