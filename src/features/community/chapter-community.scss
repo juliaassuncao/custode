@@ -130,6 +130,7 @@
   .community-pagination__controls, .community-pagination__pages, .community-pagination__item { display: flex; align-items: center; justify-content: center; gap: 6px; }
   .community-pagination__controls, .community-pagination__pages { flex-wrap: wrap; }
   .community-pagination__pages { min-width: 0; }
+  .community-pagination__edge { min-width: 44px; padding: 10px; }
   .community-pagination__pages .community-button { min-width: 44px; padding: 10px 8px; font-variant-numeric: tabular-nums; }
   .community-pagination__ellipsis { color: var(--color-muted); }
   .community-pagination__status { margin: 10px 0 0; text-align: center; color: var(--color-muted); font-size: 11px; }
@@ -159,8 +160,9 @@
     .community-composer__help { flex-wrap: wrap; }
     .community-comment__heading { flex-direction: column; align-items: flex-start; gap: 4px; }
     .community-comment time { padding-left: 40px; }
-    .community-pagination__controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .community-pagination__pages { grid-column: 1 / -1; grid-row: 1; gap: 4px; }
+    .community-pagination__controls { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; }
+    .community-pagination__step { grid-column: span 2; }
+    .community-pagination__pages { grid-column: 1 / -1; gap: 4px; }
     &__list-heading { align-items: flex-end; }
     &__title { gap: 8px; }
     &__chapter { font-size: 9px; }

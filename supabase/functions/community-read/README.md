@@ -56,6 +56,31 @@ Database details and credentials are never included in errors.
 The current migration allows only `published`, `hidden`, `removed`; `pending` and
 `rejected` are rejected by the database, and this endpoint uses a positive published filter.
 
+## Publishing the numbered contract
+
+Publishing the frontend does not publish this Edge Function. The numbered UI
+requires the current [handler](./index.ts) and [parameter validator](../_shared/validation.ts)
+to be deployed together as `community-read`, including the imported
+[CORS](../_shared/cors.ts) and [response](../_shared/response.ts) helpers.
+The CLI bundles these imports; the shared validator is not a separate function.
+Keep `verify_jwt = false` for this public read endpoint, as already configured in
+[config.toml](../../config.toml). Optional session verification remains in the handler.
+
+After explicit authorization, from the repository root with an authenticated CLI:
+
+```sh
+npx supabase functions deploy community-read --remote=PROJECT_REF --no-verify-jwt
+```
+
+With CLI 3, replace `PROJECT_REF` with the reference of the same project used by
+the production frontend (see the [CLI reference](https://supabase.com/docs/reference/cli/supabase-functions-deploy)). This
+requires no migrations, data changes, new secrets or deployment of `community-write`.
+Confirm with a public GET (no Authorization or API key) using
+`?chapter=1&order=desc&page=1&limit=10`: expect 200 and the `page`, `limit`,
+`total_count`, `total_pages` fields. A 200 without `page` but a 400
+`invalid_parameters` with `page` identifies an older parameter contract.
+Do not fall back to loading all comments or walking cursors in the browser.
+
 ## Local validation
 
 From the repository root, with the local stack already running:

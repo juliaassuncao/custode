@@ -271,6 +271,26 @@ const messages: Record<string, Record<TranslationLocale, string>> = {
     "en-US": "Oldest first",
     "es-419": "Más antiguos primero"
   },
+  "Paginação dos comentários": {
+    "en-US": "Comment pagination",
+    "es-419": "Paginación de comentarios"
+  },
+  "Ir para a primeira página": {
+    "en-US": "Go to the first page",
+    "es-419": "Ir a la primera página"
+  },
+  "Ir para a última página": {
+    "en-US": "Go to the last page",
+    "es-419": "Ir a la última página"
+  },
+  "Ir para a página {page}": {
+    "en-US": "Go to page {page}",
+    "es-419": "Ir a la página {page}"
+  },
+  "Próxima": {
+    "en-US": "Next",
+    "es-419": "Siguiente"
+  },
   "Abrindo a conversa…": {
     "en-US": "Opening the conversation…",
     "es-419": "Abriendo la conversación…"

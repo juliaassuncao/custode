@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import { ChevronsLeft, ChevronsRight } from 'lucide-react';
 import { useReaderText } from '../../../i18n/ReaderLocaleContext';
 
 type Props = {
@@ -29,7 +30,12 @@ export function CommunityPagination({ page, totalPages, loading, disabled, comme
   const unavailable = disabled || loading;
   return <nav ref={navigation} className="community-pagination" aria-label={t('Paginação dos comentários')}>
     <div className="community-pagination__controls">
-      <button className="community-button community-button--secondary" type="button" aria-controls={commentsId}
+      <button className="community-button community-button--secondary community-pagination__edge" type="button" aria-controls={commentsId}
+        aria-label={t('Ir para a primeira página')} title={t('Ir para a primeira página')}
+        disabled={unavailable || page === 1} onClick={() => void changePage(1)}>
+        <ChevronsLeft size={16} strokeWidth={1.5} aria-hidden="true" focusable="false" />
+      </button>
+      <button className="community-button community-button--secondary community-pagination__step" type="button" aria-controls={commentsId}
         disabled={unavailable || page === 1} onClick={() => void changePage(page - 1)}>{t('Anterior')}</button>
       <div className="community-pagination__pages">
         {pages.map((number, index) => <span className="community-pagination__item" key={number}>
@@ -40,9 +46,13 @@ export function CommunityPagination({ page, totalPages, loading, disabled, comme
             onClick={() => void changePage(number)}>{number}</button>
         </span>)}
       </div>
-      <button className="community-button community-button--secondary" type="button" aria-controls={commentsId}
+      <button className="community-button community-button--secondary community-pagination__step" type="button" aria-controls={commentsId}
         disabled={unavailable || page === totalPages} onClick={() => void changePage(page + 1)}>{t('Próxima')}</button>
+      <button className="community-button community-button--secondary community-pagination__edge" type="button" aria-controls={commentsId}
+        aria-label={t('Ir para a última página')} title={t('Ir para a última página')}
+        disabled={unavailable || page === totalPages} onClick={() => void changePage(totalPages)}>
+        <ChevronsRight size={16} strokeWidth={1.5} aria-hidden="true" focusable="false" />
+      </button>
     </div>
-    <p className="community-pagination__status" role="status">{t('Página {page} de {total}', { page, total: totalPages })}</p>
   </nav>;
 }

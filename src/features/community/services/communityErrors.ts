@@ -5,8 +5,12 @@ export class CommunityRequestError extends Error {
 }
 
 // Render only known, safe messages; never display arbitrary infrastructure responses.
-export function responseError(status: number, code: unknown, retry: string | null) {
-  const messages: Record<string, string> = {
+export function responseError(status: number, code: unknown, retry: string | null, context: 'read' | 'write' = 'write') {
+  const messages: Record<string, string> = context === 'read' ? {
+    unauthorized: 'Sua sessão não pôde ser confirmada. Tente novamente.',
+    invalid_parameters: 'Não foi possível carregar a conversa. Tente novamente.',
+    chapter_not_found: 'A comunidade deste capítulo está indisponível.',
+  } : {
     unauthorized: 'Sua sessão não pôde ser confirmada. Tente novamente.',
     invalid_parameters: 'Confira o pseudônimo, o texto e os campos informados.',
     captcha_failed: 'Conclua uma nova verificação de segurança.',
@@ -17,6 +21,8 @@ export function responseError(status: number, code: unknown, retry: string | nul
   };
   const seconds = retry && /^\d{1,6}$/.test(retry) ? Number(retry) : 0;
   const known = typeof code === 'string' && Object.prototype.hasOwnProperty.call(messages, code);
-  return new CommunityRequestError(known ? messages[code] : 'A comunidade está indisponível no momento. Tente novamente.',
+  const fallback = context === 'read' ? 'Não foi possível carregar a conversa. Tente novamente.'
+    : 'A comunidade está indisponível no momento. Tente novamente.';
+  return new CommunityRequestError(known ? messages[code] : fallback,
     known ? code : 'unavailable', status === 429 ? seconds : 0, status >= 500);
 }

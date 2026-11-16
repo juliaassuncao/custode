@@ -44,7 +44,7 @@ export async function communityRead(chapter: number, cursorOrPage: string | numb
         headers: token ? { Authorization: `Bearer ${token}` } : {}, signal: AbortSignal.timeout(15000),
       });
       const result = await response.json();
-      if (!response.ok) throw responseError(response.status, result.error?.code, null);
+      if (!response.ok) throw responseError(response.status, result.error?.code, null, 'read');
       if (result.chapter_number !== chapter || !Array.isArray(result.comments) ||
         !Number.isSafeInteger(result.clover_count) || result.clover_count < 0 ||
         typeof result.has_left_clover !== 'boolean' ||
